@@ -1,0 +1,49 @@
+Casa Inteligente | NEXUS | ExpoTech
+Memorial descritivo base
+Consolidação R01 de 04 de novembro de 2026
+
+1 OBJETIVO
+O projeto NEXUS propõe a integração de arquitetura, instalações e automação em uma residência unifamiliar, com foco no uso de água e energia, no conforto e no controle de acesso. A maquete permite estudar a posição dos dispositivos, os percursos de conexão e a resposta dos sistemas. As funcionalidades demonstradas deverão ser vinculadas ao código e aos testes que a equipe apresentar.
+
+2 REPRESENTAÇÃO ARQUITETÔNICA
+A documentação R02 contém plantas, implantação, cobertura, fachadas, cortes, quadro de dimensões e relações de acesso entre ambientes. A representação relaciona a maquete à arquitetura pelo fator 20. O piso tem 717,5 x 308 mm na maquete. No modelo R02, o envelope de paredes é de 697,5 x 288 mm, equivalente a 13950 x 5760 mm na representação arquitetônica.
+As paredes de 3 mm correspondem graficamente a 60 mm quando ampliadas. Essa conversão não constitui escolha de alvenaria, estrutura ou sistema construtivo da residência. A base de exposição de 1200 x 900 x 18 mm é uma proposta a compatibilizar com cargas, apoios e transporte. As dimensões internas são cotas de trabalho do anteprojeto.
+Os ambientes propostos são sala/social, cozinha, dois banhos, serviço/apoio, circulação, dois quartos, apoio e hall. A circulação principal tem 294 x 51 mm na maquete; o hall tem 87 x 135,5 mm. Na representação arquitetônica, correspondem a 5880 x 1020 mm e 1740 x 2710 mm. Isso descreve o desenho atual e não certifica atendimento a requisitos de acessibilidade.
+
+3 SISTEMA CIVIL DA RESIDÊNCIA
+Definir o sistema estrutural, as vedações, a cobertura, a implantação e as soluções de conforto compatíveis com o conceito 2050. Registrar para cada escolha a função, a justificativa, a referência técnica e as interfaces com as instalações. O MDF representa a maquete; não deve ser apresentado como material construtivo da casa real por simples equivalência de escala.
+PENDÊNCIA: escolha do sistema construtivo e dos materiais da residência, localização/orientação do estudo e verificação das soluções propostas.
+
+4 ELÉTRICA PREDIAL
+O projeto da residência deve reunir os pontos de luz, tomadas e interruptores, a previsão de cargas, os circuitos, o quadro e o diagrama unifilar, o dimensionamento esquemático dos condutores/proteções e a entrada de energia com microgeração. A base de dados deverá declarar alimentação, equipamentos previstos, potências, simultaneidade, comprimentos e critérios de cálculo.
+PENDÊNCIA: reunir o projeto desenvolvido pela equipe ou produzir o dimensionamento a partir dessas premissas. Os desenhos E01 a E10 da R02 descrevem a alimentação e os comandos DC da maquete; não substituem esse projeto predial.
+
+5 HIDRÁULICA PREDIAL
+Compatibilizar a distribuição de água fria e quente com cozinha, banhos e serviço; reunir também esgoto, ventilação e captação/reúso. A documentação deve indicar origem, armazenamento, destinos e separação das redes, além das premissas de dimensionamento.
+PENDÊNCIA: definir população de projeto, aparelhos sanitários, reservatórios, aquecimento, cobertura de captação e destinação de reúso. O circuito da maquete com reservatório, bomba e sensor de vazão é uma demonstração; não representa toda a hidráulica predial.
+
+6 AUTOMAÇÃO E REDE
+A arquitetura de controle proposta utiliza Arduino Mega como controlador principal e reserva ESP32 para comunicação/supervisão. Estão previstos estudos de iluminação com presença/luminosidade, movimentação de brise, temperatura e umidade, acesso por RFID e recirculação de água com leitura de vazão/nível. O ensaio solar permanece separado até a identificação do controlador e das proteções.
+PENDÊNCIA: confirmar funções escolhidas, código gravado, interfaces, sensores instalados, parâmetros de operação e testes. A rede de dados precisa do posicionamento dos equipamentos, da topologia, dos protocolos e da forma de integração. Nenhuma dessas funções está declarada como testada neste memorial.
+
+7 SEGURANÇA ELETRÔNICA
+O inventário relaciona PIR, RFID, solenoide e duas câmeras OV7670. O projeto deve esclarecer como os dispositivos participam do controle de acesso, da detecção de presença e do monitoramento. O roteiro BLUEPRINT também pede alarmes de intrusão, incêndio e detecção de vazamentos.
+PENDÊNCIA: consolidar esses diagramas e evidências. Não foram identificados sensores dedicados de fumaça/incêndio e vazamento no inventário detalhado. Um botão de simulação deve ser identificado como tal; não demonstra a detecção física do evento. O sensor de vazão, isoladamente, não comprova detecção de vazamento, e a câmera disponível não comprova CFTV inteligente em operação.
+
+8 SUSTENTABILIDADE E ESG
+O projeto deve justificar o uso de recursos e materiais com critérios observáveis: redução de desperdícios, possibilidade de manutenção, menor impacto material e organização para desmontagem. Indicadores de consumo/economia somente serão apresentados quando houver cálculo ou medição e uma condição de comparação explícita.
+PENDÊNCIA: especificar as escolhas 2050, calcular ou medir os indicadores e distinguir o cenário proposto do resultado demonstrado na maquete. Não declarar autossuficiência energética ou percentuais de economia sem validação.
+
+9 MATERIAIS E QUANTITATIVOS
+O inventário de eletrônicos recebido possui 51 linhas, incluindo resistores discriminados por valor. A lista completa está em 03_Materiais, com o PDF original e uma transcrição. A BOM final deve acrescentar cabos, terminais, conexões, tubos, fixações, materiais civis e complementos efetivamente utilizados, com especificações e quantidades conferidas.
+PENDÊNCIA: identificar os módulos ainda genéricos, conferir o saldo instalado e registrar os componentes que a montagem ainda exige. O custo total não foi consolidado nesta revisão.
+
+10 VALIDAÇÃO
+Cada função deverá ser acompanhada do estímulo de teste, da resposta esperada, do resultado observado e de uma evidência associada à versão do código. Falhas e limitações devem ser registradas antes da defesa. O regulamento permite protótipo físico ou simulado computacionalmente com funcionamento demonstrável; uma descrição ou sequência de slides não substitui essa validação.
+
+11 REFERÊNCIAS E REVISÕES
+Regulamento Geral Engineering 2026.2, versão 1.0, recebido em 04/11/2026: itens 7 a 9.
+Roteiro BLUEPRINT 2026.2: páginas 1 e 2.
+NEXUS R02: 23 pranchas, 26 DXFs e tabelas de dados de 26/10/2026.
+Lista dos Componentes Eletrônicos: inventário recebido.
+Acrescentar referências técnicas dos sistemas, fichas dos componentes e critérios de cálculo utilizados pela equipe.
