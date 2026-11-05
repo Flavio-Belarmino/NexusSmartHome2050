@@ -2,6 +2,8 @@
 
 Projeto acadêmico da categoria **BLUEPRINT**, Engineering 2026.2, UniFECAF. Integra o estudo da residência, instalações, uso de água e energia, automação e segurança.
 
+**Para começar:** [guia de desenvolvimento acompanhado](10_Documentacao/Comece_Aqui.md) e [primeiro ensaio de iluminação na bancada](07_Codigo/NEXUS_A01_Bancada/README.md). O ensaio inclui programa inicial, ligações e ficha de resultados; a montagem da casa não é pré-requisito.
+
 ## Estado atual
 
 Esta publicação reúne o **anteprojeto R02** e a **especificação funcional de automação R01**. A maquete ainda está em preparação para montagem. O funcionamento das automações, a supervisão por ESP32 e os resultados dos ensaios ainda precisam ser implementados e demonstrados. A presença de desenhos, pinagem ou regras de controle não comprova funcionamento físico.
@@ -21,6 +23,7 @@ A extensão com **garagem em papelão Paraná** faz parte do escopo atual. O con
 | Segurança e rede | [Segurança](05_Seguranca/) | Proposta a detalhar e validar |
 | Quantitativos e premissas | [Cálculos](06_Calculos/) | Dados preliminares, sem memória predial concluída |
 | Gerador dos desenhos | [Código Python](07_Codigo/Gerador_Documentacao/) | Código de documentação; não controla a maquete |
+| Primeiro módulo de controle | [A01: iluminação na bancada](07_Codigo/NEXUS_A01_Bancada/) | Firmware inicial e testes de lógica; ensaio físico pendente |
 | Componentes disponíveis | [Inventário](08_BOM/) | Inventário recebido; complementos e custo final pendentes |
 | Ensaios | [Plano de validação](09_Simulacoes/Validacao/) | Resultados ainda não registrados |
 | Memorial e requisitos | [Documentação](10_Documentacao/) | Memorial base e controle de pendências |
