@@ -1,0 +1,5 @@
+﻿id;procedimento;resposta_esperada;resultado_observado;aprovado;data;responsavel;codigo_commit;evidencia
+RF01;Apresentar cartao sem cadastro;Nao autoriza;;;;;;
+RF02;Cadastrar com g e reapresentar;Autoriza no LED por 3 segundos;;;;;;
+RF03;Apresentar outro cartao;Nega;;;;;;
+RF04;Reiniciar a placa;Cadastro em RAM apagado;;;;;;
