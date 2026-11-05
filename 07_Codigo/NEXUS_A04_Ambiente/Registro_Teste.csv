@@ -1,0 +1,4 @@
+﻿id;procedimento;resposta_esperada;resultado_observado;aprovado;data;responsavel;codigo_commit;evidencia
+AM01;Registrar um minuto de leituras;Leituras validas ou falhas explicitamente identificadas;;;;;;
+AM02;Comparar com referencia disponivel;Registrar valores e condicoes, sem presumir exatidao;;;;;;
+AM03;Verificar recuperacao apos falha de leitura;Nao apresentar null como zero medido;;;;;;
