@@ -11,7 +11,7 @@ Casa Inteligente | NEXUS | ExpoTech. Categoria BLUEPRINT. Publicação de trabal
 | Garagem | Regras de controle e testes propostos | Medir carrinho, definir geometria, atuação e detecção, construir e validar |
 | Segurança | Inventário e regras propostas | Detalhar acesso, intrusão, incêndio, vazamento e monitoramento |
 | BOM e memorial ESG | Inventário e memorial base | Completar quantitativos, custos, justificativas e indicadores sustentados |
-| Código comentado | Gerador dos desenhos | Incorporar firmware de controle e instruções de reprodução |
+| Código comentado | Gerador dos desenhos e firmware inicial A01 de iluminação | Ensaiar A01 na bancada, acrescentar os demais módulos e integrar |
 | Protótipo funcional | Ainda sem montagem ou ensaio registrado | Demonstrar funcionamento físico ou simulação computacional funcional |
 | Vídeo pitch | Roteiro de até 3 minutos | Preencher com fatos, gravar demonstrações e publicar link acessível |
 | Repositório público | Documentação organizada nesta publicação | Manter os resultados e a revisão de entrega identificados |
