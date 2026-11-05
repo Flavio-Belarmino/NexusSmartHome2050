@@ -1,0 +1,11 @@
+id;procedimento;resposta_esperada;resultado_observado;aprovado;data;responsavel;codigo_commit;evidencia
+A01-01;Enviar 1 e depois 0;LED liga e desliga;;;;;;
+A01-02;Observar sensor sem movimento apos estabilizacao;Registrar PIR em zero e tempo de estabilizacao;;;;;;
+A01-03;Provocar movimento e depois se afastar;PIR muda e retorna apos tempo proprio do modulo;;;;;;
+A01-04;Capturar c e e em condicoes distintas;Calibracao aceita e valores registrados;;;;;;
+A01-05;Modo automatico em claro com movimento;LED apagado;;;;;;
+A01-06;Modo automatico em escuro com movimento;LED aceso;;;;;;
+A01-07;Manter escuro e aguardar PIR voltar a zero;LED apaga 5 segundos apos ultima leitura alta;;;;;;
+A01-08;Iluminar LDR com LED aceso;LED apaga apos filtro e fronteira de claro;;;;;;
+A01-09;Enviar 0 no automatico;LED apagado e modo desligado;;;;;;
+A01-10;Reiniciar a placa;Inicia desligado e exige nova calibracao;;;;;;
