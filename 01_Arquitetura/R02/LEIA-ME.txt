@@ -1,0 +1,26 @@
+Casa Inteligente | NEXUS | ExpoTech
+R02 - ANTEPROJETO
+
+Conteudo: 23 pranchas A3, desenhos CAD DXF em mm, tabelas CSV e modelo JSON.
+A01-A08: arquitetura, cobertura, fachadas, cortes, dimensoes, aberturas e adjacencias.
+M01-M03: planta da maquete, implantacao e central. S01-S02: automacoes e agua.
+E01-E10: planta eletrica DC, percursos, alimentacao, circuitos, pinos e acionamentos.
+
+As cotas representam dimensoes de trabalho do anteprojeto. As internas, aberturas e camadas ainda dependem de compatibilizacao fisica antes de fabricar complementos.
+O programa de ambientes e a locacao dos equipamentos sao propostas do projeto.
+O desenho arquitetonico converte a geometria da maquete por 20. As paredes de 3 mm aparecem como 60 mm na representacao arquitetonica.
+Base 1200 x 900 x 18 mm: proposta; reforcos e apoio dependem do peso total.
+A planta eletrica representa a maquete DC, sem distribuicao residencial em 127/220 V.
+Pinagem e interfaces propostas. Correntes desconhecidas precisam ser medidas. Componentes ainda nao confirmados estao listados em Complementos_Eletricos.csv.
+O mapa de pinos nao e firmware. Cameras, fita LED, rele e circuito solar dependem da identificacao das placas.
+
+Impressao: papel A3 a 100%. Escala indicada por vista; conferir a barra grafica.
+DXF: geometria 1:1 nas unidades indicadas. Quadros e diagramas sao esquematicos.
+Coordenadas dos pontos: origem no canto (0,0) da casa, conforme a planta; Z a partir do piso.
+Cabos: trajetos aproximados, acrescidos de 30%; nao constituem definicao de bitola.
+
+Documentacao tecnica consultada para interfaces eletricas:
+Arduino Mega: https://docs.arduino.cc/resources/pinouts/A000067-full-pinout.pdf
+Arduino, acionamento: https://docs.arduino.cc/learn/electronics/transistor-motor-control/
+NXP MFRC522: https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
+Espressif ESP32: https://documentation.espressif.com/esp32_datasheet_en.html
