@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NEXUS | Simulador da garagem</title>
+<style>
+*{box-sizing:border-box}body{font:16px/1.55 system-ui,sans-serif;margin:0;background:#eef3f8;color:#172b42}main{max-width:1200px;margin:36px auto;padding:0 22px}h1{font-size:30px;margin:0}h2{font-size:20px;margin:0 0 16px}p{margin:10px 0}header{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:25px}.tag{font-size:12px;font-weight:750;border-radius:20px;background:#d8eaf9;color:#0d527e;padding:7px 12px;white-space:nowrap}.grid{display:grid;grid-template-columns:2fr 1fr;gap:20px}.card{background:#fff;border:1px solid #dbe5ef;border-radius:16px;padding:24px;box-shadow:0 4px 16px #173b5b08}button{border:0;border-radius:8px;padding:12px 16px;background:#12679a;color:white;font:inherit;font-size:14px;cursor:pointer}button.secondary{background:#e7eef4;color:#24435d}button.danger{background:#9b2f40}button:focus-visible,input:focus-visible{outline:3px solid #f9b535;outline-offset:3px}.actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 22px}.state{font-size:30px;font-weight:800;color:#12679a}.cause{color:#a12b3a;min-height:25px}.row{display:flex;justify-content:space-between;border-bottom:1px solid #edf1f5;padding:10px 0}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#aebdca;margin-right:5px}.yes{background:#00a081}.checks{display:grid;gap:14px;margin:20px 0}input[type=checkbox]{width:18px;height:18px;vertical-align:middle;margin-right:8px}input[type=range]{width:100%;accent-color:#12679a}.small{font-size:13px;color:#536d83}.notes{margin-top:20px}.log{font:12px/1.7 ui-monospace,monospace;max-height:180px;overflow:auto;white-space:pre-wrap;background:#f1f5f9;border-radius:8px;padding:12px}svg{width:100%;height:auto;display:block;margin:12px 0}.full{grid-column:1/-1}a{color:#12679a}@media(max-width:820px){.grid{grid-template-columns:1fr}header{display:block}.tag{display:inline-block;margin-top:12px}.card{padding:18px}}
+</style><main>
+<header><div><h1>Casa Inteligente | NEXUS</h1><p>Garagem · simulador de sequência</p></div><span class="tag">SIMULAÇÃO · SEM CONEXÃO COM HARDWARE</span></header>
+<div class="grid"><section class="card"><h2>Experimente a entrada e a saída</h2>
+<p>Use os botões para mover o carro. O portão abre por aproximação e fecha após passagem confirmada e 2 segundos de vão livre.</p>
+<div class="actions"><button id="entrada">Entrada automática</button><button id="saida">Saída automática</button><button class="secondary" id="reiniciar">Reiniciar</button></div>
+<svg viewBox="0 0 900 235" role="img" aria-label="Carro e portão em simulação sem escala dimensional">
+<rect x="20" y="65" width="860" height="115" rx="14" fill="#edf3f8"/><rect x="270" y="65" width="100" height="115" fill="#d3e8f6"/><rect x="530" y="65" width="100" height="115" fill="#d3e8f6"/><rect x="390" y="65" width="120" height="115" fill="#fff0cd"/>
+<path d="M30 123H870" stroke="#bdcbd7" stroke-dasharray="10 12"/>
+<text x="110" y="35" font-size="18" fill="#294d68">EXTERIOR</text><text x="680" y="35" font-size="18" fill="#294d68">GARAGEM</text>
+<rect id="portao" x="445" y="65" width="10" height="115" rx="2" fill="#365872"/>
+<g id="carro"><rect x="-35" y="95" width="70" height="53" rx="12" fill="#12679a"/><rect x="-12" y="101" width="23" height="41" rx="6" fill="#b2dceb"/><rect x="-23" y="91" width="14" height="5" fill="#243e54"/><rect x="-23" y="148" width="14" height="5" fill="#243e54"/><rect x="10" y="91" width="14" height="5" fill="#243e54"/><rect x="10" y="148" width="14" height="5" fill="#243e54"/></g>
+<text x="274" y="211" font-size="15" fill="#536d83">Detecção externa</text><text x="414" y="211" font-size="15" fill="#536d83">Vão</text><text x="532" y="211" font-size="15" fill="#536d83">Detecção interna</text>
+</svg>
+<label for="posicao">Posição manual do carro</label><input id="posicao" type="range" min="-300" max="300" value="-300" step="1"><p class="small">Representação sem escala. O modelo trata a posição do carro como um ponto; alcance dos sensores, massa, dimensões e esforço do mecanismo ainda precisam de ensaio real.</p>
+<div class="actions"><button class="secondary" id="abrir">Abrir manualmente</button><button class="secondary" id="fechar">Fechar manualmente</button><button class="secondary" id="rearmar">Rearmar falha</button></div>
+<div class="checks"><label><input type="checkbox" id="obstaculo">Obstáculo no vão</label><label><input type="checkbox" id="falha">Falha da confirmação de posição</label><label><input type="checkbox" id="emergencia">Parada de emergência</label></div>
+<p class="small">No movimento automático do carro, ele aguarda o portão abrir. O controle não fecha sozinho se a passagem não foi confirmada. Comando manual de fechamento exige o vão livre.</p></section>
+<aside class="card"><h2>Estado do controle</h2><div id="estado" class="state">INICIALIZAÇÃO</div><div class="cause" id="causa"></div><div class="row"><span>Abertura simulada</span><strong id="abertura">0%</strong></div><div class="row"><span>Sentido</span><strong id="sentido">Aguardando</strong></div><div class="row"><span>Passagem confirmada</span><strong id="passou">Não</strong></div><div class="row"><span>Sensor externo</span><strong id="externo">Livre</strong></div><div class="row"><span>Sensor do vão</span><strong id="vao">Livre</strong></div><div class="row"><span>Sensor interno</span><strong id="interno">Livre</strong></div><div class="row"><span>Comando abrir</span><strong id="outAbrir">Desligado</strong></div><div class="row"><span>Comando fechar</span><strong id="outFechar">Desligado</strong></div><h2 class="notes">Histórico da simulação</h2><div class="log" id="log"></div><button class="secondary" id="exportar">Exportar registro JSON</button></aside>
+<section class="card full"><h2>Três testes para fazer agora</h2><p><strong>1.</strong> Clique em Entrada automática e acompanhe a sequência até o fechamento. <strong>2.</strong> Durante um fechamento, marque Obstáculo no vão e observe a reabertura. <strong>3.</strong> Reinicie, solicite a entrada e, durante a abertura, marque Falha da confirmação de posição: o controle deve parar por tempo excedido. Retire a falha e use Rearmar falha.</p><p class="small">O registro exportado identifica explicitamente a origem simulada. Ele não comprova montagem, calibração, resistência mecânica ou segurança de um portão físico. Esta tela usa a mesma lógica JavaScript dos testes automatizados publicados na pasta.</p></section></div></main>
+<script>/* Casa Inteligente | NEXUS | ExpoTech. Modelo de sequencia A07 R01.
+ * Entradas e atuador sao simulados. Nao envia comandos a hardware.
+ */
+(function(root,factory){
+  if(typeof module==='object'&&module.exports)module.exports=factory();
+  else root.NexusGaragem=factory();
+})(typeof globalThis!=='undefined'?globalThis:this,function(){
+  'use strict';
+  class Portao {
+    constructor({tempoMovimento=6000,tempoLivre=2000}={}){
+      if(!(tempoMovimento>0&&tempoLivre>=0))throw Error('Tempos invalidos');
+      this.tempoMovimento=tempoMovimento;this.tempoLivre=tempoLivre;
+      this.estado='INICIALIZACAO';this.causa='';this.entrou=0;this.ultimoTempo=0;
+      this.sentido=null;this.viuVao=false;this.viuDestino=false;this.livreDesde=null;
+      this.anterior={externo:false,interno:false};
+    }
+    transicao(estado,t){this.estado=estado;this.entrou=t;this.livreDesde=null;}
+    falhar(causa,t){this.causa=causa;this.transicao('FALHA',t);}
+    iniciar(sentido,t){this.sentido=sentido;this.viuVao=false;this.viuDestino=false;this.transicao('ABRINDO',t);}
+    atualizar(t,entrada={}){
+      if(!Number.isFinite(t)||t<0||t<this.ultimoTempo)throw Error('Tempo deve ser crescente');
+      this.ultimoTempo=t;
+      const i=Object.assign({externo:false,interno:false,vao:false,aberto:false,fechado:false,emergencia:false,abrir:false,fechar:false,rearmar:false},entrada);
+      const sobeExterno=!!i.externo&&!this.anterior.externo,sobeInterno=!!i.interno&&!this.anterior.interno;
+      const anterior=this.anterior;this.anterior={externo:!!i.externo,interno:!!i.interno};
+      if(i.aberto&&i.fechado){this.falhar('FINS_DE_CURSO_CONTRADITORIOS',t);return this.saida();}
+      if(i.emergencia){this.falhar('EMERGENCIA',t);return this.saida();}
+      if(i.rearmar){
+        this.causa='';this.sentido=null;this.viuVao=this.viuDestino=false;
+        this.transicao(i.fechado?'FECHADO':i.aberto?'ABERTO':'INICIALIZACAO',t);
+        return this.saida();
+      }
+      if(this.estado==='FALHA')return this.saida();
+      if(this.estado==='INICIALIZACAO'){
+        if(i.fechado)this.transicao('FECHADO',t);else if(i.aberto)this.transicao('ABERTO',t);
+        return this.saida();
+      }
+      if(this.estado==='FECHADO'){
+        if(i.abrir)this.iniciar(i.externo&&!i.interno?'ENTRADA':i.interno&&!i.externo?'SAIDA':null,t);
+        else if(sobeExterno&&!i.interno)this.iniciar('ENTRADA',t);
+        else if(sobeInterno&&!i.externo)this.iniciar('SAIDA',t);
+        return this.saida();
+      }
+      if(this.estado==='ABRINDO'&&i.aberto)this.transicao('ABERTO',t);
+      else if(this.estado==='FECHANDO'){
+        if(i.vao){this.transicao('ABRINDO',t);return this.saida();}
+        if(i.abrir||sobeExterno||sobeInterno){this.iniciar(sobeExterno?'ENTRADA':sobeInterno?'SAIDA':null,t);return this.saida();}
+        if(i.fechado){this.sentido=null;this.transicao('FECHADO',t);return this.saida();}
+      }
+      if((this.estado==='ABRINDO'||this.estado==='FECHANDO')&&t-this.entrou>=this.tempoMovimento){
+        this.falhar('TEMPO_DE_MOVIMENTO_EXCEDIDO',t);return this.saida();
+      }
+      if(this.estado==='ABRINDO'||this.estado==='ABERTO'){
+        if(i.vao)this.viuVao=true;
+        const destino=this.sentido==='ENTRADA'?i.interno:this.sentido==='SAIDA'?i.externo:false;
+        const antesDestino=this.sentido==='ENTRADA'?anterior.interno:this.sentido==='SAIDA'?anterior.externo:false;
+        if(this.viuVao&&destino&&!antesDestino)this.viuDestino=true;
+      }
+      if(this.estado==='ABERTO'){
+        if(i.fechar&&!i.vao){this.transicao('FECHANDO',t);return this.saida();}
+        const origem=this.sentido==='ENTRADA'?i.externo:this.sentido==='SAIDA'?i.interno:true;
+        const passou=!!this.sentido&&this.viuVao&&this.viuDestino&&!origem&&!i.vao;
+        if(!passou)this.livreDesde=null;
+        else{
+          if(this.livreDesde===null)this.livreDesde=t;
+          if(t-this.livreDesde>=this.tempoLivre)this.transicao('FECHANDO',t);
+        }
+      }
+      return this.saida();
+    }
+    saida(){return {estado:this.estado,causa:this.causa,abrir:this.estado==='ABRINDO',fechar:this.estado==='FECHANDO',sentido:this.sentido,passagemConfirmada:this.viuVao&&this.viuDestino};}
+  }
+  return {Portao};
+});
+</script>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+let controle,tempo=0,carro=-300,abertura=0,direcao=0,pedidos={},historico=[],ultimoEstado='';
+function reset(pos=-300){controle=new NexusGaragem.Portao();tempo=0;carro=pos;abertura=0;direcao=0;pedidos={};historico=[];ultimoEstado='';for(const id of ['obstaculo','falha','emergencia'])$(id).checked=false;}
+reset();
+$('entrada').onclick=()=>{reset(-300);direcao=1;};$('saida').onclick=()=>{reset(300);direcao=-1;};$('reiniciar').onclick=()=>reset();
+$('abrir').onclick=()=>{pedidos.abrir=true;};$('fechar').onclick=()=>{pedidos.fechar=true;};$('rearmar').onclick=()=>{pedidos.rearmar=true;};
+$('posicao').oninput=e=>{carro=Number(e.target.value);direcao=0;};
+$('exportar').onclick=()=>{const blob=new Blob([JSON.stringify({schema:'nexus.garagem.sim.v1',origem:'SIMULACAO_SEM_HARDWARE',parametros:{movimento_ms:6000,vao_livre_ms:2000,geometria:'sem escala, sensores por posicao pontual'},eventos:historico},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='NEXUS_Garagem_Simulacao.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);};
+let anterior=performance.now();
+function quadro(real){
+  const dt=Math.min(50,Math.max(0,real-anterior));anterior=real;tempo+=dt;
+  const saidaAnterior=controle.saida();
+  if(saidaAnterior.abrir)abertura=Math.min(1,abertura+dt/3000);
+  if(saidaAnterior.fechar)abertura=Math.max(0,abertura-dt/3000);
+  if(direcao){let proximo=Math.max(-300,Math.min(300,carro+direcao*dt/10));if(direcao>0&&carro<-60&&proximo>=-60&&abertura<.98)proximo=-61;if(direcao<0&&carro>60&&proximo<=60&&abertura<.98)proximo=61;carro=proximo;if(Math.abs(carro)>=300)direcao=0;}
+  const i={externo:carro>=-180&&carro<=-80,interno:carro>=80&&carro<=180,vao:Math.abs(carro)<=60||$('obstaculo').checked,aberto:abertura>=.999&&!$('falha').checked,fechado:abertura<=.001&&!$('falha').checked,emergencia:$('emergencia').checked,...pedidos};pedidos={};
+  const s=controle.atualizar(tempo,i);
+  if(s.estado!==ultimoEstado){historico.push({tempo_ms:Math.round(tempo),estado:s.estado,causa:s.causa,sentido:s.sentido,externo:i.externo,interno:i.interno,vao:i.vao,aberto:i.aberto,fechado:i.fechado});ultimoEstado=s.estado;}
+  $('carro').setAttribute('transform',`translate(${450+carro} 0)`);$('portao').setAttribute('height',String(115*(1-abertura)));$('posicao').value=String(carro);
+  $('estado').textContent=s.estado.replaceAll('_',' ');$('causa').textContent=s.causa.replaceAll('_',' ');$('abertura').textContent=Math.round(abertura*100)+'%';$('sentido').textContent=s.sentido||'Aguardando';$('passou').textContent=s.passagemConfirmada?'Sim':'Não';
+  for(const [id,v]of [['externo',i.externo],['interno',i.interno],['vao',i.vao]])$(id).textContent=v?'Ocupado':'Livre';
+  $('outAbrir').textContent=s.abrir?'Ligado':'Desligado';$('outFechar').textContent=s.fechar?'Ligado':'Desligado';$('log').textContent=historico.slice(-15).map(e=>(e.tempo_ms/1000).toFixed(1)+'s  '+e.estado+(e.causa?' | '+e.causa:'')).join('\n');
+  requestAnimationFrame(quadro);
+}
+requestAnimationFrame(quadro);
+</script></html>
