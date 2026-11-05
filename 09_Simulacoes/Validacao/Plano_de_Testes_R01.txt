@@ -1,0 +1,77 @@
+Casa Inteligente | NEXUS | ExpoTech
+Plano de testes propostos
+
+T01 | Luz e presença/luminosidade
+Estímulo: Variar entrada do PIR/LDR
+Critério a definir antes do teste: Registrar condição que liga/desliga e atraso de resposta
+Código/versão: [preencher]
+Data e responsável: [preencher]
+Resultado observado: [preencher]
+Evidência foto/vídeo: [preencher]
+Situação: NÃO EXECUTADO NESTA FICHA
+
+T02 | Brise
+Estímulo: Variar entrada ou comando definido
+Critério a definir antes do teste: Registrar curso, posição e ausência de travamento
+Código/versão: [preencher]
+Data e responsável: [preencher]
+Resultado observado: [preencher]
+Evidência foto/vídeo: [preencher]
+Situação: NÃO EXECUTADO NESTA FICHA
+
+T03 | Temperatura e umidade
+Estímulo: Comparar leituras em condição conhecida
+Critério a definir antes do teste: Registrar leituras, intervalo e forma de apresentação
+Código/versão: [preencher]
+Data e responsável: [preencher]
+Resultado observado: [preencher]
+Evidência foto/vídeo: [preencher]
+Situação: NÃO EXECUTADO NESTA FICHA
+
+T04 | Acesso RFID
+Estímulo: Apresentar cartão autorizado e não autorizado
+Critério a definir antes do teste: Registrar decisão, acionamento e retorno da fechadura
+Código/versão: [preencher]
+Data e responsável: [preencher]
+Resultado observado: [preencher]
+Evidência foto/vídeo: [preencher]
+Situação: NÃO EXECUTADO NESTA FICHA
+
+T05 | Água e vazão
+Estímulo: Acionar a bomba nas condições de ensaio
+Critério a definir antes do teste: Registrar retorno, leitura, tempo e comportamento do circuito
+Código/versão: [preencher]
+Data e responsável: [preencher]
+Resultado observado: [preencher]
+Evidência foto/vídeo: [preencher]
+Situação: NÃO EXECUTADO NESTA FICHA
+
+T06 | Nível HC-SR04
+Estímulo: Variar nível ou distância de referência
+Critério a definir antes do teste: Registrar comparação, faixa usada e limitação de leitura
+Código/versão: [preencher]
+Data e responsável: [preencher]
+Resultado observado: [preencher]
+Evidência foto/vídeo: [preencher]
+Situação: NÃO EXECUTADO NESTA FICHA
+
+T07 | Energia e emergência
+Estímulo: Acionar o comando de parada previsto
+Critério a definir antes do teste: Registrar comportamento das cargas e do controle
+Código/versão: [preencher]
+Data e responsável: [preencher]
+Resultado observado: [preencher]
+Evidência foto/vídeo: [preencher]
+Situação: NÃO EXECUTADO NESTA FICHA
+
+T08 | Integração e reinício
+Estímulo: Executar sequências e reiniciar o sistema
+Critério a definir antes do teste: Registrar retorno ao estado previsto e falhas observadas
+Código/versão: [preencher]
+Data e responsável: [preencher]
+Resultado observado: [preencher]
+Evidência foto/vídeo: [preencher]
+Situação: NÃO EXECUTADO NESTA FICHA
+
+Se a função não integrar o escopo final, registrar a decisão e a forma de atendimento ao requisito correspondente.
+Não inventar resultados, tempos, precisões ou índices de economia.
