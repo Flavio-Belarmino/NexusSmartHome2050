@@ -4,6 +4,8 @@ Projeto acadêmico da categoria **BLUEPRINT**, Engineering 2026.2, UniFECAF. Int
 
 **Para começar:** [guia de desenvolvimento acompanhado](10_Documentacao/Comece_Aqui.md) e [primeiro ensaio de iluminação na bancada](07_Codigo/NEXUS_A01_Bancada/README.md). O ensaio inclui programa inicial, ligações e ficha de resultados; a montagem da casa não é pré-requisito.
 
+**Kit de módulos R02:** [guia e ordem dos ensaios](10_Documentacao/Guia_Bancada_Modulos.md) · [pacote ZIP](07_Codigo/NEXUS_Kit_Modulos_R02.zip) · [simulador da garagem](09_Simulacoes/Garagem/README.md) · [supervisor USB](07_Codigo/Supervisor_USB/README.md). Cada sketch de bancada é independente; carregar outro programa no Mega substitui o anterior.
+
 ## Estado atual
 
 Esta publicação reúne o **anteprojeto R02** e a **especificação funcional de automação R01**. A maquete ainda está em preparação para montagem. O funcionamento das automações, a supervisão por ESP32 e os resultados dos ensaios ainda precisam ser implementados e demonstrados. A presença de desenhos, pinagem ou regras de controle não comprova funcionamento físico.
@@ -24,8 +26,12 @@ A extensão com **garagem em papelão Paraná** faz parte do escopo atual. O con
 | Quantitativos e premissas | [Cálculos](06_Calculos/) | Dados preliminares, sem memória predial concluída |
 | Gerador dos desenhos | [Código Python](07_Codigo/Gerador_Documentacao/) | Código de documentação; não controla a maquete |
 | Primeiro módulo de controle | [A01: iluminação na bancada](07_Codigo/NEXUS_A01_Bancada/) | Firmware inicial e testes de lógica; ensaio físico pendente |
+| Demais módulos de bancada | [Índice de código](07_Codigo/README.md) | Brise, RFID, ambiente, água, botões e entradas; compilados, com ensaio físico pendente |
+| Garagem computacional | [Simulador funcional](09_Simulacoes/Garagem/README.md) | Sequência testada por software, sem mecanismo real |
+| Telemetria local | [Supervisor USB](07_Codigo/Supervisor_USB/README.md) | Programa e API testados; porta USB real ainda não ensaiada |
+| Experimento solar | [Cálculo e balanço de potências](06_Calculos/Solar/README.md) | Estimativas explícitas, sem ensaio de carga/autonomia |
 | Componentes disponíveis | [Inventário](08_BOM/) | Inventário recebido; complementos e custo final pendentes |
-| Ensaios | [Plano de validação](09_Simulacoes/Validacao/) | Resultados ainda não registrados |
+| Ensaios | [Plano de validação](09_Simulacoes/Validacao/) | Fichas de ensaio físico; resultados de software registrados separadamente |
 | Memorial e requisitos | [Documentação](10_Documentacao/) | Memorial base e controle de pendências |
 | Vídeo de até 3 minutos | [Roteiro de pitch](11_Pitch/) | Rascunho para preencher com demonstrações reais |
 
@@ -49,7 +55,7 @@ O controle proposto utiliza Arduino Mega para os comandos locais e reserva ESP32
 4. Executar os testes, guardar evidências e registrar falhas e limites.
 5. Gravar o pitch e conferir os links públicos antes da entrega.
 
-O [controle de entregas](10_Documentacao/Controle_de_Entregas.md) distingue os arquivos existentes das partes em desenvolvimento. Não há nesta publicação resultados experimentais ou simulações funcionais concluídas.
+O [controle de entregas](10_Documentacao/Controle_de_Entregas.md) distingue os arquivos existentes das partes em desenvolvimento. Há testes de lógica, compilação e uma simulação funcional da sequência da garagem, identificados no [registro de validação](07_Codigo/Testes_Modulos/Validacao_Modulos_R02.md). Os ensaios físicos e a integração completa continuam pendentes.
 
 ## Referências e versão de entrega
 
