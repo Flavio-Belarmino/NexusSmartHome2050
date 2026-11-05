@@ -1,0 +1,1111 @@
+{
+  "projeto": "Casa Inteligente | NEXUS | ExpoTech",
+  "revisao": "R02 - ANTEPROJETO",
+  "parametros": {
+    "escala_maquete": 20.0,
+    "piso_L": 717.5,
+    "piso_W": 308.0,
+    "parede_H": 130.0,
+    "altura_total": 159.0,
+    "faixa_cobertura": 23.0,
+    "mdf": 3.0,
+    "margem_piso": 10.0,
+    "base_L": 1200.0,
+    "base_W": 900.0,
+    "base_espessura": 18.0,
+    "casa_x": 100.0,
+    "casa_y": 340.0,
+    "central_x": 60.0,
+    "central_y": 70.0,
+    "central_L": 740.0,
+    "central_W": 170.0,
+    "agua_x": 900.0,
+    "agua_y": 360.0,
+    "agua_L": 230.0,
+    "agua_W": 230.0
+  },
+  "paredes": [
+    {
+      "id": "R01",
+      "eixo": "V",
+      "u": 1.5,
+      "a": 0.0,
+      "b": 288.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R02",
+      "eixo": "V",
+      "u": 696.0,
+      "a": 0.0,
+      "b": 288.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R03",
+      "eixo": "H",
+      "u": 1.5,
+      "a": 0.0,
+      "b": 297.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R04",
+      "eixo": "H",
+      "u": 1.5,
+      "a": 297.0,
+      "b": 697.5,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R05",
+      "eixo": "H",
+      "u": 286.5,
+      "a": 0.0,
+      "b": 304.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R06",
+      "eixo": "H",
+      "u": 286.5,
+      "a": 304.0,
+      "b": 697.5,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R07",
+      "eixo": "H",
+      "u": 148.0,
+      "a": 103.0,
+      "b": 214.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R08",
+      "eixo": "V",
+      "u": 214.0,
+      "a": 148.0,
+      "b": 288.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R09",
+      "eixo": "V",
+      "u": 214.0,
+      "a": 0.0,
+      "b": 92.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R10",
+      "eixo": "H",
+      "u": 92.0,
+      "a": 214.0,
+      "b": 297.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R11",
+      "eixo": "V",
+      "u": 297.0,
+      "a": 0.0,
+      "b": 92.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R12",
+      "eixo": "V",
+      "u": 304.0,
+      "a": 148.0,
+      "b": 288.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R13",
+      "eixo": "H",
+      "u": 148.0,
+      "a": 304.0,
+      "b": 511.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R14",
+      "eixo": "V",
+      "u": 511.0,
+      "a": 94.0,
+      "b": 288.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R15",
+      "eixo": "V",
+      "u": 487.0,
+      "a": 0.0,
+      "b": 94.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R16",
+      "eixo": "V",
+      "u": 583.0,
+      "a": 0.0,
+      "b": 94.0,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "R17",
+      "eixo": "H",
+      "u": 94.0,
+      "a": 365.0,
+      "b": 697.5,
+      "classe": "Anteprojeto"
+    }
+  ],
+  "aberturas": [
+    {
+      "id": "P01",
+      "parede": "R01",
+      "tipo": "porta",
+      "a": 12.0,
+      "w": 45.0,
+      "z": 0,
+      "h": 105,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "J01",
+      "parede": "R01",
+      "tipo": "janela",
+      "a": 75.0,
+      "w": 60.0,
+      "z": 45,
+      "h": 55,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "J02",
+      "parede": "R01",
+      "tipo": "janela",
+      "a": 185.0,
+      "w": 60.0,
+      "z": 45,
+      "h": 55,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "J03",
+      "parede": "R05",
+      "tipo": "janela",
+      "a": 110.0,
+      "w": 50.0,
+      "z": 45,
+      "h": 55,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "P02",
+      "parede": "R05",
+      "tipo": "porta",
+      "a": 162.0,
+      "w": 45.0,
+      "z": 0,
+      "h": 105,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "V01",
+      "parede": "R05",
+      "tipo": "veneziana",
+      "a": 235.0,
+      "w": 25.0,
+      "z": 75,
+      "h": 25,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "J04",
+      "parede": "R06",
+      "tipo": "janela",
+      "a": 385.0,
+      "w": 60.0,
+      "z": 45,
+      "h": 55,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "J05",
+      "parede": "R06",
+      "tipo": "janela",
+      "a": 565.0,
+      "w": 75.0,
+      "z": 45,
+      "h": 55,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "P03",
+      "parede": "R08",
+      "tipo": "porta",
+      "a": 213.0,
+      "w": 40.0,
+      "z": 0,
+      "h": 105,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "P04",
+      "parede": "R10",
+      "tipo": "porta",
+      "a": 252.0,
+      "w": 35.0,
+      "z": 0,
+      "h": 105,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "P05",
+      "parede": "R13",
+      "tipo": "porta",
+      "a": 450.0,
+      "w": 45.0,
+      "z": 0,
+      "h": 105,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "P06",
+      "parede": "R14",
+      "tipo": "porta",
+      "a": 100.0,
+      "w": 45.0,
+      "z": 0,
+      "h": 105,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "P07",
+      "parede": "R17",
+      "tipo": "porta",
+      "a": 390.0,
+      "w": 40.0,
+      "z": 0,
+      "h": 105,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "P08",
+      "parede": "R17",
+      "tipo": "porta",
+      "a": 535.0,
+      "w": 35.0,
+      "z": 0,
+      "h": 105,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "P09",
+      "parede": "R17",
+      "tipo": "porta",
+      "a": 625.0,
+      "w": 35.0,
+      "z": 0,
+      "h": 105,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "V02",
+      "parede": "R11",
+      "tipo": "veneziana",
+      "a": 30.0,
+      "w": 25.0,
+      "z": 75,
+      "h": 25,
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "V03",
+      "parede": "R16",
+      "tipo": "veneziana",
+      "a": 30.0,
+      "w": 25.0,
+      "z": 75,
+      "h": 25,
+      "classe": "Anteprojeto"
+    }
+  ],
+  "ambientes": [
+    {
+      "id": "AM01",
+      "nome": "SALA / SOCIAL",
+      "poligono": [
+        [
+          3.0,
+          3.0
+        ],
+        [
+          212.5,
+          3.0
+        ],
+        [
+          212.5,
+          146.5
+        ],
+        [
+          101.5,
+          146.5
+        ],
+        [
+          101.5,
+          285.0
+        ],
+        [
+          3.0,
+          285.0
+        ]
+      ],
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "AM02",
+      "nome": "COZINHA",
+      "poligono": [
+        [
+          104.5,
+          149.5
+        ],
+        [
+          212.5,
+          149.5
+        ],
+        [
+          212.5,
+          285.0
+        ],
+        [
+          104.5,
+          285.0
+        ]
+      ],
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "AM03",
+      "nome": "BANHO 1",
+      "poligono": [
+        [
+          215.5,
+          3.0
+        ],
+        [
+          295.5,
+          3.0
+        ],
+        [
+          295.5,
+          90.5
+        ],
+        [
+          215.5,
+          90.5
+        ]
+      ],
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "AM04",
+      "nome": "SERVICO / APOIO",
+      "poligono": [
+        [
+          298.5,
+          3.0
+        ],
+        [
+          485.5,
+          3.0
+        ],
+        [
+          485.5,
+          92.5
+        ],
+        [
+          298.5,
+          92.5
+        ]
+      ],
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "AM05",
+      "nome": "CIRCULACAO",
+      "poligono": [
+        [
+          215.5,
+          95.5
+        ],
+        [
+          509.5,
+          95.5
+        ],
+        [
+          509.5,
+          146.5
+        ],
+        [
+          215.5,
+          146.5
+        ]
+      ],
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "AM06",
+      "nome": "QUARTO 1",
+      "poligono": [
+        [
+          305.5,
+          149.5
+        ],
+        [
+          509.5,
+          149.5
+        ],
+        [
+          509.5,
+          285.0
+        ],
+        [
+          305.5,
+          285.0
+        ]
+      ],
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "AM07",
+      "nome": "QUARTO 2",
+      "poligono": [
+        [
+          512.5,
+          95.5
+        ],
+        [
+          694.5,
+          95.5
+        ],
+        [
+          694.5,
+          285.0
+        ],
+        [
+          512.5,
+          285.0
+        ]
+      ],
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "AM08",
+      "nome": "BANHO 2",
+      "poligono": [
+        [
+          488.5,
+          3.0
+        ],
+        [
+          581.5,
+          3.0
+        ],
+        [
+          581.5,
+          92.5
+        ],
+        [
+          488.5,
+          92.5
+        ]
+      ],
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "AM09",
+      "nome": "APOIO",
+      "poligono": [
+        [
+          584.5,
+          3.0
+        ],
+        [
+          694.5,
+          3.0
+        ],
+        [
+          694.5,
+          92.5
+        ],
+        [
+          584.5,
+          92.5
+        ]
+      ],
+      "classe": "Anteprojeto"
+    },
+    {
+      "id": "AM10",
+      "nome": "HALL",
+      "poligono": [
+        [
+          215.5,
+          149.5
+        ],
+        [
+          302.5,
+          149.5
+        ],
+        [
+          302.5,
+          285.0
+        ],
+        [
+          215.5,
+          285.0
+        ]
+      ],
+      "classe": "Anteprojeto"
+    }
+  ],
+  "cobertura": {
+    "divisao_T1": 255.0,
+    "divisao_T2": 365.0,
+    "recuo": 60.0
+  },
+  "sistemas": [
+    [
+      "IL01",
+      "Iluminacao",
+      "LEDs brancos",
+      "Proposta"
+    ],
+    [
+      "LU01",
+      "Luminosidade",
+      "LDR KY-018",
+      "Proposta"
+    ],
+    [
+      "BR01",
+      "Brise em J04",
+      "Microservo 9 g",
+      "Proposta"
+    ],
+    [
+      "PR01",
+      "Presenca",
+      "PIR SR-501",
+      "Proposta"
+    ],
+    [
+      "TH01",
+      "Temperatura e umidade",
+      "DHT22",
+      "Proposta"
+    ],
+    [
+      "AC01",
+      "Acesso",
+      "RFID RC522 e solenoide 6 V",
+      "Proposta"
+    ],
+    [
+      "AG01",
+      "Agua em recirculacao",
+      "Bomba 12 V e sensor de vazao",
+      "Proposta"
+    ],
+    [
+      "FV01",
+      "Experimento solar",
+      "Placa 115 x 85 mm e controlador",
+      "Proposta"
+    ],
+    [
+      "NI01",
+      "Nivel do reservatorio",
+      "HC-SR04",
+      "Proposta"
+    ],
+    [
+      "BT01",
+      "Comandos locais",
+      "Modulo touch de 4 canais / botoes",
+      "Proposta"
+    ]
+  ],
+  "pranchas": [
+    {
+      "codigo": "A01",
+      "titulo": "PLANTA BAIXA ARQUITETONICA - COTAS EM mm",
+      "unidades": "mm da representacao arquitetonica",
+      "escala_impressao": 48.81945007369337
+    },
+    {
+      "codigo": "M01",
+      "titulo": "PLANTA DA MAQUETE - COTAS EM mm",
+      "unidades": "mm da maquete",
+      "escala_impressao": 2.4409725036846686
+    },
+    {
+      "codigo": "M02",
+      "titulo": "IMPLANTACAO DA CASA E DO CONJUNTO",
+      "unidades": "mm da maquete",
+      "escala_impressao": 6.184210526315789
+    },
+    {
+      "codigo": "A02",
+      "titulo": "PLANTA DE COBERTURA",
+      "unidades": "mm da representacao arquitetonica",
+      "escala_impressao": 52.36842105263158
+    },
+    {
+      "codigo": "A03",
+      "titulo": "FACHADAS PRINCIPAL E LATERAL A",
+      "unidades": "mm da representacao arquitetonica",
+      "escala_impressao": [
+        48.888888888888886,
+        48.888888888888886
+      ]
+    },
+    {
+      "codigo": "A04",
+      "titulo": "FACHADAS POSTERIOR E LATERAL B",
+      "unidades": "mm da representacao arquitetonica",
+      "escala_impressao": [
+        48.888888888888886,
+        48.888888888888886
+      ]
+    },
+    {
+      "codigo": "A05",
+      "titulo": "CORTES LONGITUDINAL E TRANSVERSAL",
+      "unidades": "mm da representacao arquitetonica",
+      "escala_impressao": [
+        56.953375108468535,
+        56.953375108468535
+      ]
+    },
+    {
+      "codigo": "A06",
+      "titulo": "QUADRO DE DIMENSOES E AREAS",
+      "unidades": "esquematico",
+      "escala_impressao": 2.8947368421052633
+    },
+    {
+      "codigo": "A07",
+      "titulo": "QUADRO DE PORTAS, JANELAS E VENEZIANAS",
+      "unidades": "esquematico",
+      "escala_impressao": 4.7368421052631575
+    },
+    {
+      "codigo": "A08",
+      "titulo": "ADJACENCIAS E CIRCULACAO ENTRE AMBIENTES",
+      "unidades": "esquematico",
+      "escala_impressao": 3.4210526315789473
+    },
+    {
+      "codigo": "M03",
+      "titulo": "CENTRAL DE CONTROLE - DISTRIBUICAO FISICA",
+      "unidades": "mm da maquete",
+      "escala_impressao": 2.1347859736784005
+    },
+    {
+      "codigo": "S01",
+      "titulo": "AUTOMACAO - FUNCOES E DISCUSSAO COM A EQUIPE",
+      "unidades": "esquematico",
+      "escala_impressao": 3.021978021978022
+    },
+    {
+      "codigo": "S02",
+      "titulo": "CIRCUITO DEMONSTRATIVO DE AGUA",
+      "unidades": "esquematico",
+      "escala_impressao": 1.584481804024884
+    },
+    {
+      "codigo": "E01",
+      "titulo": "PLANTA ELETRICA - ILUMINACAO E COMANDOS",
+      "unidades": "mm da maquete",
+      "escala_impressao": 2.8026315789473686
+    },
+    {
+      "codigo": "E02",
+      "titulo": "PLANTA ELETRICA - SENSORES E ATUADORES",
+      "unidades": "mm da maquete",
+      "escala_impressao": 3.069053593030807
+    },
+    {
+      "codigo": "E03",
+      "titulo": "PLANTA ELETRICA - PERCURSOS E CONEXOES",
+      "unidades": "mm da maquete",
+      "escala_impressao": 3.19667084044184
+    },
+    {
+      "codigo": "E04",
+      "titulo": "DISTRIBUICAO ELETRICA E ALIMENTACAO",
+      "unidades": "esquematico",
+      "escala_impressao": 3.080725410240485
+    },
+    {
+      "codigo": "E05",
+      "titulo": "QUADRO DE CIRCUITOS E TENSAO",
+      "unidades": "esquematico",
+      "escala_impressao": 3.2417582417582413
+    },
+    {
+      "codigo": "E06",
+      "titulo": "MAPA DE PINOS - ILUMINACAO E ATUADORES",
+      "unidades": "esquematico",
+      "escala_impressao": 5.526315789473684
+    },
+    {
+      "codigo": "E07",
+      "titulo": "MAPA DE PINOS - SENSORES E COMUNICACAO",
+      "unidades": "esquematico",
+      "escala_impressao": 3.2142857142857144
+    },
+    {
+      "codigo": "E08",
+      "titulo": "ACIONAMENTO DE CARGAS E PROTECAO",
+      "unidades": "esquematico",
+      "escala_impressao": 2.250597679586926
+    },
+    {
+      "codigo": "E09",
+      "titulo": "COMPLEMENTOS PARA A MONTAGEM ELETRICA",
+      "unidades": "esquematico",
+      "escala_impressao": 3.159340659340659
+    },
+    {
+      "codigo": "E10",
+      "titulo": "RESERVAS E COMPONENTES A INTEGRAR",
+      "unidades": "esquematico",
+      "escala_impressao": 3.159340659340659
+    }
+  ],
+  "etapa": "Anteprojeto",
+  "projeto_eletrico": "Anteprojeto dos circuitos DC da maquete",
+  "pinagem": [
+    [
+      "L01",
+      "D22",
+      "LED individual",
+      "1 resistor de 470 ohm em serie"
+    ],
+    [
+      "L02",
+      "D23",
+      "LED individual",
+      "1 resistor de 470 ohm em serie"
+    ],
+    [
+      "L03",
+      "D24",
+      "LED individual",
+      "1 resistor de 470 ohm em serie"
+    ],
+    [
+      "L04",
+      "D25",
+      "LED individual",
+      "1 resistor de 470 ohm em serie"
+    ],
+    [
+      "L05",
+      "D26",
+      "LED individual",
+      "1 resistor de 470 ohm em serie"
+    ],
+    [
+      "L06",
+      "D27",
+      "LED individual",
+      "1 resistor de 560 ohm em serie"
+    ],
+    [
+      "L07",
+      "D28",
+      "LED individual",
+      "1 resistor de 560 ohm em serie"
+    ],
+    [
+      "L08",
+      "D29",
+      "LED individual",
+      "1 resistor de 560 ohm em serie"
+    ],
+    [
+      "L09",
+      "D30",
+      "LED individual",
+      "1 resistor de 560 ohm em serie"
+    ],
+    [
+      "L10",
+      "D31",
+      "LED individual",
+      "1 resistor de 560 ohm em serie"
+    ],
+    [
+      "L11",
+      "D32",
+      "LED individual",
+      "1 resistor de 1000 ohm em serie"
+    ],
+    [
+      "VAZAO",
+      "D2",
+      "Entrada de pulsos",
+      "Confirmar tensao e tipo de saida do sensor"
+    ],
+    [
+      "EMERGENCIA",
+      "D3",
+      "Leitura de contato",
+      "Corte fisico dos atuadores independente do software"
+    ],
+    [
+      "SERVO",
+      "D6",
+      "Sinal do brise",
+      "Alimentacao 5 V externa; GND comum"
+    ],
+    [
+      "SOLENOIDE",
+      "D7",
+      "Comando de driver",
+      "Driver + diodo; alimentacao regulada 6 V"
+    ],
+    [
+      "BOMBA",
+      "D8",
+      "Comando de driver",
+      "Driver + diodo; alimentacao 12 V"
+    ],
+    [
+      "FITA LED",
+      "D9",
+      "Comando de driver",
+      "Confirmar tensao e corrente antes de conectar"
+    ],
+    [
+      "HC-SR04 TRIG",
+      "D10",
+      "Saida de disparo",
+      "Leitura do nivel no reservatorio"
+    ],
+    [
+      "HC-SR04 ECHO",
+      "D11",
+      "Entrada de eco",
+      "Sensor alimentado em 5 V"
+    ],
+    [
+      "RELE",
+      "D12",
+      "Reserva de comando",
+      "Confirmar numero de canais e logica do modulo"
+    ],
+    [
+      "DHT22",
+      "D34",
+      "Dados",
+      "Verificar resistor de pull-up no modulo"
+    ],
+    [
+      "PIR",
+      "D35",
+      "Entrada digital",
+      "Confirmar pinagem da placa"
+    ],
+    [
+      "TOUCH 1-4",
+      "D36 / D37 / D38 / D39",
+      "Entradas digitais",
+      "Confirmar modelo e nivel das quatro saidas"
+    ],
+    [
+      "BOTOES 1-4",
+      "D40 / D41 / D42 / D43",
+      "Comandos locais",
+      "Contato para GND; INPUT_PULLUP"
+    ],
+    [
+      "LDR",
+      "A0",
+      "Entrada analogica",
+      "Confirmar conexoes do modulo KY-018"
+    ],
+    [
+      "RFID RST",
+      "D49",
+      "Reset",
+      "Conversao de nivel para 3,3 V"
+    ],
+    [
+      "RFID MISO",
+      "D50",
+      "SPI / CIPO",
+      "Interface de nivel compativel com Mega"
+    ],
+    [
+      "RFID MOSI",
+      "D51",
+      "SPI / COPI",
+      "Conversao de nivel para 3,3 V"
+    ],
+    [
+      "RFID SCK",
+      "D52",
+      "SPI / clock",
+      "Conversao de nivel para 3,3 V"
+    ],
+    [
+      "RFID SS",
+      "D53",
+      "SPI / selecao",
+      "Conversao de nivel para 3,3 V"
+    ],
+    [
+      "ESP32 UART",
+      "D18 TX1 / D19 RX1",
+      "Comunicacao serial",
+      "Interface 5 V / 3,3 V; pinos ESP a definir"
+    ]
+  ],
+  "circuitos": [
+    [
+      "C01",
+      "11 LEDs de ambientes",
+      "5 V",
+      "D22-D32",
+      "470 / 560 / 1000 ohm por LED"
+    ],
+    [
+      "C02",
+      "LDR / PIR / DHT / HC / touch",
+      "Conforme modulo",
+      "A0 / D10-D11 / D34-D39",
+      "Conferir placa e pinagem"
+    ],
+    [
+      "C03",
+      "RFID RC522",
+      "3,3 V",
+      "SPI D49-D53",
+      "Regulador e conversores de nivel"
+    ],
+    [
+      "C04",
+      "Microservo do brise",
+      "5 V externo",
+      "D6",
+      "Corrente de pico a medir"
+    ],
+    [
+      "C05",
+      "Bomba de recirculacao",
+      "12 V",
+      "D8 -> driver",
+      "0,5-0,7 A em regime; medir partida"
+    ],
+    [
+      "C06",
+      "Solenoide da porta",
+      "6 V regulado",
+      "D7 -> driver",
+      "Corrente e ciclo de uso a medir"
+    ],
+    [
+      "C07",
+      "Fita LED",
+      "A identificar",
+      "D9 -> driver",
+      "Tensao, corrente e trecho a definir"
+    ],
+    [
+      "C08",
+      "ESP32 / comunicacao",
+      "Entrada da placa",
+      "UART D18-D19",
+      "Interface logica 5 V / 3,3 V"
+    ],
+    [
+      "C09",
+      "Experimento fotovoltaico",
+      "12 V nominal",
+      "Circuito independente",
+      "1,5 W nominal; controlador a identificar"
+    ]
+  ],
+  "adjacencias": [
+    [
+      "Exterior",
+      "AM01",
+      "P01"
+    ],
+    [
+      "Exterior",
+      "AM02",
+      "P02"
+    ],
+    [
+      "AM01",
+      "AM02",
+      "Vao aberto"
+    ],
+    [
+      "AM01",
+      "AM05",
+      "Vao aberto"
+    ],
+    [
+      "AM02",
+      "AM10",
+      "P03"
+    ],
+    [
+      "AM10",
+      "AM05",
+      "Vao aberto"
+    ],
+    [
+      "AM03",
+      "AM05",
+      "P04"
+    ],
+    [
+      "AM04",
+      "AM05",
+      "P07 / trecho aberto"
+    ],
+    [
+      "AM06",
+      "AM05",
+      "P05"
+    ],
+    [
+      "AM07",
+      "AM05",
+      "P06"
+    ],
+    [
+      "AM08",
+      "AM07",
+      "P08"
+    ],
+    [
+      "AM09",
+      "AM07",
+      "P09"
+    ]
+  ],
+  "estado": "Dimensoes e distribuicao sujeitas a compatibilizacao no detalhamento"
+}

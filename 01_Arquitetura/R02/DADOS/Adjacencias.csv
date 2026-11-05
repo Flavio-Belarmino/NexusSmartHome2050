@@ -1,0 +1,13 @@
+﻿origem;destino;ligacao
+Exterior;AM01;P01
+Exterior;AM02;P02
+AM01;AM02;Vao aberto
+AM01;AM05;Vao aberto
+AM02;AM10;P03
+AM10;AM05;Vao aberto
+AM03;AM05;P04
+AM04;AM05;P07 / trecho aberto
+AM06;AM05;P05
+AM07;AM05;P06
+AM08;AM07;P08
+AM09;AM07;P09

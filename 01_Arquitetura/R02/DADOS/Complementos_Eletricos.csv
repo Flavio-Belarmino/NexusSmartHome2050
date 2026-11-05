@@ -1,0 +1,10 @@
+﻿item;aplicacao;definicao
+Drivers de potencia;3 canais propostos;"MOSFET logic level, Vgs 5 V; dimensionar corrente"
+Diodos de roda livre;Bomba e solenoide;Dimensionar corrente e tensao reversa
+Regulador 6 V;1 ramal;Dimensionar pela corrente da solenoide
+Regulador 3,3 V;RFID / interface;Dimensionar com consumo dos modulos
+Conversores de nivel;SPI e UART;Interface adequada a direcao e frequencia dos sinais
+Fusiveis e porta-fusiveis;Por ramal de potencia;Definir apos medir consumo e corrente de partida
+Cabos e conectores;Por comprimento dos ramais;Bitola por corrente, queda de tensao e montagem
+Corte de emergencia;Acionamento fisico;Conferir contatos do botao e dispositivo de corte
+Fixacoes e bandeja;Eletronica / agua;Separar umidade, cargas e terminais energizados

@@ -1,0 +1,17 @@
+﻿id;ambiente_ou_funcao;x_maquete_mm;y_maquete_mm;z_maquete_mm;observacao
+L01;AM01;65;80;130;LED / teto
+L02;AM01;65;210;130;LED / teto
+L03;AM02;155;215;130;LED / teto
+L04;AM03;255;45;130;LED / teto
+L05;AM04;390;45;130;LED / teto
+L06;AM06;405;210;130;LED / teto
+L07;AM07;600;210;130;LED / teto
+L08;AM08;535;45;130;LED / teto
+L09;AM09;640;45;130;LED / teto
+L10;AM05;430;120;130;LED / teto
+L11;AM10;260;215;130;LED / teto
+PR01;PIR;65;120;90;Altura proposta
+TH01;DHT22;600;255;85;Altura proposta
+LU01;LDR;415;305;100;Altura proposta
+AC01;RFID;-18;35;55;Altura proposta
+BR01;SERVO;415;288;120;Altura proposta

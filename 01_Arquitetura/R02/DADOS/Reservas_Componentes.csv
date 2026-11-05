@@ -1,0 +1,7 @@
+﻿componente;disponibilidade;encaminhamento
+OV7670;2 cameras;"Posicao e interface em etapa posterior; placas a identificar"
+Modulo rele;1 modulo;"Numero de canais e logica a confirmar; reserva D12"
+Fontes 12 V / 5 A;2 unidades;"Uma no ramal da bomba; segunda como reserva"
+Fontes 5 V / 3 A;2 unidades;"Uma principal; segunda disponivel para ramal auxiliar"
+Bateria / controlador;1 de cada;Ensaio solar separado ate validar carregamento e protecoes
+LEDs e botoes restantes;Saldo do inventario;Disponiveis para sinalizacao e comandos adicionais

@@ -1,0 +1,9 @@
+﻿item;verificacao
+Envelope;Medir comprimento e largura externos das paredes e margens do piso.
+Planta;Conferir coordenadas das divisorias e localizar portas e janelas.
+Cobertura;Conferir laje, divisoes T1/T2/T3, recuo e forma de retirar conjunto.
+Brise;"Medir janela J04, microservo, suporte e curso; ainda sem pecas de corte."
+Base;Definir material, espessura e reforcos conforme peso, apoio e transporte.
+Central;Medir modulos, bornes, botoes e conexoes antes do corte do expositor.
+Potencia;Identificar fontes, controlador solar, rele e drivers necessarios.
+Agua;"Medir bomba, sensor, conexoes e mangueiras; definir bandeja e retorno."

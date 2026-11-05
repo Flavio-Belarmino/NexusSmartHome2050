@@ -1,0 +1,10 @@
+﻿id;funcao;alimentacao;comando;consideracao
+C01;11 LEDs de ambientes;5 V;D22-D32;470 / 560 / 1000 ohm por LED
+C02;LDR / PIR / DHT / HC / touch;Conforme modulo;A0 / D10-D11 / D34-D39;Conferir placa e pinagem
+C03;RFID RC522;3,3 V;SPI D49-D53;Regulador e conversores de nivel
+C04;Microservo do brise;5 V externo;D6;Corrente de pico a medir
+C05;Bomba de recirculacao;12 V;D8 -> driver;"0,5-0,7 A em regime; medir partida"
+C06;Solenoide da porta;6 V regulado;D7 -> driver;Corrente e ciclo de uso a medir
+C07;Fita LED;A identificar;D9 -> driver;Tensao, corrente e trecho a definir
+C08;ESP32 / comunicacao;Entrada da placa;UART D18-D19;Interface logica 5 V / 3,3 V
+C09;Experimento fotovoltaico;12 V nominal;Circuito independente;"1,5 W nominal; controlador a identificar"

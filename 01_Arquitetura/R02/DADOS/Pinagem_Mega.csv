@@ -1,0 +1,32 @@
+﻿funcao;pino;tipo;interface
+L01;D22;LED individual;1 resistor de 470 ohm em serie
+L02;D23;LED individual;1 resistor de 470 ohm em serie
+L03;D24;LED individual;1 resistor de 470 ohm em serie
+L04;D25;LED individual;1 resistor de 470 ohm em serie
+L05;D26;LED individual;1 resistor de 470 ohm em serie
+L06;D27;LED individual;1 resistor de 560 ohm em serie
+L07;D28;LED individual;1 resistor de 560 ohm em serie
+L08;D29;LED individual;1 resistor de 560 ohm em serie
+L09;D30;LED individual;1 resistor de 560 ohm em serie
+L10;D31;LED individual;1 resistor de 560 ohm em serie
+L11;D32;LED individual;1 resistor de 1000 ohm em serie
+VAZAO;D2;Entrada de pulsos;Confirmar tensao e tipo de saida do sensor
+EMERGENCIA;D3;Leitura de contato;Corte fisico dos atuadores independente do software
+SERVO;D6;Sinal do brise;"Alimentacao 5 V externa; GND comum"
+SOLENOIDE;D7;Comando de driver;"Driver + diodo; alimentacao regulada 6 V"
+BOMBA;D8;Comando de driver;"Driver + diodo; alimentacao 12 V"
+FITA LED;D9;Comando de driver;Confirmar tensao e corrente antes de conectar
+HC-SR04 TRIG;D10;Saida de disparo;Leitura do nivel no reservatorio
+HC-SR04 ECHO;D11;Entrada de eco;Sensor alimentado em 5 V
+RELE;D12;Reserva de comando;Confirmar numero de canais e logica do modulo
+DHT22;D34;Dados;Verificar resistor de pull-up no modulo
+PIR;D35;Entrada digital;Confirmar pinagem da placa
+TOUCH 1-4;D36 / D37 / D38 / D39;Entradas digitais;Confirmar modelo e nivel das quatro saidas
+BOTOES 1-4;D40 / D41 / D42 / D43;Comandos locais;"Contato para GND; INPUT_PULLUP"
+LDR;A0;Entrada analogica;Confirmar conexoes do modulo KY-018
+RFID RST;D49;Reset;Conversao de nivel para 3,3 V
+RFID MISO;D50;SPI / CIPO;Interface de nivel compativel com Mega
+RFID MOSI;D51;SPI / COPI;Conversao de nivel para 3,3 V
+RFID SCK;D52;SPI / clock;Conversao de nivel para 3,3 V
+RFID SS;D53;SPI / selecao;Conversao de nivel para 3,3 V
+ESP32 UART;D18 TX1 / D19 RX1;Comunicacao serial;"Interface 5 V / 3,3 V; pinos ESP a definir"
