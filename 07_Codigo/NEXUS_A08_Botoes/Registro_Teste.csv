@@ -1,0 +1,5 @@
+﻿id;procedimento;resposta_esperada;resultado_observado;aprovado;data;responsavel;codigo_commit;evidencia
+BT01;Ligar a placa;Saidas externas apagadas e bloqueio ativo;;;;;;
+BT02;Rearmar e enviar t;Onze LEDs sequenciais;;;;;;
+BT03;Testar cada botao;Uma alternancia por pressionamento;;;;;;
+BT04;Abrir parada e fechar novamente;Bloqueio persiste ate rearme;;;;;;
