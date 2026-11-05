@@ -1,0 +1,5 @@
+﻿id;procedimento;resposta_esperada;resultado_observado;aprovado;data;responsavel;codigo_commit;evidencia
+BR01;Habilitar com servo livre;Comando inicial de 90 graus;;;;;;
+BR02;Solicitar 60, 90 e 120 graus;Deslocamento sem travamento no ensaio livre;;;;;;
+BR03;Capturar claro e escuro e ativar auto;Alvos variam conforme a calibracao;;;;;;
+BR04;Enviar x;Sinal retirado, sem afirmar corte de energia;;;;;;
