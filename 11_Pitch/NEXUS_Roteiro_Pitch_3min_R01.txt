@@ -1,0 +1,39 @@
+Casa Inteligente | NEXUS | ExpoTech
+Roteiro de gravação até 3 minutos
+
+Usar apenas demonstrações que funcionem e tenham sido testadas. Substituir os campos entre colchetes antes de gravar. O regulamento de Engenharia limita o pitch a 3 minutos; o rótulo de 5 minutos do formulário não amplia esse prazo.
+
+00:00 a 00:20 | Equipe e problema
+FALA: Somos a equipe NEXUS e este é o projeto Casa Inteligente, da ExpoTech. Nossa proposta é estudar como os sistemas de uma residência podem trabalhar de forma integrada para usar melhor água e energia, melhorar o conforto e apoiar o controle de acesso.
+IMAGEM: equipe identificada e vista geral da maquete.
+
+00:20 a 00:45 | O projeto de engenharia
+FALA: A casa foi organizada em plantas, cortes, fachadas e desenhos de implantação. Esse conjunto orienta a posição dos componentes e a passagem das conexões. A documentação também precisa compatibilizar a representação arquitetônica com as instalações prediais e com o que demonstramos na maquete.
+IMAGEM: mostrar uma planta legível e a região correspondente da maquete.
+
+00:45 a 01:20 | Primeira demonstração
+FALA: Nesta demonstração, [nome da função testada], o sistema recebe [entrada ou leitura real] e comanda [ação real]. Vamos provocar a condição agora: [descrever o estímulo]. O resultado observado é [descrever exatamente o que a câmera mostra]. Essa resposta utiliza [componentes e versão do programa].
+IMAGEM: capturar entrada e resposta na mesma sequência. Não apresentar uma ação manual como automática.
+
+01:20 a 01:55 | Segunda demonstração
+FALA: A segunda função é [nome da função testada]. Aqui, [entrada real] provoca [resposta real]. Esta parte se relaciona ao projeto de [água, conforto, iluminação ou acesso] porque [explicar a interface]. O teste foi registrado em [identificação da evidência].
+IMAGEM: mostrar o mecanismo e o registro correspondente. Se houver simulação computacional, mostrar a execução real e identificá-la.
+
+01:55 a 02:25 | Integração e escolhas
+FALA: Os dispositivos precisam ser integrados à arquitetura, às fontes de alimentação e aos percursos de instalação. Os desenhos e a lista de materiais registram essas relações. Para o cenário de 2050, a equipe adotou [decisão técnica efetivamente justificada] para [benefício sustentado pelo projeto].
+IMAGEM: uma tela com esquema de integração ou detalhe construtivo, sem textos pequenos.
+
+02:25 a 02:45 | Validação e limites
+FALA: Na versão apresentada, validamos [funções e testes efetivamente concluídos]. O que permanece como proposta ou estudo está identificado na documentação. [Informar um limite técnico real e como a equipe o tratou, sem prometer recurso inexistente.]
+IMAGEM: resultado de teste, tabela simples ou detalhe que comprove a fala.
+
+02:45 a 03:00 | Fechamento
+FALA: O NEXUS conecta decisões de engenharia à demonstração dos sistemas. A documentação, os desenhos e o código estão organizados no repositório público [nome e endereço conferidos]. Este é o nosso projeto Casa Inteligente para a ExpoTech.
+IMAGEM: nome da equipe e link/QR conferido.
+
+ANTES DE PUBLICAR
+- Cronometrar a gravação completa; máximo de 3 minutos.
+- Conferir áudio, enquadramento e legibilidade das plantas.
+- Mostrar a função funcionando, não somente narrá-la.
+- Confirmar que as afirmações batem com código e resultados.
+- Abrir o link do vídeo sem a conta do proprietário antes de cadastrar no portal.
