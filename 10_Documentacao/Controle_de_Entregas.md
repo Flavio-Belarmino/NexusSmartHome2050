@@ -7,16 +7,16 @@ Casa Inteligente | NEXUS | ExpoTech. Categoria BLUEPRINT. Publicação de trabal
 | Civil, arquitetura e implantação | PDF R02, CAD, dimensões e adjacências | Conferir cotas, incluir garagem, justificar sistemas e materiais da residência |
 | Elétrica residencial | Elétrica DC da maquete como estudo separado | Planta predial, cargas, quadro/unifilar, dimensionamento e entrada renovável |
 | Hidráulica residencial | Proposta de ensaio de água na maquete | Redes fria/quente, esgoto/ventilação, pluvial/reúso e cálculos |
-| Automação e rede | Especificação funcional R01 e pinagem preliminar R02 | Implementar, documentar comunicação e registrar testes |
-| Garagem | Regras de controle e testes propostos | Medir carrinho, definir geometria, atuação e detecção, construir e validar |
+| Automação e rede | Especificação, pinagem e módulos de bancada compilados; supervisor USB preparado | Ensaiar módulos, integrar firmware e desenvolver a comunicação de rede |
+| Garagem | Simulador funcional de sequência e testes de software | Medir carrinho, definir geometria, atuação e detecção, construir e validar |
 | Segurança | Inventário e regras propostas | Detalhar acesso, intrusão, incêndio, vazamento e monitoramento |
 | BOM e memorial ESG | Inventário e memorial base | Completar quantitativos, custos, justificativas e indicadores sustentados |
-| Código comentado | Gerador dos desenhos e firmware inicial A01 de iluminação | Ensaiar A01 na bancada, acrescentar os demais módulos e integrar |
-| Protótipo funcional | Ainda sem montagem ou ensaio registrado | Demonstrar funcionamento físico ou simulação computacional funcional |
+| Código comentado | Gerador, A01 a A05, A08/A09, supervisor e simulador de sequência | Ensaiar fisicamente e consolidar versão integrada |
+| Protótipo funcional | Uma parte funcional simulada, a sequência da garagem; montagem física pendente | Demonstrar o conjunto das funções escolhidas, sem tratar a simulação parcial como integração completa |
 | Vídeo pitch | Roteiro de até 3 minutos | Preencher com fatos, gravar demonstrações e publicar link acessível |
 | Repositório público | Documentação organizada nesta publicação | Manter os resultados e a revisão de entrega identificados |
 | Defesa presencial | Regras gerais disponíveis | Confirmar professor, dia e horário; todos devem dominar o conjunto |
 
 O regulamento prevê defesa de **09 a 13/11/2026** e exposição em **28/11/2026**. O item 9 veda alterações após a avaliação individual. O item 4 menciona feedback de melhorias; confirmar com o professor como conciliar esses pontos antes de planejar mudanças posteriores.
 
-Não há comprovação de economia, autonomia energética, câmeras em operação, dashboard ou integração completa nesta revisão.
+Não há comprovação de economia, autonomia energética, câmeras em operação ou integração física completa nesta revisão. O supervisor USB e o simulador possuem validações de software; isso não demonstra comunicação Mega/ESP32 ou uma rede residencial já funcionando.

@@ -27,7 +27,7 @@ O projeto elétrico residencial será desenvolvido como estudo acadêmico separa
 
 O projeto hidráulico seguirá a mesma sequência: premissas, pontos de uso, redes, cálculo e compatibilização. Nenhum desses projetos depende de já haver LED colado ou sensor fixado na casa.
 
-Depois do primeiro ensaio de iluminação, os módulos de ambiente, brise, acesso e água poderão ser preparados separadamente. A garagem seguirá como módulo próprio, com geometria e atuação definidas quando o carrinho e o mecanismo forem medidos.
+Os módulos de ambiente, brise, acesso, água e comandos já têm programas de bancada preparados no [kit R02](Guia_Bancada_Modulos.md). A garagem tem uma simulação funcional de sequência, com geometria e atuação físicas ainda dependentes do carrinho e do mecanismo. Ensaiar os programas separadamente antes da revisão integrada.
 
 ## Critério para integrar na casa
 
