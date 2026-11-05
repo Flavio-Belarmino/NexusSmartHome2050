@@ -1,0 +1,149 @@
+
+
+ESPECIFICAÇÃO FUNCIONAL DAS AUTOMAÇÕES
+
+Casa Inteligente | NEXUS | ExpoTech
+R01 | 04 de novembro de 2026 | Maquete acadêmica em preparação para montagem
+
+Esta revisão define entradas, decisões e respostas para orientar a programação e a instalação. A garagem foi acrescentada ao escopo, preservando as funções já previstas para os demais sistemas. As regras são propostas de projeto; os resultados serão registrados após os ensaios.
+
+ID | Função | Base de componentes
+A01 | Iluminação por presença e luminosidade | LEDs, PIR, LDR e resistores individuais.
+A02 | Brise automatizado | Microservo e sinal de comando/luminosidade.
+A03 | Controle de acesso | RFID RC522 e solenoide com acionamento próprio.
+A04 | Monitoramento ambiental | DHT22 para temperatura e umidade.
+A05 | Água e nível | Bomba, sensor de vazão e HC-SR04.
+A06 | Ensaio de energia solar | Painel, controlador e bateria a compatibilizar.
+A07 | Portão da garagem | Atuador próprio e detecções de aproximação/passagem.
+A08 | Segurança e supervisão | Presença, acesso e proposta de câmeras/alarmes.
+
+
+ARQUITETURA DE CONTROLE PROPOSTA
+
+Mega: leitura de sensores e comandos locais. ESP32: comunicação/supervisão, conforme a interface definida na implementação. Os módulos da casa e da garagem devem poder ser testados separadamente e depois integrados.
+
+A quantidade atual de componentes é o ponto de partida. Complementos serão especificados conforme o mecanismo e a versão implementada. O servo do brise e o HC-SR04 do reservatório continuam reservados às suas funções.
+
+
+
+REGRAS DE ILUMINAÇÃO CONFORTO E ACESSO
+
+Função | Entrada e decisão | Resposta prevista
+A01 Iluminação | Modo automático ativo, luminosidade abaixo do limite e presença confirmada. | Acender o circuito escolhido. Ausência inicia o tempo de permanência; apagar ao terminar se não houver nova presença.
+A02 Brise | Modo automático ou comando local. No automático, leitura de luminosidade filtrada. | Mover para posições de estudo, usando limites mecânicos e faixa de transição para evitar oscilações.
+A03 Acesso | Identificador lido e comparação com a lista de cartões autorizados. | Autorizar ou recusar o comando de liberação. Registrar a decisão e retornar ao estado previsto após o intervalo de acesso.
+A04 Ambiente | Leitura periódica de temperatura e umidade. | Apresentar dados e identificar leitura inválida. Climatização ativa depende de atuador e projeto adicionais.
+
+
+PARÂMETROS QUE O PROGRAMA DEVERÁ PERMITIR AJUSTAR
+
+Limiares do LDR, tempo de permanência da iluminação, posições e velocidade do brise, intervalo de liberação do acesso, período de leitura ambiental e tratamento de leituras inválidas. Os valores não ficam fixados sem ensaio.
+
+
+MODOS DE USO
+
+Automático: regras dos sensores. Manual: comandos locais para ensaio ou operação. Emergência: prevalece sobre comandos automáticos e exige o comportamento físico de corte/liberação definido no projeto de alimentação e acesso.
+
+
+CRITÉRIOS DE ACEITAÇÃO
+
+A iluminação não deve alternar repetidamente perto do limiar. O brise deve respeitar o curso físico. Cartão não autorizado não deve liberar a porta. Uma leitura inválida não deve ser apresentada como valor ambiental confiável.
+
+
+
+REGRAS DE ÁGUA ENERGIA E SUPERVISÃO
+
+
+A05 RECIRCULAÇÃO E MONITORAMENTO DA ÁGUA
+
+Comando de ensaio solicita o acionamento da bomba. O controlador verifica a condição de nível validada e as condições de montagem antes da partida. Durante o funcionamento, registra pulsos de vazão e nível, conforme a calibração dos sensores.
+
+O programa deve interromper o ensaio por parada manual/emergência, nível inadequado, leitura inválida relevante ou falha de fluxo após a janela de partida definida no teste. A bomba não deve reiniciar automaticamente após uma falha sem uma condição de rearme definida.
+
+Posição do sensor de vazão, altura do HC-SR04, faixas de leitura e tempo de partida precisam ser verificados no circuito real. Vazão e nível, isoladamente, não comprovam a detecção de vazamentos da residência.
+
+
+A06 EXPERIMENTO SOLAR
+
+Manter o ensaio separado da alimentação principal até identificar e compatibilizar painel, bateria, controlador e proteções. O registro deve mostrar a configuração e as grandezas efetivamente medidas. Não declarar autonomia ou carregamento validado sem esses ensaios.
+
+
+A08 SEGURANÇA E SUPERVISÃO
+
+Consolidar os eventos de presença e acesso no controle. Para incêndio, vazamento e CFTV, identificar os dispositivos e a forma de demonstração. A lista disponível contém câmeras OV7670, mas não comprova que já haja captura e processamento funcionando.
+
+A especificação residencial deverá incluir os sistemas previstos no BLUEPRINT. Na maquete, identificar quais recursos estão implementados, quais são simulados e quais permanecem como proposta.
+
+
+REGISTRO COMUM DE EVENTOS
+
+Cada evento deverá guardar, ao menos durante o teste, identificação da função, condição de entrada, decisão e estado resultante. A forma de exibição e de armazenamento será escolhida na implementação, sem presumir um painel ou aplicativo já existente.
+
+
+
+PORTÃO AUTOMÁTICO DA GARAGEM
+
+Objetivo: permitir aproximação, passagem e fechamento automático em condições conhecidas. A geometria da garagem e o dimensionamento do atuador dependem do carrinho, do vão e do mecanismo; a sequência de controle já pode ser definida.
+
+Estado | Comportamento e transição
+Inicialização | Ler sensores e posição. Se a posição não for conhecida, aguardar procedimento manual de referência, sem movimento automático cego.
+Fechado | Aguardar solicitação de entrada ou saída por aproximação, ou comando local autorizado.
+Abrindo | Comandar abertura. Ao confirmar posição aberta, parar o movimento e passar a Aberto. Falha ou tempo excedido levam à parada/falha.
+Aberto | Aguardar passagem confirmada e liberação do vão durante o intervalo de segurança definido nos testes. Sem sequência válida ou com sensor inconsistente, manter a condição de espera.
+Fechando | Comandar fechamento após as condições anteriores. Presença no vão determina interrupção e reabertura. Confirmar posição fechada antes de voltar ao estado Fechado.
+Falha ou emergência | Interromper o acionamento conforme o circuito definido; identificar a causa. Retomar somente após verificação e rearme controlado.
+
+
+ENTRADAS E SAÍDAS FUNCIONAIS
+
+Entradas: aproximação externa, aproximação interna, presença no vão, confirmação de posição e comando local. Saídas: abrir, fechar/parar e indicação de estado. São sinais lógicos do projeto; os pinos e as interfaces dependerão do atuador escolhido.
+
+O fechamento não será baseado apenas em um atraso após a abertura. A sequência deve considerar passagem e vão livre. Uma única leitura externa de distância não deve ser tratada como confirmação de que o carro atravessou a garagem.
+
+
+
+COMPLEMENTOS PREVISTOS POR FUNÇÃO
+
+Pré-lista para especificação, não pedido final de compra. Verificar primeiro o conteúdo dos componentes já adquiridos. Modelos, capacidades e quantidades finais serão fechados com a montagem e as medidas.
+
+Aplicação | Complemento a prever | Base para especificar
+Garagem | 1 conjunto de atuação próprio | Massa e dimensões do portão, curso, esforço e mecanismo.
+Garagem | Detecções externa, interna e do vão | Três funções de detecção; selecionar dispositivos conforme campo de leitura e geometria.
+Garagem | Confirmação de posição aberta e fechada | Definir retorno do atuador ou sensores de fim de curso conforme o mecanismo.
+Bomba e solenoide | Acionamento e proteção das duas cargas | Confirmar drivers, proteção de cargas indutivas e alimentação da solenoide.
+RFID e comunicação | Interfaces e alimentação compatíveis | Confirmar módulos e conversão de níveis entre controladores e periféricos.
+Iluminação e fita | Resistores, acionamento e conexões | Um resistor por LED; identificar a fita antes de especificar sua alimentação/controle.
+Segurança | Detecção de incêndio/vazamento e sinalização | Escolher a demonstração e os dispositivos que a versão física realmente utilizará.
+Instalação | Cabos, conectores, bornes e fixações | Quantificar por ponto e percurso; prever desmontagem e identificação dos ramais.
+
+
+RESERVA DOS COMPONENTES EXISTENTES
+
+Manter o microservo já listado para o brise e o HC-SR04 para o reservatório. Prever componentes próprios para o portão. O relé disponível não representa automaticamente canais suficientes para todas as cargas.
+
+
+
+ROTEIRO DE IMPLEMENTAÇÃO E ENSAIO
+
+Etapa | Entrega verificável
+1 Entradas | Ler um sensor de cada vez e registrar sua condição normal, mudança de estado e falha.
+2 Saídas | Verificar LEDs, brise e liberação de acesso separadamente, com interfaces e alimentação conferidas.
+3 Água | Ensaiar a recirculação em bandeja e registrar nível, vazão, partida e parada antes da integração à maquete.
+4 Garagem | Montar um protótipo do mecanismo e validar aproximação, passagem, posição, obstáculo e rearme.
+5 Integração | Executar funções em sequência e simultaneamente; verificar reinício, comandos manuais e emergência.
+6 Documentação | Relacionar versão do código, conexões instaladas, parâmetros de teste e evidências do resultado.
+
+
+O QUE O PRÓXIMO PROGRAMA DEVE CONTER
+
+Módulos separados por função, entradas identificadas, parâmetros ajustáveis, estados do portão, comandos manuais e registro de falhas. O mapa de pinos R02 é uma proposta a compatibilizar; a garagem ainda precisa de alocação específica.
+
+
+O QUE JÁ ESTÁ DEFINIDO NESTA REVISÃO
+
+Funções previstas, regras de entrada/decisão/saída, sequência do portão, reservas dos componentes e critérios de ensaio. As medidas dos carrinhos ficam restritas ao desenho da garagem e ao dimensionamento do seu mecanismo.
+
+
+REFERÊNCIAS DE PROJETO
+
+Inventário de componentes recebido; documentação NEXUS R02; regulamento Engineering 2026.2 e roteiro BLUEPRINT. Atualizações informadas em 04/11/2026: maquete ainda não montada, extensão em papelão Paraná para garagem e possibilidade de aquisição de componentes adicionais.
