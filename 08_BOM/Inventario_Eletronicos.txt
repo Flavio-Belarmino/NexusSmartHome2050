@@ -1,0 +1,58 @@
+Casa Inteligente | NEXUS | ExpoTech
+Inventário de eletrônicos
+
+01. ARDUINO MEGA 2560 C/ CABO | Quantidade: 1
+02. ESP32 DUAL CORE WIFI/BLOETOOTH | Quantidade: 1
+03. CONTROLADOR DE CARGA | Quantidade: 1
+04. COMPONENTES ELETRONICOS KG | Quantidade: 1
+05. BATERIA 12V 7A | Quantidade: 1
+06. FONTE 12V 5A | Quantidade: 2
+07. FONTE 5V 3A | Quantidade: 2
+08. FITA DE LED PC 10M | Quantidade: 1
+09. MODULO SENSOR TOQUE CAPACITIVO 4 CANAIS TTP32 | Quantidade: 1
+10. MODULO SENSOR SONAR HC-SR04 | Quantidade: 1
+11. MODULO SENSNOR DE LUMINOSIDADE LDR 5MM 3 PINOS KY-018 | Quantidade: 1
+12. SENSOR DE UMIDADE E TEMPERATURA DHT22- AM2302 TEMPERATUARA -40ºC A +80ºC TENSÃO 3a 5V | Quantidade: 1
+13. SENSOR DE MOVIMENTO E PRESENÇA SR-501 | Quantidade: 1
+14. SENSOR DE FLUXO OU VAZÃO TIPO HALL-75A 570ML/MIN | Quantidade: 1
+15. MINI BOMBA D'AGUA RS-385 C DE TRABALHO 0,5-0,7A TENSÃO 12V | Quantidade: 1
+16. LED AMARELO | Quantidade: 5
+17. LED VERDE | Quantidade: 5
+18. LED VERMELHO | Quantidade: 5
+19. LED BRANCO | Quantidade: 20
+20. MICRO SERVO 9G 3,0-7,2V 180º | Quantidade: 1
+21. MINI SOLENOIDE 6V FECHADURA ELETRONICA | Quantidade: 1
+22. MINI PLACA SOLAR FOTOVOTAICO 12V 125mA 85X115MM 1,5W | Quantidade: 1
+23. MODULO RELÊ 5V 10A | Quantidade: 1
+24. BOTÕES | Quantidade: 20
+25. BOTÃO DE EMERGÊNCIA | Quantidade: 1
+26. KIT LEITOR REFID RC522-13,56MHZ CARTÃO E CHAVEIRO | Quantidade: 1
+27. PROTOBOARD 830 PONTOS | Quantidade: 1
+28. KIT JUNPER MACHO X MACHO 40 PEÇAS | Quantidade: 1
+29. KIT JUMPER FÊMEA X FÊMEA 40 PEÇAS | Quantidade: 1
+30. KIT JUMPER MACHO X FÊMEA 40 PEÇAS | Quantidade: 1
+31. CAMÊRA VGA OV7670 | Quantidade: 2
+32. RESISTOR 1R | Quantidade: 5
+33. RESISTOR 10R | Quantidade: 5
+34. RESISTOR 47R | Quantidade: 5
+35. RESISTOR 56R | Quantidade: 5
+36. RESISTOR 100R | Quantidade: 5
+37. RESISTOR 220R | Quantidade: 5
+38. RESISTOR 330R | Quantidade: 5
+39. RESISTOR 470R | Quantidade: 5
+40. RESISTOR 560R | Quantidade: 5
+41. RESISTOR 1K | Quantidade: 5
+42. RESISTOR 10K | Quantidade: 5
+43. RESISTOR 47K | Quantidade: 5
+44. RESISTOR 56K | Quantidade: 5
+45. RESISTOR 100K | Quantidade: 5
+46. RESISTOR 220K | Quantidade: 5
+47. RESISTOR 330K | Quantidade: 5
+48. RESISTOR 470K | Quantidade: 5
+49. RESISTOR 560K | Quantidade: 5
+50. RESISTOR 1M | Quantidade: 5
+51. RESISTOR 10M | Quantidade: 5
+
+As quantidades reproduzem o inventário recebido. Disponibilidade não comprova instalação ou teste.
+Identificar especialmente controlador, bateria, fita LED, módulo de toque, sensor de vazão e relé.
+A BOM final também precisa dos materiais civis, tubos, cabos, conectores, fixações e complementos elétricos.

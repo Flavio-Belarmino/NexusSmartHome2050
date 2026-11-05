@@ -1,0 +1,206 @@
+[
+  {
+    "item": "ARDUINO MEGA 2560 C/ CABO",
+    "quantidade": 1
+  },
+  {
+    "item": "ESP32 DUAL CORE WIFI/BLOETOOTH",
+    "quantidade": 1
+  },
+  {
+    "item": "CONTROLADOR DE CARGA",
+    "quantidade": 1
+  },
+  {
+    "item": "COMPONENTES ELETRONICOS KG",
+    "quantidade": 1
+  },
+  {
+    "item": "BATERIA 12V 7A",
+    "quantidade": 1
+  },
+  {
+    "item": "FONTE 12V 5A",
+    "quantidade": 2
+  },
+  {
+    "item": "FONTE 5V 3A",
+    "quantidade": 2
+  },
+  {
+    "item": "FITA DE LED PC 10M",
+    "quantidade": 1
+  },
+  {
+    "item": "MODULO SENSOR TOQUE CAPACITIVO 4 CANAIS TTP32",
+    "quantidade": 1
+  },
+  {
+    "item": "MODULO SENSOR SONAR HC-SR04",
+    "quantidade": 1
+  },
+  {
+    "item": "MODULO SENSNOR DE LUMINOSIDADE LDR 5MM 3 PINOS KY-018",
+    "quantidade": 1
+  },
+  {
+    "item": "SENSOR DE UMIDADE E TEMPERATURA DHT22- AM2302 TEMPERATUARA -40ºC A +80ºC TENSÃO 3a 5V",
+    "quantidade": 1
+  },
+  {
+    "item": "SENSOR DE MOVIMENTO E PRESENÇA SR-501",
+    "quantidade": 1
+  },
+  {
+    "item": "SENSOR DE FLUXO OU VAZÃO TIPO HALL-75A 570ML/MIN",
+    "quantidade": 1
+  },
+  {
+    "item": "MINI BOMBA D'AGUA RS-385 C DE TRABALHO 0,5-0,7A TENSÃO 12V",
+    "quantidade": 1
+  },
+  {
+    "item": "LED AMARELO",
+    "quantidade": 5
+  },
+  {
+    "item": "LED VERDE",
+    "quantidade": 5
+  },
+  {
+    "item": "LED VERMELHO",
+    "quantidade": 5
+  },
+  {
+    "item": "LED BRANCO",
+    "quantidade": 20
+  },
+  {
+    "item": "MICRO SERVO 9G 3,0-7,2V 180º",
+    "quantidade": 1
+  },
+  {
+    "item": "MINI SOLENOIDE 6V FECHADURA ELETRONICA",
+    "quantidade": 1
+  },
+  {
+    "item": "MINI PLACA SOLAR FOTOVOTAICO 12V 125mA 85X115MM 1,5W",
+    "quantidade": 1
+  },
+  {
+    "item": "MODULO RELÊ 5V 10A",
+    "quantidade": 1
+  },
+  {
+    "item": "BOTÕES",
+    "quantidade": 20
+  },
+  {
+    "item": "BOTÃO DE EMERGÊNCIA",
+    "quantidade": 1
+  },
+  {
+    "item": "KIT LEITOR REFID RC522-13,56MHZ CARTÃO E CHAVEIRO",
+    "quantidade": 1
+  },
+  {
+    "item": "PROTOBOARD 830 PONTOS",
+    "quantidade": 1
+  },
+  {
+    "item": "KIT JUNPER MACHO X MACHO 40 PEÇAS",
+    "quantidade": 1
+  },
+  {
+    "item": "KIT JUMPER FÊMEA X FÊMEA 40 PEÇAS",
+    "quantidade": 1
+  },
+  {
+    "item": "KIT JUMPER MACHO X FÊMEA 40 PEÇAS",
+    "quantidade": 1
+  },
+  {
+    "item": "CAMÊRA VGA OV7670",
+    "quantidade": 2
+  },
+  {
+    "item": "RESISTOR 1R",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 10R",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 47R",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 56R",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 100R",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 220R",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 330R",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 470R",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 560R",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 1K",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 10K",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 47K",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 56K",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 100K",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 220K",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 330K",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 470K",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 560K",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 1M",
+    "quantidade": 5
+  },
+  {
+    "item": "RESISTOR 10M",
+    "quantidade": 5
+  }
+]
