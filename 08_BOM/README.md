@@ -5,3 +5,5 @@
 Conferir os modelos genéricos, tensão, corrente e interfaces dos módulos. A lista final ainda precisa incluir cabos, drivers, proteções, conectores, fixações, tubos, materiais da maquete e complementos da garagem, com quantidades instaladas e custos reais.
 
 A extensão da garagem será em papelão Paraná; espessura, dimensões e mecanismo ainda serão definidos. A [especificação R01](../04_Automacao/NEXUS_Especificacao_Automacoes_R01.txt) apresenta uma pré-lista funcional de complementos, sem constituir pedido final de compra.
+
+A [conferência de identificação e complementos](Identificacao_e_Complementos.md) reúne o que falta verificar em cada componente, preservando as reservas do servo do brise e do HC-SR04 do reservatório.
