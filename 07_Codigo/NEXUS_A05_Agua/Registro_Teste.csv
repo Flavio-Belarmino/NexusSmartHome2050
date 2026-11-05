@@ -1,0 +1,6 @@
+﻿id;procedimento;resposta_esperada;resultado_observado;aprovado;data;responsavel;codigo_commit;evidencia
+AG01;Conferir distancia com regua e alvo;Registrar diferenca observada;;;;;;
+AG02;Capturar vazio e cheio;Aceitar apenas geometria valida;;;;;;
+AG03;Pedir permissao e provocar nivel baixo;Permissao cai e falha fica retida;;;;;;
+AG04;Rearmar sem novo pedido;Nao reiniciar sozinho;;;;;;
+AG05;Identificar e calibrar vazao quando disponivel;Registrar modelo, interface e pulsos por litro;;;;;;
