@@ -26,3 +26,9 @@ Os programas de bancada preservam os pinos já propostos na R02. São ensaios se
 - Telemetria deve identificar módulo, validade, origem e tempo. Não exibir demonstração ou dado antigo como medição atual.
 
 O supervisor preparado nesta revisão usa o USB do computador, apenas para leitura. Isso não é ainda a integração Wi-Fi/IoT ou Smart Grid da residência exigida no roteiro BLUEPRINT.
+
+## Rede e segurança R01
+
+O [estudo de rede e segurança](../05_Seguranca/Rede_R01/) preserva a reserva D18 TX1/D19 RX1 e as posições AC01/PR01. Não atribui GPIOs aos novos sensores e não muda a pinagem existente. CT01 é a central da residência; a eletrônica da maquete continua na central externa R02.
+
+O [contrato de telemetria](../05_Seguranca/Rede_R01/Contrato_Telemetria_Proposto.json) é proposta futura, sem ponte MQTT/ESP32 implementada. O simulador de alarmes usa somente entradas virtuais e não se conecta aos sketches, à rede ou ao supervisor USB. A distinção evita tratar os testes de lógica como prova de integração física.
