@@ -25,7 +25,7 @@ O primeiro passo físico é separar os componentes e identificar as marcações 
 
 O [estudo elétrico residencial R01](../02_Eletrica/Residencial_R01/) já distribui iluminação, comandos e tomadas, calcula áreas/perímetros e prevê cargas e circuitos. Usa hipóteses explícitas de alimentação. A próxima revisão deve definir equipamentos e fornecimento, dimensionar cabos/proteções e desenvolver quadro/unifilar, aterramento e entrada renovável. É um estudo separado dos circuitos DC da maquete.
 
-O projeto hidráulico seguirá a mesma sequência: premissas, pontos de uso, redes, cálculo e compatibilização. Nenhum desses projetos depende de já haver LED colado ou sensor fixado na casa.
+A [hidráulica residencial R01](../03_Hidraulica/Residencial_R01/) já propõe pontos de aparelhos/ralos, água fria/quente/não potável, esgoto/ventilação e captação de chuva. Agora precisa de validação dos aparelhos e premissas para dimensionar redes e reservatórios. O [guia de preparação do ensaio](../03_Hidraulica/Residencial_R01/Preparacao_Ensaio_Agua.md) permite iniciar identificação e bancada. Nenhum desses projetos depende de já haver LED colado ou sensor fixado na casa.
 
 Os módulos de ambiente, brise, acesso, água e comandos já têm programas de bancada preparados no [kit R02](Guia_Bancada_Modulos.md). A garagem tem uma simulação funcional de sequência, com geometria e atuação físicas ainda dependentes do carrinho e do mecanismo. Ensaiar os programas separadamente antes da revisão integrada.
 
