@@ -1,0 +1,8 @@
+﻿id;origem;destino;tipo_proposto;vertices_maquete_mm;comprimento_projecao_mm;subidas_descidas_adotadas_mm;comprimento_geometrico_m;reserva_conectores_patchcords;estado
+CB_TD01;CT01;TD01;"Cabo de dados Cat6; conectores/PoE a compatibilizar";[[640, 45], [640, 120], [75, 120], [75, 50]];14200.0;3400;17.6;Nao incluida;"ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+CB_TD02;CT01;TD02;"Cabo de dados Cat6; conectores/PoE a compatibilizar";[[640, 45], [640, 120], [405, 120], [405, 180]];7400.0;3400;10.8;Nao incluida;"ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+CB_TD03;CT01;TD03;"Cabo de dados Cat6; conectores/PoE a compatibilizar";[[640, 45], [640, 120], [620, 120], [620, 200]];3500.0;3400;6.9;Nao incluida;"ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+CB_TD04;CT01;TD04;"Cabo de dados Cat6; conectores/PoE a compatibilizar";[[640, 45], [650, 45], [650, 65]];600.0;2950;3.55;Nao incluida;"ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+CB_AP01;CT01;AP01;"Cabo de dados Cat6; conectores/PoE a compatibilizar";[[640, 45], [640, 120], [360, 120]];7100.0;1100;8.2;Nao incluida;"ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+CB_CM01;CT01;CM01;"Cabo de dados Cat6; conectores/PoE a compatibilizar";[[640, 45], [640, 120], [-25, 120], [-25, 65], [-20, 65]];16000.0;1300;17.3;Nao incluida;"ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+CB_CM02;CT01;CM02;"Cabo de dados Cat6; conectores/PoE a compatibilizar";[[640, 45], [640, 120], [610, 120], [610, 305]];5800.0;1300;7.1;Nao incluida;"ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"

@@ -1,0 +1,14 @@
+CASA INTELIGENTE | NEXUS | ExpoTech
+Simulador de alarmes R01
+
+1. Extrair o ZIP inteiro. Manter Simulador_Alarmes.html e Controle_Alarmes.js na mesma pasta.
+2. Abrir o HTML em um navegador. Nao precisa de internet ou placa.
+3. Armar e marcar RD01. Desarmar: a ocorrencia permanece.
+4. Desmarcar RD01 e limpar. Simular fumaca SM01 com intrusao desarmada.
+5. Silenciar e ativar VA01: a nova causa reativa o indicador visual.
+6. Normalizar, limpar e pausar amostras. Apos mais de 3 s, aparece SEM DADOS.
+7. Exportar o registro, que permanece identificado como SIMULACAO.
+
+Nao existe som real, captura de camera, autenticacao ou acionamento de equipamento.
+Esta simulacao nao substitui um sistema de seguranca ou de deteccao de incendio.
+A logica passou em 18 cenarios de software. A interface visual precisa de conferencia manual.

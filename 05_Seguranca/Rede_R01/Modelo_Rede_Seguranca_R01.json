@@ -1,0 +1,528 @@
+{
+  "premissas": {
+    "projeto": "Casa Inteligente | NEXUS | ExpoTech",
+    "revisao": "Rede e seguranca R01",
+    "data": "2026-11-05",
+    "geometria": "R02 preservada; coordenadas locais, fator 20; alturas propostas",
+    "centrais": "CT01 residencial em AM09. Na maquete, manter central externa da R02; CT01 nao e instrucao para alojar placas em escala",
+    "rede": "Fibra ate ONT a compatibilizar; distribuicao cabeada em estrela e Wi-Fi propostos",
+    "seguranca": "Posicoes e logica academicas, sem declaracao de cobertura/conformidade ou protecao de pessoas",
+    "cameras": "Setas apenas direcao; sem alcance, lentes, pixel/metragem ou reconhecimento",
+    "simulador": "Entradas virtuais locais; nao captura dados nem controla equipamentos",
+    "comprimentos": "Projecao mais subidas/descidas hipoteticas a plano 2600 mm; sem folgas, patchcords ou reserva; nao liberar compra",
+    "garagem": "Dimensoes/atuador/sensores independentes, ainda nao localizados nesta revisao"
+  },
+  "pontos": [
+    {
+      "id": "CT01",
+      "ambiente": "AM09",
+      "funcao": "Central de dados/automacao",
+      "x_maquete_mm": 640,
+      "y_maquete_mm": 45,
+      "z_maquete_mm": 75.0,
+      "x_arquitetura_mm": 12800.0,
+      "y_arquitetura_mm": 900.0,
+      "z_arquitetura_mm": 1500,
+      "grupo": "REDE",
+      "estado": "PROPOSTO",
+      "observacao": "ONT/roteador/switch; alojamento, ventilacao e energia a detalhar"
+    },
+    {
+      "id": "AP01",
+      "ambiente": "AM05",
+      "funcao": "Ponto de acesso Wi-Fi",
+      "x_maquete_mm": 360,
+      "y_maquete_mm": 120,
+      "z_maquete_mm": 130.0,
+      "x_arquitetura_mm": 7200.0,
+      "y_arquitetura_mm": 2400.0,
+      "z_arquitetura_mm": 2600,
+      "grupo": "REDE",
+      "estado": "PROPOSTO",
+      "observacao": "Posicao inicial; sem garantia de cobertura ou capacidade"
+    },
+    {
+      "id": "TD01",
+      "ambiente": "AM01",
+      "funcao": "Ponto de dados social",
+      "x_maquete_mm": 75,
+      "y_maquete_mm": 50,
+      "z_maquete_mm": 15.0,
+      "x_arquitetura_mm": 1500.0,
+      "y_arquitetura_mm": 1000.0,
+      "z_arquitetura_mm": 300,
+      "grupo": "REDE",
+      "estado": "PROPOSTO",
+      "observacao": "Posicao de uso; caixa/parede e mobiliario a compatibilizar"
+    },
+    {
+      "id": "TD02",
+      "ambiente": "AM06",
+      "funcao": "Ponto de dados quarto 1",
+      "x_maquete_mm": 405,
+      "y_maquete_mm": 180,
+      "z_maquete_mm": 15.0,
+      "x_arquitetura_mm": 8100.0,
+      "y_arquitetura_mm": 3600.0,
+      "z_arquitetura_mm": 300,
+      "grupo": "REDE",
+      "estado": "PROPOSTO",
+      "observacao": "Posicao de uso; caixa/parede e mobiliario a compatibilizar"
+    },
+    {
+      "id": "TD03",
+      "ambiente": "AM07",
+      "funcao": "Ponto de dados quarto 2",
+      "x_maquete_mm": 620,
+      "y_maquete_mm": 200,
+      "z_maquete_mm": 15.0,
+      "x_arquitetura_mm": 12400.0,
+      "y_arquitetura_mm": 4000.0,
+      "z_arquitetura_mm": 300,
+      "grupo": "REDE",
+      "estado": "PROPOSTO",
+      "observacao": "Posicao de uso; caixa/parede e mobiliario a compatibilizar"
+    },
+    {
+      "id": "TD04",
+      "ambiente": "AM09",
+      "funcao": "Ponto de dados de manutencao",
+      "x_maquete_mm": 650,
+      "y_maquete_mm": 65,
+      "z_maquete_mm": 37.5,
+      "x_arquitetura_mm": 13000.0,
+      "y_arquitetura_mm": 1300.0,
+      "z_arquitetura_mm": 750,
+      "grupo": "REDE",
+      "estado": "PROPOSTO",
+      "observacao": "Posto de uso proximo a central"
+    },
+    {
+      "id": "CM01",
+      "ambiente": "EXTERIOR",
+      "funcao": "Camera entrada",
+      "x_maquete_mm": -20,
+      "y_maquete_mm": 65,
+      "z_maquete_mm": 120.0,
+      "x_arquitetura_mm": -400.0,
+      "y_arquitetura_mm": 1300.0,
+      "z_arquitetura_mm": 2400,
+      "grupo": "SEGURANCA",
+      "estado": "PROPOSTO",
+      "observacao": "Reserva residencial IP; nao equivale a OV7670 conectada"
+    },
+    {
+      "id": "CM02",
+      "ambiente": "EXTERIOR",
+      "funcao": "Camera lateral",
+      "x_maquete_mm": 610,
+      "y_maquete_mm": 305,
+      "z_maquete_mm": 120.0,
+      "x_arquitetura_mm": 12200.0,
+      "y_arquitetura_mm": 6100.0,
+      "z_arquitetura_mm": 2400,
+      "grupo": "SEGURANCA",
+      "estado": "PROPOSTO",
+      "observacao": "Enquadramento e garagem a compatibilizar; sem campo de visao calculado"
+    },
+    {
+      "id": "AC01",
+      "ambiente": "EXTERIOR",
+      "funcao": "RFID",
+      "x_maquete_mm": -18,
+      "y_maquete_mm": 35,
+      "z_maquete_mm": 55.0,
+      "x_arquitetura_mm": -360.0,
+      "y_arquitetura_mm": 700.0,
+      "z_arquitetura_mm": 1100,
+      "grupo": "SEGURANCA",
+      "estado": "POSICAO_R02",
+      "observacao": "Leitor do inventario; ensaio A03 compara UID, sem liberar fechadura"
+    },
+    {
+      "id": "PR01",
+      "ambiente": "AM01",
+      "funcao": "Presenca/intrusao",
+      "x_maquete_mm": 65,
+      "y_maquete_mm": 120,
+      "z_maquete_mm": 90.0,
+      "x_arquitetura_mm": 1300.0,
+      "y_arquitetura_mm": 2400.0,
+      "z_arquitetura_mm": 1800,
+      "grupo": "SEGURANCA",
+      "estado": "POSICAO_R02",
+      "observacao": "Mesmo PIR da iluminacao; compartilhar leitura, sem duplicar sensor"
+    },
+    {
+      "id": "RD01",
+      "ambiente": "PORTA_P01",
+      "funcao": "Contato porta principal",
+      "x_maquete_mm": 1.5,
+      "y_maquete_mm": 34.5,
+      "z_maquete_mm": 105.0,
+      "x_arquitetura_mm": 30.0,
+      "y_arquitetura_mm": 690.0,
+      "z_arquitetura_mm": 2100,
+      "grupo": "SEGURANCA",
+      "estado": "COMPLEMENTO",
+      "observacao": "Contato/suporte e interface ainda a definir"
+    },
+    {
+      "id": "RD02",
+      "ambiente": "PORTA_P02",
+      "funcao": "Contato porta lateral",
+      "x_maquete_mm": 184.5,
+      "y_maquete_mm": 286.5,
+      "z_maquete_mm": 105.0,
+      "x_arquitetura_mm": 3690.0,
+      "y_arquitetura_mm": 5730.0,
+      "z_arquitetura_mm": 2100,
+      "grupo": "SEGURANCA",
+      "estado": "COMPLEMENTO",
+      "observacao": "Contato/suporte e interface ainda a definir"
+    },
+    {
+      "id": "SM01",
+      "ambiente": "AM05",
+      "funcao": "Referencia de fumaca",
+      "x_maquete_mm": 430,
+      "y_maquete_mm": 120,
+      "z_maquete_mm": 130.0,
+      "x_arquitetura_mm": 8600.0,
+      "y_arquitetura_mm": 2400.0,
+      "z_arquitetura_mm": 2600,
+      "grupo": "SEGURANCA",
+      "estado": "COMPLEMENTO",
+      "observacao": "Posicao academica; nao dimensiona deteccao/cobertura de incendio"
+    },
+    {
+      "id": "VA01",
+      "ambiente": "AM02",
+      "funcao": "Agua junto a pia",
+      "x_maquete_mm": 192,
+      "y_maquete_mm": 181,
+      "z_maquete_mm": 0.0,
+      "x_arquitetura_mm": 3840.0,
+      "y_arquitetura_mm": 3620.0,
+      "z_arquitetura_mm": 0,
+      "grupo": "SEGURANCA",
+      "estado": "COMPLEMENTO",
+      "observacao": "Sensor dedicado e ponto real de acumulacao a definir"
+    },
+    {
+      "id": "VA02",
+      "ambiente": "AM04",
+      "funcao": "Agua junto a lavadora",
+      "x_maquete_mm": 467,
+      "y_maquete_mm": 21,
+      "z_maquete_mm": 0.0,
+      "x_arquitetura_mm": 9340.0,
+      "y_arquitetura_mm": 420.0,
+      "z_arquitetura_mm": 0,
+      "grupo": "SEGURANCA",
+      "estado": "COMPLEMENTO",
+      "observacao": "Sensor dedicado; vazao isolada nao confirma vazamento"
+    },
+    {
+      "id": "AL01",
+      "ambiente": "AM09",
+      "funcao": "Sinalizacao de alarme",
+      "x_maquete_mm": 640,
+      "y_maquete_mm": 80,
+      "z_maquete_mm": 110.0,
+      "x_arquitetura_mm": 12800.0,
+      "y_arquitetura_mm": 1600.0,
+      "z_arquitetura_mm": 2200,
+      "grupo": "SEGURANCA",
+      "estado": "COMPLEMENTO",
+      "observacao": "Indicacao demonstrativa; carga/driver e sinalizacao real a definir"
+    }
+  ],
+  "enlaces": [
+    {
+      "id": "CB_TD01",
+      "origem": "CT01",
+      "destino": "TD01",
+      "tipo_proposto": "Cabo de dados Cat6; conectores/PoE a compatibilizar",
+      "vertices_maquete_mm": [
+        [
+          640,
+          45
+        ],
+        [
+          640,
+          120
+        ],
+        [
+          75,
+          120
+        ],
+        [
+          75,
+          50
+        ]
+      ],
+      "comprimento_projecao_mm": 14200.0,
+      "subidas_descidas_adotadas_mm": 3400,
+      "comprimento_geometrico_m": 17.6,
+      "reserva_conectores_patchcords": "Nao incluida",
+      "estado": "ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+    },
+    {
+      "id": "CB_TD02",
+      "origem": "CT01",
+      "destino": "TD02",
+      "tipo_proposto": "Cabo de dados Cat6; conectores/PoE a compatibilizar",
+      "vertices_maquete_mm": [
+        [
+          640,
+          45
+        ],
+        [
+          640,
+          120
+        ],
+        [
+          405,
+          120
+        ],
+        [
+          405,
+          180
+        ]
+      ],
+      "comprimento_projecao_mm": 7400.0,
+      "subidas_descidas_adotadas_mm": 3400,
+      "comprimento_geometrico_m": 10.8,
+      "reserva_conectores_patchcords": "Nao incluida",
+      "estado": "ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+    },
+    {
+      "id": "CB_TD03",
+      "origem": "CT01",
+      "destino": "TD03",
+      "tipo_proposto": "Cabo de dados Cat6; conectores/PoE a compatibilizar",
+      "vertices_maquete_mm": [
+        [
+          640,
+          45
+        ],
+        [
+          640,
+          120
+        ],
+        [
+          620,
+          120
+        ],
+        [
+          620,
+          200
+        ]
+      ],
+      "comprimento_projecao_mm": 3500.0,
+      "subidas_descidas_adotadas_mm": 3400,
+      "comprimento_geometrico_m": 6.9,
+      "reserva_conectores_patchcords": "Nao incluida",
+      "estado": "ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+    },
+    {
+      "id": "CB_TD04",
+      "origem": "CT01",
+      "destino": "TD04",
+      "tipo_proposto": "Cabo de dados Cat6; conectores/PoE a compatibilizar",
+      "vertices_maquete_mm": [
+        [
+          640,
+          45
+        ],
+        [
+          650,
+          45
+        ],
+        [
+          650,
+          65
+        ]
+      ],
+      "comprimento_projecao_mm": 600.0,
+      "subidas_descidas_adotadas_mm": 2950,
+      "comprimento_geometrico_m": 3.55,
+      "reserva_conectores_patchcords": "Nao incluida",
+      "estado": "ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+    },
+    {
+      "id": "CB_AP01",
+      "origem": "CT01",
+      "destino": "AP01",
+      "tipo_proposto": "Cabo de dados Cat6; conectores/PoE a compatibilizar",
+      "vertices_maquete_mm": [
+        [
+          640,
+          45
+        ],
+        [
+          640,
+          120
+        ],
+        [
+          360,
+          120
+        ]
+      ],
+      "comprimento_projecao_mm": 7100.0,
+      "subidas_descidas_adotadas_mm": 1100,
+      "comprimento_geometrico_m": 8.2,
+      "reserva_conectores_patchcords": "Nao incluida",
+      "estado": "ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+    },
+    {
+      "id": "CB_CM01",
+      "origem": "CT01",
+      "destino": "CM01",
+      "tipo_proposto": "Cabo de dados Cat6; conectores/PoE a compatibilizar",
+      "vertices_maquete_mm": [
+        [
+          640,
+          45
+        ],
+        [
+          640,
+          120
+        ],
+        [
+          -25,
+          120
+        ],
+        [
+          -25,
+          65
+        ],
+        [
+          -20,
+          65
+        ]
+      ],
+      "comprimento_projecao_mm": 16000.0,
+      "subidas_descidas_adotadas_mm": 1300,
+      "comprimento_geometrico_m": 17.3,
+      "reserva_conectores_patchcords": "Nao incluida",
+      "estado": "ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+    },
+    {
+      "id": "CB_CM02",
+      "origem": "CT01",
+      "destino": "CM02",
+      "tipo_proposto": "Cabo de dados Cat6; conectores/PoE a compatibilizar",
+      "vertices_maquete_mm": [
+        [
+          640,
+          45
+        ],
+        [
+          640,
+          120
+        ],
+        [
+          610,
+          120
+        ],
+        [
+          610,
+          305
+        ]
+      ],
+      "comprimento_projecao_mm": 5800.0,
+      "subidas_descidas_adotadas_mm": 1300,
+      "comprimento_geometrico_m": 7.1,
+      "reserva_conectores_patchcords": "Nao incluida",
+      "estado": "ESTIMATIVA DE PERCURSO; NAO E LISTA DE CORTE"
+    }
+  ],
+  "complementos": [
+    {
+      "item": "PIR",
+      "quantidade_proposta": 1,
+      "escopo": "MAQUETE",
+      "inventario": "1 disponivel",
+      "acao": "Compartilhar PR01 entre iluminacao e intrusao"
+    },
+    {
+      "item": "Contato de porta",
+      "quantidade_proposta": 2,
+      "escopo": "MAQUETE",
+      "inventario": "Nao identificado",
+      "acao": "Confirmar tipo, contato, interface e fixacao"
+    },
+    {
+      "item": "Deteccao de fumaca",
+      "quantidade_proposta": 1,
+      "escopo": "DEMONSTRACAO",
+      "inventario": "Nao identificado",
+      "acao": "Definir dispositivo; posicao SM01 nao comprova cobertura"
+    },
+    {
+      "item": "Deteccao de agua",
+      "quantidade_proposta": 2,
+      "escopo": "MAQUETE",
+      "inventario": "Nao identificado",
+      "acao": "Definir tecnologia e interface VA01/VA02"
+    },
+    {
+      "item": "Sinalizador/driver",
+      "quantidade_proposta": 1,
+      "escopo": "MAQUETE",
+      "inventario": "Conjunto nao identificado",
+      "acao": "Definir carga; nao ligar diretamente no pino"
+    },
+    {
+      "item": "Interface UART 5 V / 3,3 V",
+      "quantidade_proposta": 1,
+      "escopo": "MAQUETE",
+      "inventario": "Nao identificado",
+      "acao": "Verificar especificacoes em ambos os sentidos; ESP32 sem GPIO escolhido"
+    },
+    {
+      "item": "OV7670",
+      "quantidade_proposta": 2,
+      "escopo": "BANCADA",
+      "inventario": "2 disponiveis",
+      "acao": "Captura pendente; nao contabilizar como camera IP/PoE funcionando"
+    },
+    {
+      "item": "Ponto de dados",
+      "quantidade_proposta": 4,
+      "escopo": "RESIDENCIA",
+      "inventario": "Nao e compra de maquete",
+      "acao": "Terminais/caixas e mobiliario a compatibilizar"
+    },
+    {
+      "item": "Ponto de acesso",
+      "quantidade_proposta": 1,
+      "escopo": "RESIDENCIA",
+      "inventario": "Nao e compra de maquete",
+      "acao": "Cobertura/capacidade por estudo e ensaio"
+    },
+    {
+      "item": "Camera IP",
+      "quantidade_proposta": 2,
+      "escopo": "RESIDENCIA",
+      "inventario": "Nao confundir com OV7670",
+      "acao": "Modelo, fluxo, gravacao, energia e campo de visao a escolher"
+    },
+    {
+      "item": "ONT/roteador/switch",
+      "quantidade_proposta": "Conjunto a selecionar",
+      "escopo": "RESIDENCIA",
+      "inventario": "Nao e compra de maquete",
+      "acao": "7 terminais + 1 uplink = 8 portas; com 2 reservas, prever capacidade >=10 portas"
+    },
+    {
+      "item": "Cabos de dados",
+      "quantidade_proposta": 7,
+      "escopo": "RESIDENCIA",
+      "inventario": "Comprimento geometrico calculado",
+      "acao": "Sem patchcords, folgas e percurso final; nao comprar por esta estimativa"
+    }
+  ]
+}

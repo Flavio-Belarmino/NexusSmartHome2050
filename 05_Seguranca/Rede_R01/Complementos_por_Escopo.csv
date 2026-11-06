@@ -1,0 +1,13 @@
+﻿item;quantidade_proposta;escopo;inventario;acao
+PIR;1;MAQUETE;1 disponivel;Compartilhar PR01 entre iluminacao e intrusao
+Contato de porta;2;MAQUETE;Nao identificado;Confirmar tipo, contato, interface e fixacao
+Deteccao de fumaca;1;DEMONSTRACAO;Nao identificado;"Definir dispositivo; posicao SM01 nao comprova cobertura"
+Deteccao de agua;2;MAQUETE;Nao identificado;Definir tecnologia e interface VA01/VA02
+Sinalizador/driver;1;MAQUETE;Conjunto nao identificado;"Definir carga; nao ligar diretamente no pino"
+Interface UART 5 V / 3,3 V;1;MAQUETE;Nao identificado;"Verificar especificacoes em ambos os sentidos; ESP32 sem GPIO escolhido"
+OV7670;2;BANCADA;2 disponiveis;"Captura pendente; nao contabilizar como camera IP/PoE funcionando"
+Ponto de dados;4;RESIDENCIA;Nao e compra de maquete;Terminais/caixas e mobiliario a compatibilizar
+Ponto de acesso;1;RESIDENCIA;Nao e compra de maquete;Cobertura/capacidade por estudo e ensaio
+Camera IP;2;RESIDENCIA;Nao confundir com OV7670;Modelo, fluxo, gravacao, energia e campo de visao a escolher
+ONT/roteador/switch;Conjunto a selecionar;RESIDENCIA;Nao e compra de maquete;"7 terminais + 1 uplink = 8 portas; com 2 reservas, prever capacidade >=10 portas"
+Cabos de dados;7;RESIDENCIA;Comprimento geometrico calculado;"Sem patchcords, folgas e percurso final; nao comprar por esta estimativa"

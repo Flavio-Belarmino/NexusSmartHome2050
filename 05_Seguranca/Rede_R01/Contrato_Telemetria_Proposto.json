@@ -1,0 +1,32 @@
+{
+  "projeto": "Casa Inteligente | NEXUS | ExpoTech",
+  "versao": "proposta-r01",
+  "implementacao": "CONTRATO FUTURO; NAO IMPLEMENTADO PELO SIMULADOR OU FIRMWARE",
+  "transporte": "Mega Serial1 -> interface -> ESP32 -> Wi-Fi -> broker local autenticado; TLS a configurar",
+  "sentido_inicial": "Somente telemetria; sem topico de comando de atuador",
+  "topico_exemplo": "nexus/maquete/estado",
+  "campos_propostos": {
+    "schema": "nexus.estado.v1",
+    "origem": "BANCADA ou MAQUETE; nunca substituir SIMULACAO por leitura fisica",
+    "modulo": "identificador do modulo",
+    "seq": "contador monotono na sessao",
+    "uptime_ms": "tempo desde inicio da sessao, sem presumir UTC",
+    "valido": "booleano",
+    "valor": "dado ou null",
+    "unidade": "identificador da grandeza"
+  },
+  "pendencias": [
+    "modelo ESP32 e GPIOs",
+    "enquadramento UART/tamanho/CRC ou deteccao de erros",
+    "reconexao, sequencia/sessao e idade dos dados",
+    "autenticacao e certificados",
+    "permissoes do broker e interfaces",
+    "validacao ponta a ponta"
+  ],
+  "proibicoes": [
+    "credenciais e UID reais no repositorio",
+    "acionar cargas por pacote recebido nesta etapa",
+    "ligacao direta de TX 5 V ao ESP32",
+    "tratar leitura antiga como evento atual"
+  ]
+}

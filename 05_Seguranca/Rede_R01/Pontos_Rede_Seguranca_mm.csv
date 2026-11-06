@@ -1,0 +1,17 @@
+﻿id;ambiente;funcao;x_maquete_mm;y_maquete_mm;z_maquete_mm;x_arquitetura_mm;y_arquitetura_mm;z_arquitetura_mm;grupo;estado;observacao
+CT01;AM09;Central de dados/automacao;640;45;75.0;12800.0;900.0;1500;REDE;PROPOSTO;"ONT/roteador/switch; alojamento, ventilacao e energia a detalhar"
+AP01;AM05;Ponto de acesso Wi-Fi;360;120;130.0;7200.0;2400.0;2600;REDE;PROPOSTO;"Posicao inicial; sem garantia de cobertura ou capacidade"
+TD01;AM01;Ponto de dados social;75;50;15.0;1500.0;1000.0;300;REDE;PROPOSTO;"Posicao de uso; caixa/parede e mobiliario a compatibilizar"
+TD02;AM06;Ponto de dados quarto 1;405;180;15.0;8100.0;3600.0;300;REDE;PROPOSTO;"Posicao de uso; caixa/parede e mobiliario a compatibilizar"
+TD03;AM07;Ponto de dados quarto 2;620;200;15.0;12400.0;4000.0;300;REDE;PROPOSTO;"Posicao de uso; caixa/parede e mobiliario a compatibilizar"
+TD04;AM09;Ponto de dados de manutencao;650;65;37.5;13000.0;1300.0;750;REDE;PROPOSTO;Posto de uso proximo a central
+CM01;EXTERIOR;Camera entrada;-20;65;120.0;-400.0;1300.0;2400;SEGURANCA;PROPOSTO;"Reserva residencial IP; nao equivale a OV7670 conectada"
+CM02;EXTERIOR;Camera lateral;610;305;120.0;12200.0;6100.0;2400;SEGURANCA;PROPOSTO;"Enquadramento e garagem a compatibilizar; sem campo de visao calculado"
+AC01;EXTERIOR;RFID;-18;35;55.0;-360.0;700.0;1100;SEGURANCA;POSICAO_R02;"Leitor do inventario; ensaio A03 compara UID, sem liberar fechadura"
+PR01;AM01;Presenca/intrusao;65;120;90.0;1300.0;2400.0;1800;SEGURANCA;POSICAO_R02;"Mesmo PIR da iluminacao; compartilhar leitura, sem duplicar sensor"
+RD01;PORTA_P01;Contato porta principal;1.5;34.5;105.0;30.0;690.0;2100;SEGURANCA;COMPLEMENTO;Contato/suporte e interface ainda a definir
+RD02;PORTA_P02;Contato porta lateral;184.5;286.5;105.0;3690.0;5730.0;2100;SEGURANCA;COMPLEMENTO;Contato/suporte e interface ainda a definir
+SM01;AM05;Referencia de fumaca;430;120;130.0;8600.0;2400.0;2600;SEGURANCA;COMPLEMENTO;"Posicao academica; nao dimensiona deteccao/cobertura de incendio"
+VA01;AM02;Agua junto a pia;192;181;0.0;3840.0;3620.0;0;SEGURANCA;COMPLEMENTO;Sensor dedicado e ponto real de acumulacao a definir
+VA02;AM04;Agua junto a lavadora;467;21;0.0;9340.0;420.0;0;SEGURANCA;COMPLEMENTO;"Sensor dedicado; vazao isolada nao confirma vazamento"
+AL01;AM09;Sinalizacao de alarme;640;80;110.0;12800.0;1600.0;2200;SEGURANCA;COMPLEMENTO;"Indicacao demonstrativa; carga/driver e sinalizacao real a definir"
