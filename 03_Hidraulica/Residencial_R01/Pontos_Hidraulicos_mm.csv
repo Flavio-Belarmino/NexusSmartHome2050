@@ -1,0 +1,12 @@
+﻿id;ambiente;aparelho;x_maquete_mm;y_maquete_mm;x_arquitetura_mm;y_arquitetura_mm;abastecimento;destino_esgoto;observacao;altura_conexoes_mm;estado
+H01;AM02;Pia da cozinha;194;186;3880.0;3720.0;AF,AQ;CG1;"Bancada proposta proxima a R08; compatibilizar T05/T06";A definir pelo aparelho;PROPOSTO
+H02;AM03;Lavatorio 1;229;76;4580.0;1520.0;AF,AQ;CS1;Conferir aproximacao, bancada e tomada T09;A definir pelo aparelho;PROPOSTO
+H03;AM03;Bacia sanitaria 1;235;27;4700.0;540.0;NP;CI1;"Caixa de descarga prevista; sem ligacao AF direta";A definir pelo aparelho;PROPOSTO
+H04;AM03;Chuveiro 1;275;22;5500.0;440.0;AF,AQ;CS1;"Zona de banho proposta; delimitacao final pendente";A definir pelo aparelho;PROPOSTO
+H05;AM08;Lavatorio 2;503;77;10060.0;1540.0;AF,AQ;CS2;Conferir bancada e tomada T24;A definir pelo aparelho;PROPOSTO
+H06;AM08;Bacia sanitaria 2;516;27;10320.0;540.0;NP;CI2;"Caixa de descarga prevista; sem ligacao AF direta";A definir pelo aparelho;PROPOSTO
+H07;AM08;Chuveiro 2;562;23;11240.0;460.0;AF,AQ;CS2;"Zona de banho proposta; delimitacao final pendente";A definir pelo aparelho;PROPOSTO
+H08;AM04;Tanque;330;19;6600.0;380.0;AF;CI2;Conexao de esgoto com desconexao a detalhar;A definir pelo aparelho;PROPOSTO
+H09;AM04;Lavadora;464;22;9280.0;440.0;AF;CI2;"Compatibilizar R03 e T12 da eletrica; sifao a detalhar";A definir pelo aparelho;PROPOSTO
+H10;AM03;Ralo de piso 1;249;58;4980.0;1160.0;;CS1;"Fecho hidrico e conexoes a detalhar; fora do giro da porta";A definir pelo aparelho;PROPOSTO
+H11;AM08;Ralo de piso 2;530;65;10600.0;1300.0;;CS2;"Fecho hidrico e conexoes a detalhar; fora do giro da porta";A definir pelo aparelho;PROPOSTO

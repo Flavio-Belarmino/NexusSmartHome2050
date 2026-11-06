@@ -1,0 +1,4 @@
+﻿cenario;precipitacao_mm;area_projetada_m2;coef_escoamento_hipotese;eficiencia_hipotese;volume_calculado_l
+Evento hipotetico bruto;1;85.756;1;1;85.756
+Evento hipotetico bruto;10;85.756;1;1;857.56
+Evento hipotetico com perdas;10;85.756;0.8;0.9;617.443

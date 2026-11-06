@@ -1,0 +1,1160 @@
+{
+  "premissas": {
+    "projeto": "Casa Inteligente | NEXUS | ExpoTech",
+    "revisao": "Hidraulica residencial R01",
+    "data": "2026-11-05",
+    "estado": "DISTRIBUICAO ESQUEMATICA; SEM DIMENSIONAMENTO FINAL",
+    "unidade": "mm",
+    "conversao_maquete_arquitetura": 20.0,
+    "aparelhos": "Centros de referencia propostos, sem dimensoes de loucas ou cotas de conexoes",
+    "AF": "Agua potavel; fonte, pressao e reservacao pendentes",
+    "AQ": "Aquecimento central proposto; fonte de energia, potencia, vazao, temperatura e recirculacao a definir",
+    "NP": "Chuva tratada para descargas; rede separada de AF/AQ; qualidade, tratamento e reposicao a projetar",
+    "esgoto": "Rotas sob piso, sem DN, cotas ou declividade; sifoes/CS/CG/inspecoes e ventilacao a dimensionar",
+    "chuva": "Captacao proposta na cobertura R02; declividades e area efetivamente conectada a confirmar; sem dados reais de chuva",
+    "localizacao_equipamentos": "CAF/AQ1/CG1/CS1/CS2/CI1/CI2/VT1/VT2/DS1/RNP representam nos funcionais; tamanhos e afastamentos nao definidos",
+    "maquete": "Circuito fechado de demonstracao; nao tratar a agua como potavel; sem ligacao com instalacao domestica",
+    "referencias_a_consultar": "NBR 5626, NBR 8160, NBR 10844, NBR 15527; confirmar edicoes e criterios na etapa de dimensionamento"
+  },
+  "pontos": [
+    {
+      "id": "H01",
+      "ambiente": "AM02",
+      "aparelho": "Pia da cozinha",
+      "x_maquete_mm": 194,
+      "y_maquete_mm": 186,
+      "x_arquitetura_mm": 3880.0,
+      "y_arquitetura_mm": 3720.0,
+      "abastecimento": "AF,AQ",
+      "destino_esgoto": "CG1",
+      "observacao": "Bancada proposta proxima a R08; compatibilizar T05/T06",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    },
+    {
+      "id": "H02",
+      "ambiente": "AM03",
+      "aparelho": "Lavatorio 1",
+      "x_maquete_mm": 229,
+      "y_maquete_mm": 76,
+      "x_arquitetura_mm": 4580.0,
+      "y_arquitetura_mm": 1520.0,
+      "abastecimento": "AF,AQ",
+      "destino_esgoto": "CS1",
+      "observacao": "Conferir aproximacao, bancada e tomada T09",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    },
+    {
+      "id": "H03",
+      "ambiente": "AM03",
+      "aparelho": "Bacia sanitaria 1",
+      "x_maquete_mm": 235,
+      "y_maquete_mm": 27,
+      "x_arquitetura_mm": 4700.0,
+      "y_arquitetura_mm": 540.0,
+      "abastecimento": "NP",
+      "destino_esgoto": "CI1",
+      "observacao": "Caixa de descarga prevista; sem ligacao AF direta",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    },
+    {
+      "id": "H04",
+      "ambiente": "AM03",
+      "aparelho": "Chuveiro 1",
+      "x_maquete_mm": 275,
+      "y_maquete_mm": 22,
+      "x_arquitetura_mm": 5500.0,
+      "y_arquitetura_mm": 440.0,
+      "abastecimento": "AF,AQ",
+      "destino_esgoto": "CS1",
+      "observacao": "Zona de banho proposta; delimitacao final pendente",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    },
+    {
+      "id": "H05",
+      "ambiente": "AM08",
+      "aparelho": "Lavatorio 2",
+      "x_maquete_mm": 503,
+      "y_maquete_mm": 77,
+      "x_arquitetura_mm": 10060.0,
+      "y_arquitetura_mm": 1540.0,
+      "abastecimento": "AF,AQ",
+      "destino_esgoto": "CS2",
+      "observacao": "Conferir bancada e tomada T24",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    },
+    {
+      "id": "H06",
+      "ambiente": "AM08",
+      "aparelho": "Bacia sanitaria 2",
+      "x_maquete_mm": 516,
+      "y_maquete_mm": 27,
+      "x_arquitetura_mm": 10320.0,
+      "y_arquitetura_mm": 540.0,
+      "abastecimento": "NP",
+      "destino_esgoto": "CI2",
+      "observacao": "Caixa de descarga prevista; sem ligacao AF direta",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    },
+    {
+      "id": "H07",
+      "ambiente": "AM08",
+      "aparelho": "Chuveiro 2",
+      "x_maquete_mm": 562,
+      "y_maquete_mm": 23,
+      "x_arquitetura_mm": 11240.0,
+      "y_arquitetura_mm": 460.0,
+      "abastecimento": "AF,AQ",
+      "destino_esgoto": "CS2",
+      "observacao": "Zona de banho proposta; delimitacao final pendente",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    },
+    {
+      "id": "H08",
+      "ambiente": "AM04",
+      "aparelho": "Tanque",
+      "x_maquete_mm": 330,
+      "y_maquete_mm": 19,
+      "x_arquitetura_mm": 6600.0,
+      "y_arquitetura_mm": 380.0,
+      "abastecimento": "AF",
+      "destino_esgoto": "CI2",
+      "observacao": "Conexao de esgoto com desconexao a detalhar",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    },
+    {
+      "id": "H09",
+      "ambiente": "AM04",
+      "aparelho": "Lavadora",
+      "x_maquete_mm": 464,
+      "y_maquete_mm": 22,
+      "x_arquitetura_mm": 9280.0,
+      "y_arquitetura_mm": 440.0,
+      "abastecimento": "AF",
+      "destino_esgoto": "CI2",
+      "observacao": "Compatibilizar R03 e T12 da eletrica; sifao a detalhar",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    },
+    {
+      "id": "H10",
+      "ambiente": "AM03",
+      "aparelho": "Ralo de piso 1",
+      "x_maquete_mm": 249,
+      "y_maquete_mm": 58,
+      "x_arquitetura_mm": 4980.0,
+      "y_arquitetura_mm": 1160.0,
+      "abastecimento": "",
+      "destino_esgoto": "CS1",
+      "observacao": "Fecho hidrico e conexoes a detalhar; fora do giro da porta",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    },
+    {
+      "id": "H11",
+      "ambiente": "AM08",
+      "aparelho": "Ralo de piso 2",
+      "x_maquete_mm": 530,
+      "y_maquete_mm": 65,
+      "x_arquitetura_mm": 10600.0,
+      "y_arquitetura_mm": 1300.0,
+      "abastecimento": "",
+      "destino_esgoto": "CS2",
+      "observacao": "Fecho hidrico e conexoes a detalhar; fora do giro da porta",
+      "altura_conexoes_mm": "A definir pelo aparelho",
+      "estado": "PROPOSTO"
+    }
+  ],
+  "nos_funcionais_maquete_mm": {
+    "CAF": [
+      330,
+      110
+    ],
+    "AQ1": [
+      455,
+      60
+    ],
+    "RNP": [
+      720,
+      -18
+    ],
+    "CG1": [
+      185,
+      -30
+    ],
+    "CS1": [
+      252,
+      50
+    ],
+    "CS2": [
+      544,
+      59
+    ],
+    "CI1": [
+      285,
+      -60
+    ],
+    "CI2": [
+      520,
+      -60
+    ],
+    "DS1": [
+      670,
+      -60
+    ],
+    "VT1": [
+      292,
+      72
+    ],
+    "VT2": [
+      578,
+      72
+    ]
+  },
+  "rotas": [
+    {
+      "id": "AF00",
+      "rede": "AF",
+      "origem": "Entrada/reservacao potavel",
+      "destino": "CAF",
+      "vertices_maquete_mm": [
+        [
+          330,
+          -50
+        ],
+        [
+          330,
+          110
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 3200.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AF01",
+      "rede": "AF",
+      "origem": "CAF",
+      "destino": "Barrilete AF",
+      "vertices_maquete_mm": [
+        [
+          202,
+          110
+        ],
+        [
+          580,
+          110
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 7560.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Proposta de distribuicao superior; registros setoriais a detalhar"
+    },
+    {
+      "id": "AF_H01",
+      "rede": "AF",
+      "origem": "Barrilete AF",
+      "destino": "H01",
+      "vertices_maquete_mm": [
+        [
+          202,
+          110
+        ],
+        [
+          202,
+          186
+        ],
+        [
+          194,
+          186
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1680.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AF_H02",
+      "rede": "AF",
+      "origem": "Barrilete AF",
+      "destino": "H02",
+      "vertices_maquete_mm": [
+        [
+          229,
+          110
+        ],
+        [
+          229,
+          76
+        ],
+        [
+          229,
+          76
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 680.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AF_H04",
+      "rede": "AF",
+      "origem": "Barrilete AF",
+      "destino": "H04",
+      "vertices_maquete_mm": [
+        [
+          275,
+          110
+        ],
+        [
+          275,
+          22
+        ],
+        [
+          275,
+          22
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1760.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AF_H05",
+      "rede": "AF",
+      "origem": "Barrilete AF",
+      "destino": "H05",
+      "vertices_maquete_mm": [
+        [
+          503,
+          110
+        ],
+        [
+          503,
+          77
+        ],
+        [
+          503,
+          77
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 660.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AF_H07",
+      "rede": "AF",
+      "origem": "Barrilete AF",
+      "destino": "H07",
+      "vertices_maquete_mm": [
+        [
+          562,
+          110
+        ],
+        [
+          562,
+          23
+        ],
+        [
+          562,
+          23
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1740.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AF_H08",
+      "rede": "AF",
+      "origem": "Barrilete AF",
+      "destino": "H08",
+      "vertices_maquete_mm": [
+        [
+          330,
+          110
+        ],
+        [
+          330,
+          19
+        ],
+        [
+          330,
+          19
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1820.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AF_H09",
+      "rede": "AF",
+      "origem": "Barrilete AF",
+      "destino": "H09",
+      "vertices_maquete_mm": [
+        [
+          464,
+          110
+        ],
+        [
+          464,
+          22
+        ],
+        [
+          464,
+          22
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1760.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AF_AQ",
+      "rede": "AF",
+      "origem": "Barrilete AF",
+      "destino": "AQ1",
+      "vertices_maquete_mm": [
+        [
+          455,
+          110
+        ],
+        [
+          455,
+          60
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1000.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Alimentacao do aquecimento central proposto; sistema e protecoes a definir"
+    },
+    {
+      "id": "AQ00",
+      "rede": "AQ",
+      "origem": "AQ1",
+      "destino": "Barrilete AQ",
+      "vertices_maquete_mm": [
+        [
+          455,
+          60
+        ],
+        [
+          455,
+          101
+        ],
+        [
+          202,
+          101
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 5880.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AQ01",
+      "rede": "AQ",
+      "origem": "AQ1",
+      "destino": "Barrilete AQ",
+      "vertices_maquete_mm": [
+        [
+          455,
+          101
+        ],
+        [
+          580,
+          101
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 2500.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AQ_H01",
+      "rede": "AQ",
+      "origem": "Barrilete AQ",
+      "destino": "H01",
+      "vertices_maquete_mm": [
+        [
+          205,
+          101
+        ],
+        [
+          205,
+          186
+        ],
+        [
+          194,
+          186
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1920.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AQ_H02",
+      "rede": "AQ",
+      "origem": "Barrilete AQ",
+      "destino": "H02",
+      "vertices_maquete_mm": [
+        [
+          232,
+          101
+        ],
+        [
+          232,
+          76
+        ],
+        [
+          229,
+          76
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 560.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AQ_H04",
+      "rede": "AQ",
+      "origem": "Barrilete AQ",
+      "destino": "H04",
+      "vertices_maquete_mm": [
+        [
+          278,
+          101
+        ],
+        [
+          278,
+          22
+        ],
+        [
+          275,
+          22
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1640.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AQ_H05",
+      "rede": "AQ",
+      "origem": "Barrilete AQ",
+      "destino": "H05",
+      "vertices_maquete_mm": [
+        [
+          506,
+          101
+        ],
+        [
+          506,
+          77
+        ],
+        [
+          503,
+          77
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 540.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "AQ_H07",
+      "rede": "AQ",
+      "origem": "Barrilete AQ",
+      "destino": "H07",
+      "vertices_maquete_mm": [
+        [
+          565,
+          101
+        ],
+        [
+          565,
+          23
+        ],
+        [
+          562,
+          23
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1620.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "NP00",
+      "rede": "NP",
+      "origem": "RNP",
+      "destino": "Barrilete NP",
+      "vertices_maquete_mm": [
+        [
+          720,
+          -18
+        ],
+        [
+          235,
+          -18
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 9700.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rede independente; reposicao potavel somente com separacao atmosferica a projetar"
+    },
+    {
+      "id": "NP_H03",
+      "rede": "NP",
+      "origem": "Barrilete NP",
+      "destino": "H03",
+      "vertices_maquete_mm": [
+        [
+          235,
+          -18
+        ],
+        [
+          235,
+          27
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 900.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "NP_H06",
+      "rede": "NP",
+      "origem": "Barrilete NP",
+      "destino": "H06",
+      "vertices_maquete_mm": [
+        [
+          516,
+          -18
+        ],
+        [
+          516,
+          27
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 900.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "ES_H01",
+      "rede": "ES",
+      "origem": "H01",
+      "destino": "CG1",
+      "vertices_maquete_mm": [
+        [
+          194,
+          186
+        ],
+        [
+          185,
+          186
+        ],
+        [
+          185,
+          -30
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 4500.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Passagem sob o piso da sala a verificar com estrutura/fundacoes; alternativa de tracado pode ser necessaria"
+    },
+    {
+      "id": "ES_CG1",
+      "rede": "ES",
+      "origem": "CG1",
+      "destino": "CI1",
+      "vertices_maquete_mm": [
+        [
+          185,
+          -30
+        ],
+        [
+          185,
+          -60
+        ],
+        [
+          285,
+          -60
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 2600.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "ES_H02",
+      "rede": "ES",
+      "origem": "H02",
+      "destino": "CS1",
+      "vertices_maquete_mm": [
+        [
+          229,
+          76
+        ],
+        [
+          229,
+          50
+        ],
+        [
+          252,
+          50
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 980.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Desconexao, niveis e conexoes a detalhar; tracejado indica percurso proposto sob piso"
+    },
+    {
+      "id": "ES_H04",
+      "rede": "ES",
+      "origem": "H04",
+      "destino": "CS1",
+      "vertices_maquete_mm": [
+        [
+          275,
+          22
+        ],
+        [
+          275,
+          50
+        ],
+        [
+          252,
+          50
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1020.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Desconexao, niveis e conexoes a detalhar; tracejado indica percurso proposto sob piso"
+    },
+    {
+      "id": "ES_H10",
+      "rede": "ES",
+      "origem": "H10",
+      "destino": "CS1",
+      "vertices_maquete_mm": [
+        [
+          249,
+          58
+        ],
+        [
+          249,
+          50
+        ],
+        [
+          252,
+          50
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 220.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Desconexao, niveis e conexoes a detalhar; tracejado indica percurso proposto sob piso"
+    },
+    {
+      "id": "ES_H05",
+      "rede": "ES",
+      "origem": "H05",
+      "destino": "CS2",
+      "vertices_maquete_mm": [
+        [
+          503,
+          77
+        ],
+        [
+          503,
+          59
+        ],
+        [
+          544,
+          59
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1180.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Desconexao, niveis e conexoes a detalhar; tracejado indica percurso proposto sob piso"
+    },
+    {
+      "id": "ES_H07",
+      "rede": "ES",
+      "origem": "H07",
+      "destino": "CS2",
+      "vertices_maquete_mm": [
+        [
+          562,
+          23
+        ],
+        [
+          562,
+          59
+        ],
+        [
+          544,
+          59
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1080.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Desconexao, niveis e conexoes a detalhar; tracejado indica percurso proposto sob piso"
+    },
+    {
+      "id": "ES_H11",
+      "rede": "ES",
+      "origem": "H11",
+      "destino": "CS2",
+      "vertices_maquete_mm": [
+        [
+          530,
+          65
+        ],
+        [
+          530,
+          59
+        ],
+        [
+          544,
+          59
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 400.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Desconexao, niveis e conexoes a detalhar; tracejado indica percurso proposto sob piso"
+    },
+    {
+      "id": "ES_CS1",
+      "rede": "ES",
+      "origem": "CS1",
+      "destino": "CI1",
+      "vertices_maquete_mm": [
+        [
+          252,
+          50
+        ],
+        [
+          252,
+          -60
+        ],
+        [
+          285,
+          -60
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 2860.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "ES_CS2",
+      "rede": "ES",
+      "origem": "CS2",
+      "destino": "CI2",
+      "vertices_maquete_mm": [
+        [
+          544,
+          59
+        ],
+        [
+          544,
+          -60
+        ],
+        [
+          520,
+          -60
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 2860.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "ES_H03",
+      "rede": "ES",
+      "origem": "H03",
+      "destino": "CI1",
+      "vertices_maquete_mm": [
+        [
+          235,
+          27
+        ],
+        [
+          235,
+          -60
+        ],
+        [
+          285,
+          -60
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 2740.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Bacias sem passagem em caixa sifonada; desconexao de tanque/lavadora a detalhar"
+    },
+    {
+      "id": "ES_H06",
+      "rede": "ES",
+      "origem": "H06",
+      "destino": "CI2",
+      "vertices_maquete_mm": [
+        [
+          516,
+          27
+        ],
+        [
+          516,
+          -60
+        ],
+        [
+          520,
+          -60
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1820.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Bacias sem passagem em caixa sifonada; desconexao de tanque/lavadora a detalhar"
+    },
+    {
+      "id": "ES_H08",
+      "rede": "ES",
+      "origem": "H08",
+      "destino": "CI2",
+      "vertices_maquete_mm": [
+        [
+          330,
+          19
+        ],
+        [
+          330,
+          -60
+        ],
+        [
+          520,
+          -60
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 5380.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Bacias sem passagem em caixa sifonada; desconexao de tanque/lavadora a detalhar"
+    },
+    {
+      "id": "ES_H09",
+      "rede": "ES",
+      "origem": "H09",
+      "destino": "CI2",
+      "vertices_maquete_mm": [
+        [
+          464,
+          22
+        ],
+        [
+          464,
+          -60
+        ],
+        [
+          520,
+          -60
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 2760.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Bacias sem passagem em caixa sifonada; desconexao de tanque/lavadora a detalhar"
+    },
+    {
+      "id": "ES_CI1",
+      "rede": "ES",
+      "origem": "CI1",
+      "destino": "CI2",
+      "vertices_maquete_mm": [
+        [
+          285,
+          -60
+        ],
+        [
+          520,
+          -60
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 4700.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Rota esquematica em projecao; nao e quantitativo de compra"
+    },
+    {
+      "id": "ES_CI2",
+      "rede": "ES",
+      "origem": "CI2",
+      "destino": "DS1",
+      "vertices_maquete_mm": [
+        [
+          520,
+          -60
+        ],
+        [
+          670,
+          -60
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 3000.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Destinacao sanitaria a definir apos caracterizacao do lote/concessionaria"
+    },
+    {
+      "id": "VE_VT1",
+      "rede": "VE",
+      "origem": "Ramal sanitario CS1",
+      "destino": "VT1",
+      "vertices_maquete_mm": [
+        [
+          252,
+          50
+        ],
+        [
+          292,
+          50
+        ],
+        [
+          292,
+          72
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 1240.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Ponto funcional de ventilacao; derivacao, DN, altura e terminal acima da cobertura a detalhar"
+    },
+    {
+      "id": "VE_VT2",
+      "rede": "VE",
+      "origem": "Ramal sanitario CS2",
+      "destino": "VT2",
+      "vertices_maquete_mm": [
+        [
+          544,
+          59
+        ],
+        [
+          578,
+          59
+        ],
+        [
+          578,
+          72
+        ]
+      ],
+      "comprimento_projecao_arquitetura_mm": 940.0,
+      "DN_mm": "A dimensionar",
+      "cota_z_mm": "A definir",
+      "observacao": "Ponto funcional de ventilacao; derivacao, DN, altura e terminal acima da cobertura a detalhar"
+    }
+  ],
+  "cobertura_maquete_mm": [
+    [
+      -10,
+      -10
+    ],
+    [
+      245.0,
+      -10
+    ],
+    [
+      245.0,
+      50.0
+    ],
+    [
+      355.0,
+      50.0
+    ],
+    [
+      355.0,
+      -10
+    ],
+    [
+      707.5,
+      -10
+    ],
+    [
+      707.5,
+      298.0
+    ],
+    [
+      -10,
+      298.0
+    ]
+  ],
+  "area_projetada_cobertura_m2": 85.756,
+  "cenarios_chuva": [
+    {
+      "cenario": "Evento hipotetico bruto",
+      "precipitacao_mm": 1,
+      "area_projetada_m2": 85.756,
+      "coef_escoamento_hipotese": 1,
+      "eficiencia_hipotese": 1,
+      "volume_calculado_l": 85.756
+    },
+    {
+      "cenario": "Evento hipotetico bruto",
+      "precipitacao_mm": 10,
+      "area_projetada_m2": 85.756,
+      "coef_escoamento_hipotese": 1,
+      "eficiencia_hipotese": 1,
+      "volume_calculado_l": 857.56
+    },
+    {
+      "cenario": "Evento hipotetico com perdas",
+      "precipitacao_mm": 10,
+      "area_projetada_m2": 85.756,
+      "coef_escoamento_hipotese": 0.8,
+      "eficiencia_hipotese": 0.9,
+      "volume_calculado_l": 617.443
+    }
+  ]
+}
