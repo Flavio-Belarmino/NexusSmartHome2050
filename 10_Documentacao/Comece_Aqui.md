@@ -1,6 +1,6 @@
 # Como vamos desenvolver o NEXUS
 
-Casa Inteligente | NEXUS | ExpoTech. 05/11/2026.
+Casa Inteligente | NEXUS | ExpoTech. 06/11/2026.
 
 O projeto será desenvolvido com entregas pequenas e verificáveis. A equipe não precisa dominar previamente todas as disciplinas para começar; precisa entender as decisões adotadas, conferir o que foi montado e registrar os resultados.
 
@@ -23,9 +23,9 @@ O primeiro passo físico é separar os componentes e identificar as marcações 
 
 ## O que continua avançando sem a montagem
 
-O [estudo elétrico residencial R01](../02_Eletrica/Residencial_R01/) já distribui iluminação, comandos e tomadas, calcula áreas/perímetros e prevê cargas e circuitos. Usa hipóteses explícitas de alimentação. A próxima revisão deve definir equipamentos e fornecimento, dimensionar cabos/proteções e desenvolver quadro/unifilar, aterramento e entrada renovável. É um estudo separado dos circuitos DC da maquete.
+Os [projetos prediais dimensionados R02](../06_Calculos/Dimensionamento_R02/) estão disponíveis: elétrica com cargas, fases, cabos/proteções, quadro/unifilar e geração; hidráulica com pressões, diâmetros, reservação, aquecimento, esgoto/ventilação e chuva. Os cálculos e dez grupos de testes podem ser reproduzidos sem Colab. São estudos separados dos circuitos DC e da recirculação da maquete.
 
-A [hidráulica residencial R01](../03_Hidraulica/Residencial_R01/) já propõe pontos de aparelhos/ralos, água fria/quente/não potável, esgoto/ventilação e captação de chuva. Agora precisa de validação dos aparelhos e premissas para dimensionar redes e reservatórios. O [guia de preparação do ensaio](../03_Hidraulica/Residencial_R01/Preparacao_Ensaio_Agua.md) permite iniciar identificação e bancada. Nenhum desses projetos depende de já haver LED colado ou sensor fixado na casa.
+A equipe pode estudar as pranchas e conferir as hipóteses antes da montagem. A aplicação real depende das verificações externas e de fabricantes listadas no memorial. O [guia de preparação do ensaio de água](../03_Hidraulica/Residencial_R01/Preparacao_Ensaio_Agua.md) permite iniciar identificação e bancada. Nenhum desses documentos depende de já haver LED colado ou sensor fixado na casa.
 
 Os módulos de ambiente, brise, acesso, água e comandos já têm programas de bancada preparados no [kit R02](Guia_Bancada_Modulos.md). A garagem tem uma simulação funcional de sequência, com geometria e atuação físicas ainda dependentes do carrinho e do mecanismo. Ensaiar os programas separadamente antes da revisão integrada.
 

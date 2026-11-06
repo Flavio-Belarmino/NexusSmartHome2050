@@ -5,8 +5,8 @@ Casa Inteligente | NEXUS | ExpoTech. Categoria BLUEPRINT. Publicação de trabal
 | Requisito | Material disponível | Próxima entrega verificável |
 | --- | --- | --- |
 | Civil, arquitetura e implantação | PDF R02, CAD, dimensões e adjacências | Conferir cotas, incluir garagem, justificar sistemas e materiais da residência |
-| Elétrica residencial | [R01: pontos, cargas e circuitos propostos](../02_Eletrica/Residencial_R01/), separada da elétrica DC | Definir equipamentos/fornecimento; dimensionar; elaborar quadro/unifilar, aterramento e entrada renovável |
-| Hidráulica residencial | [R01: água fria/quente/NP, esgoto/ventilação e chuva](../03_Hidraulica/Residencial_R01/), com CAD e coordenadas | Validar aparelhos/implantação; dimensionar redes, reservação, aquecimento, tratamento e drenagem |
+| Elétrica residencial | [Dimensionamento R02](../06_Calculos/Dimensionamento_R02/): cargas, fases, cabos/proteções, unifilar, TT/DPS e geração; pontos R01 por referência | Conferir fornecimento, fabricantes/coordenação, curto/aterramento e compatibilização executiva; sem ensaio físico |
+| Hidráulica residencial | [Dimensionamento R02](../06_Calculos/Dimensionamento_R02/): diâmetros, pressões, reservação/aquecimento, cotas/UHC, ventilação e chuva | Conferir lote/conexões, bombas e aquecedor, tratamento e bocais/condutores pluviais; sem ensaio físico |
 | Automação e rede | Especificação, módulos compilados, supervisor USB e [topologia/interfaces R01](../05_Seguranca/Rede_R01/) | Ensaiar módulos, integrar firmware e implementar/verificar comunicação de rede |
 | Garagem | Simulador funcional de sequência e testes de software | Medir carrinho, definir geometria, atuação e detecção, construir e validar |
 | Segurança | [R01 com posições, matriz e alarmes virtuais](../05_Seguranca/Rede_R01/); 18 cenários de lógica testados | Conferir interface do simulador; definir/ensaiar sensores, cobertura, vídeo e atuação física |
