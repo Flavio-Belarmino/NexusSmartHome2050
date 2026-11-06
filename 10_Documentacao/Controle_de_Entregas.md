@@ -5,7 +5,7 @@ Casa Inteligente | NEXUS | ExpoTech. Categoria BLUEPRINT. Publicação de trabal
 | Requisito | Material disponível | Próxima entrega verificável |
 | --- | --- | --- |
 | Civil, arquitetura e implantação | PDF R02, CAD, dimensões e adjacências | Conferir cotas, incluir garagem, justificar sistemas e materiais da residência |
-| Elétrica residencial | Elétrica DC da maquete como estudo separado | Planta predial, cargas, quadro/unifilar, dimensionamento e entrada renovável |
+| Elétrica residencial | [R01: pontos, cargas e circuitos propostos](../02_Eletrica/Residencial_R01/), separada da elétrica DC | Definir equipamentos/fornecimento; dimensionar; elaborar quadro/unifilar, aterramento e entrada renovável |
 | Hidráulica residencial | Proposta de ensaio de água na maquete | Redes fria/quente, esgoto/ventilação, pluvial/reúso e cálculos |
 | Automação e rede | Especificação, pinagem e módulos de bancada compilados; supervisor USB preparado | Ensaiar módulos, integrar firmware e desenvolver a comunicação de rede |
 | Garagem | Simulador funcional de sequência e testes de software | Medir carrinho, definir geometria, atuação e detecção, construir e validar |

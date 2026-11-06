@@ -23,7 +23,7 @@ O primeiro passo físico é separar os componentes e identificar as marcações 
 
 ## O que continua avançando sem a montagem
 
-O projeto elétrico residencial será desenvolvido como estudo acadêmico separado dos circuitos DC da maquete. A próxima revisão deve estabelecer as premissas de alimentação e uso dos ambientes, distribuir pontos, prever cargas e circuitos e então apresentar o quadro e o unifilar com o dimensionamento correspondente. Os critérios técnicos serão fundamentados antes de dimensionar.
+O [estudo elétrico residencial R01](../02_Eletrica/Residencial_R01/) já distribui iluminação, comandos e tomadas, calcula áreas/perímetros e prevê cargas e circuitos. Usa hipóteses explícitas de alimentação. A próxima revisão deve definir equipamentos e fornecimento, dimensionar cabos/proteções e desenvolver quadro/unifilar, aterramento e entrada renovável. É um estudo separado dos circuitos DC da maquete.
 
 O projeto hidráulico seguirá a mesma sequência: premissas, pontos de uso, redes, cálculo e compatibilização. Nenhum desses projetos depende de já haver LED colado ou sensor fixado na casa.
 
