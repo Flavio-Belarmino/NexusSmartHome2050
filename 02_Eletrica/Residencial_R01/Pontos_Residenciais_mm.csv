@@ -1,0 +1,59 @@
+﻿id;ambiente;tipo;parede;x_maquete_mm;y_maquete_mm;z_maquete_mm;x_arquitetura_mm;y_arquitetura_mm;z_arquitetura_mm;previsao_va;circuito_proposto;observacao;comanda;tensao_estudo_v
+L01;AM01;ILUMINACAO;;65;80;130.0;1300.0;1600.0;2600;110.0;C1;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+L02;AM01;ILUMINACAO;;65;210;130.0;1300.0;4200.0;2600;110.0;C1;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+L03;AM02;ILUMINACAO;;155;215;130.0;3100.0;4300.0;2600;100.0;C1;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+L04;AM03;ILUMINACAO;;255;45;130.0;5100.0;900.0;2600;100.0;C1;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+L05;AM04;ILUMINACAO;;390;45;130.0;7800.0;900.0;2600;100.0;C1;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+L06;AM06;ILUMINACAO;;405;210;130.0;8100.0;4200.0;2600;160.0;C2;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+L07;AM07;ILUMINACAO;;600;210;130.0;12000.0;4200.0;2600;160.0;C2;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+L08;AM08;ILUMINACAO;;535;45;130.0;10700.0;900.0;2600;100.0;C2;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+L09;AM09;ILUMINACAO;;640;45;130.0;12800.0;900.0;2600;100.0;C2;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+L10;AM05;ILUMINACAO;;430;120;130.0;8600.0;2400.0;2600;100.0;C1;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+L11;AM10;ILUMINACAO;;260;215;130.0;5200.0;4300.0;2600;100.0;C2;"Previsao de iluminacao; modelo/fluxo de luminaria a definir";;
+S01;AM01;INTERRUPTOR;R01;1.5;62;55.0;30.0;1240.0;1100;0;C1;simples;"[""L01"", ""L02""]";
+S02;AM02;INTERRUPTOR;R05;211;286.5;55.0;4220.0;5730.0;1100;0;C1;simples;"[""L03""]";
+S03;AM03;INTERRUPTOR;R10;246;92.0;55.0;4920.0;1840.0;1100;0;C1;simples, face circulacao;"[""L04""]";
+S04;AM04;INTERRUPTOR;R17;382;94.0;55.0;7640.0;1880.0;1100;0;C1;simples;"[""L05""]";
+S05A;AM05;INTERRUPTOR;R10;236;92.0;55.0;4720.0;1840.0;1100;0;C1;paralelo;"[""L10""]";
+S05B;AM05;INTERRUPTOR;R17;478;94.0;55.0;9560.0;1880.0;1100;0;C1;paralelo;"[""L10""]";
+S06;AM06;INTERRUPTOR;R13;442;148.0;55.0;8840.0;2960.0;1100;0;C2;simples;"[""L06""]";
+S07;AM07;INTERRUPTOR;R14;511.0;151;55.0;10220.0;3020.0;1100;0;C2;simples;"[""L07""]";
+S08;AM08;INTERRUPTOR;R17;528;94.0;55.0;10560.0;1880.0;1100;0;C2;simples, face quarto;"[""L08""]";
+S09;AM09;INTERRUPTOR;R17;617;94.0;55.0;12340.0;1880.0;1100;0;C2;simples;"[""L09""]";
+S10;AM10;INTERRUPTOR;R08;214.0;260;55.0;4280.0;5200.0;1100;0;C2;simples;"[""L11""]";
+T01;AM01;TUG;R03;30;1.5;15.0;600.0;30.0;300;100;C3;"Locacao proposta; compatibilizar mobiliario";;
+T02;AM01;TUG;R09;214.0;50;15.0;4280.0;1000.0;300;100;C3;"Locacao proposta; compatibilizar mobiliario";;
+T03;AM01;TUG;R05;65;286.5;15.0;1300.0;5730.0;300;100;C3;"Locacao proposta; compatibilizar mobiliario";;
+T04;AM01;TUG;R01;1.5;150;15.0;30.0;3000.0;300;100;C3;"Locacao proposta; compatibilizar mobiliario";;
+T05;AM02;TUG;R08;214.0;170;55.0;4280.0;3400.0;1100;600;C5;"Duas tomadas acima de bancada proposta; conferir pia e mobiliario";;
+T06;AM02;TUG;R08;214.0;200;55.0;4280.0;4000.0;1100;600;C5;"Duas tomadas acima de bancada proposta; conferir pia e mobiliario";;
+T07;AM02;TUG;R07;200;148.0;15.0;4000.0;2960.0;300;600;C5;"Locacao proposta; compatibilizar mobiliario";;
+T08;AM02;TUG;R05;140;286.5;15.0;2800.0;5730.0;300;100;C5;"Locacao proposta; compatibilizar mobiliario";;
+T09;AM03;TUG;R10;223;92.0;55.0;4460.0;1840.0;1100;600;C7;"Proximo a lavatorio proposto; posicao condicionada a volumes do chuveiro";;
+T10;AM04;TUG;R04;315;1.5;15.0;6300.0;30.0;300;600;C6;"Locacao proposta; compatibilizar mobiliario";;
+T11;AM04;TUG;R04;375;1.5;55.0;7500.0;30.0;1100;600;C6;"Locacao proposta; compatibilizar mobiliario";;
+T12;AM04;TUG;R04;450;1.5;55.0;9000.0;30.0;1100;600;C6;"Locacao proposta; compatibilizar mobiliario";;
+T13;AM04;TUG;R15;487.0;65;15.0;9740.0;1300.0;300;100;C6;"Locacao proposta; compatibilizar mobiliario";;
+T14;AM05;TUG;R10;250;92.0;15.0;5000.0;1840.0;300;100;C3;"Locacao proposta; compatibilizar mobiliario";;
+T15;AM05;TUG;R17;478;94.0;15.0;9560.0;1880.0;300;100;C3;"Locacao proposta; compatibilizar mobiliario";;
+T16;AM06;TUG;R12;304.0;180;15.0;6080.0;3600.0;300;100;C4;"Locacao proposta; compatibilizar mobiliario";;
+T17;AM06;TUG;R13;345;148.0;15.0;6900.0;2960.0;300;100;C4;"Locacao proposta; compatibilizar mobiliario";;
+T18;AM06;TUG;R13;430;148.0;15.0;8600.0;2960.0;300;100;C4;"Locacao proposta; compatibilizar mobiliario";;
+T19;AM06;TUG;R06;480;286.5;15.0;9600.0;5730.0;300;100;C4;"Locacao proposta; compatibilizar mobiliario";;
+T20;AM07;TUG;R17;600;94.0;15.0;12000.0;1880.0;300;100;C4;"Locacao proposta; compatibilizar mobiliario";;
+T21;AM07;TUG;R02;696.0;180;15.0;13920.0;3600.0;300;100;C4;"Locacao proposta; compatibilizar mobiliario";;
+T22;AM07;TUG;R06;550;286.5;15.0;11000.0;5730.0;300;100;C4;"Locacao proposta; compatibilizar mobiliario";;
+T23;AM07;TUG;R06;670;286.5;15.0;13400.0;5730.0;300;100;C4;"Locacao proposta; compatibilizar mobiliario";;
+T24;AM08;TUG;R17;496;94.0;55.0;9920.0;1880.0;1100;600;C7;"Proximo a lavatorio proposto; posicao condicionada a volumes do chuveiro";;
+T25;AM09;TUG;R02;696.0;65;15.0;13920.0;1300.0;300;100;C3;"Locacao proposta; compatibilizar mobiliario";;
+T26;AM09;TUG;R16;583.0;65;15.0;11660.0;1300.0;300;100;C3;"Locacao proposta; compatibilizar mobiliario";;
+T27;AM10;TUG;R08;214.0;180;15.0;4280.0;3600.0;300;100;C3;"Locacao proposta; compatibilizar mobiliario";;
+T28;AM10;TUG;R05;280;286.5;15.0;5600.0;5730.0;300;100;C3;"Locacao proposta; compatibilizar mobiliario";;
+R01;AM02;RESERVA_EQUIPAMENTO;R07;190;148.0;32.5;3800.0;2960.0;650;;;"Coccao eletrica; potencia/circuito apos escolha";;220
+R02;AM02;RESERVA_EQUIPAMENTO;R07;175;148.0;15.0;3500.0;2960.0;300;;;"Forno; potencia/circuito apos escolha";;220
+R03;AM04;RESERVA_EQUIPAMENTO;R04;465;1.5;15.0;9300.0;30.0;300;;;"Lavadora; potencia/circuito apos escolha";;127
+R04;AM04;RESERVA_EQUIPAMENTO;R15;487.0;40;90.0;9740.0;800.0;1800;;;"Aquecimento de agua; potencia/circuito apos escolha";;220
+R05;AM06;RESERVA_EQUIPAMENTO;R13;330;148.0;110.0;6600.0;2960.0;2200;;;"Climatizacao quarto 1; potencia/circuito apos escolha";;220
+R06;AM07;RESERVA_EQUIPAMENTO;R02;696.0;180;110.0;13920.0;3600.0;2200;;;"Climatizacao quarto 2; potencia/circuito apos escolha";;220
+R07;AM09;RESERVA_EQUIPAMENTO;R02;696.0;70;65.0;13920.0;1400.0;1300;;;"Central de automacao/rede; potencia/circuito apos escolha";;127
+QD1;AM01;QUADRO_PROPOSTO;R09;214.0;75;75.0;4280.0;1500.0;1500;;;"Face da sala; capacidade e protecoes ainda nao dimensionadas";;

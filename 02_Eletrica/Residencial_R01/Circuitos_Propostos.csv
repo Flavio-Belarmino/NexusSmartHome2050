@@ -1,0 +1,8 @@
+﻿circuito;uso;pontos;previsao_va;tensao_hipotese_v;corrente_inicial_a;condutores_mm2;protecao
+C1;Iluminacao social, cozinha, banho 1, servico e circulacao;6;620.0;127;4.8819;A dimensionar;A dimensionar
+C2;Iluminacao quartos, banho 2, apoio e hall;5;620.0;127;4.8819;A dimensionar;A dimensionar
+C3;TUG sala, circulacao, apoio e hall;10;1000;127;7.874;A dimensionar;A dimensionar
+C4;TUG quartos 1 e 2;8;800;127;6.2992;A dimensionar;A dimensionar
+C5;TUG cozinha;4;1900;127;14.9606;A dimensionar;A dimensionar
+C6;TUG servico;4;1900;127;14.9606;A dimensionar;A dimensionar
+C7;TUG banhos 1 e 2;2;1200;127;9.4488;A dimensionar;A dimensionar

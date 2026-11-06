@@ -1,0 +1,9 @@
+﻿id;ambiente;observacao;tensao_estudo_v;previsao_va;circuito_proposto
+R01;AM02;"Coccao eletrica; potencia/circuito apos escolha";220;;
+R02;AM02;"Forno; potencia/circuito apos escolha";220;;
+R03;AM04;"Lavadora; potencia/circuito apos escolha";127;;
+R04;AM04;"Aquecimento de agua; potencia/circuito apos escolha";220;;
+R05;AM06;"Climatizacao quarto 1; potencia/circuito apos escolha";220;;
+R06;AM07;"Climatizacao quarto 2; potencia/circuito apos escolha";220;;
+R07;AM09;"Central de automacao/rede; potencia/circuito apos escolha";127;;
+R08;GARAGEM;"Atuacao e pontos externos; geometria/modelos a definir";A definir;;
