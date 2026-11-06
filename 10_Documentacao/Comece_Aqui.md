@@ -32,3 +32,9 @@ Os módulos de ambiente, brise, acesso, água e comandos já têm programas de b
 ## Critério para integrar na casa
 
 Integrar um módulo depois de conferir alimentação, ligação e resposta no ensaio de bancada. Fixar de forma que fios, conexões e componentes possam ser inspecionados. Completar a ficha de teste e associá-la à versão do programa. Um programa escrito e compilado ainda precisa desse teste físico.
+
+## Próximo ensaio sem montagem
+
+A [rede e segurança R01](../05_Seguranca/Rede_R01/) já traz plantas, topologia, complementos e simulador de alarmes. Extrair o [ZIP](../05_Seguranca/Rede_R01/NEXUS_Simulador_Alarmes_R01.zip), abrir o HTML e seguir os três testes na tela: intrusão armada, fumaça/água independentemente de armar e perda de amostras. A lógica foi testada por software; a equipe deve conferir a interface e registrar o resultado. O registro exportado continua identificado como simulação.
+
+A identificação dos componentes e os testes de bancada permanecem necessários antes da integração física. Sensores adicionais não recebem pinos por tentativa e o estudo residencial de rede não obriga comprar ONT/switch/câmeras IP para a maquete.
