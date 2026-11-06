@@ -1,5 +1,7 @@
 # Simulações e validação
 
+Disponível também: [simulador offline de alarmes](../05_Seguranca/Rede_R01/NEXUS_Simulador_Alarmes_R01.zip) e [instruções](../05_Seguranca/Rede_R01/README.md). Há entradas virtuais de portas, presença, fumaça e água, retenção de ocorrências e perda de dados. A lógica passou em 18 cenários Node.js; a interface visual aguarda conferência manual. Não há sensor/atuador, captura de câmera ou rede conectados.
+
 Disponível: [simulador funcional da sequência da garagem](Garagem/README.md), com entrada/saída, obstáculo, confirmações de posição, falhas e exportação de registro identificado como simulação. Funciona como arquivo HTML, sem equipamento conectado e sem dimensões físicas definidas.
 
 Os testes de software e de compilação estão no [registro dos módulos](../07_Codigo/Testes_Modulos/Validacao_Modulos_R02.md). Não houve ensaio físico. O [plano de testes](Validacao/Plano_de_Testes_R01.txt) e o [complemento da garagem](Validacao/Testes_Garagem.md) continuam como fichas para validação da montagem real.
