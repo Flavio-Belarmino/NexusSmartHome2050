@@ -23,11 +23,12 @@ A extensão com **garagem em papelão Paraná** faz parte do escopo atual. O con
 | Elétrica DC da maquete | [Elétrica](02_Eletrica/) | Proposta R02, a compatibilizar com os módulos reais |
 | Hidráulica residencial | [Pontos e redes R01](03_Hidraulica/Residencial_R01/) | Distribuição inicial de água/esgoto/ventilação e chuva; dimensionamento pendente |
 | Regras de automação, incluindo garagem | [Especificação R01 em PDF](04_Automacao/NEXUS_Especificacao_Automacoes_R01.pdf) · [texto editável](04_Automacao/NEXUS_Especificacao_Automacoes_R01.txt) | Especificação funcional, sem firmware validado |
-| Segurança e rede | [Segurança](05_Seguranca/) | Proposta a detalhar e validar |
+| Segurança e rede | [Plantas e topologia R01](05_Seguranca/Rede_R01/) | Posições/interfaces propostas e simulador de alarmes; hardware/rede ainda pendentes |
 | Quantitativos e premissas | [Cálculos](06_Calculos/) | Dados preliminares, sem memória predial concluída |
 | Gerador dos desenhos | [Código Python](07_Codigo/Gerador_Documentacao/) | Código de documentação; não controla a maquete |
 | Primeiro módulo de controle | [A01: iluminação na bancada](07_Codigo/NEXUS_A01_Bancada/) | Firmware inicial e testes de lógica; ensaio físico pendente |
 | Demais módulos de bancada | [Índice de código](07_Codigo/README.md) | Brise, RFID, ambiente, água, botões e entradas; compilados, com ensaio físico pendente |
+| Alarmes computacionais | [Simulador offline](05_Seguranca/Rede_R01/NEXUS_Simulador_Alarmes_R01.zip) | 18 cenários de lógica testados, sem sensores reais; interface visual pendente |
 | Garagem computacional | [Simulador funcional](09_Simulacoes/Garagem/README.md) | Sequência testada por software, sem mecanismo real |
 | Telemetria local | [Supervisor USB](07_Codigo/Supervisor_USB/README.md) | Programa e API testados; porta USB real ainda não ensaiada |
 | Experimento solar | [Cálculo e balanço de potências](06_Calculos/Solar/README.md) | Estimativas explícitas, sem ensaio de carga/autonomia |
@@ -44,7 +45,7 @@ A base de exposição de **1.200 × 900 × 18 mm** é uma proposta, a compatibil
 
 ## Instalações e implementação
 
-As pranchas E01 a E10 representam a **elétrica DC da maquete**. A [elétrica residencial R01](02_Eletrica/Residencial_R01/) já apresenta iluminação, comandos, tomadas, previsão de cargas e sete circuitos propostos. Ainda faltam equipamentos e fornecimento definidos, dimensionamento de condutores/proteções, quadro/unifilar, entrada de energia e integração renovável. A [hidráulica residencial R01](03_Hidraulica/Residencial_R01/) apresenta distribuição de água fria/quente/não potável, rotas de esgoto/ventilação e aproveitamento de chuva como estudo inicial. Ainda faltam seus dimensionamentos e a consolidação da rede e da segurança exigidos pelo BLUEPRINT.
+As pranchas E01 a E10 representam a **elétrica DC da maquete**. A [elétrica residencial R01](02_Eletrica/Residencial_R01/) já apresenta iluminação, comandos, tomadas, previsão de cargas e sete circuitos propostos. Ainda faltam equipamentos e fornecimento definidos, dimensionamento de condutores/proteções, quadro/unifilar, entrada de energia e integração renovável. A [hidráulica residencial R01](03_Hidraulica/Residencial_R01/) apresenta distribuição de água fria/quente/não potável, rotas de esgoto/ventilação e aproveitamento de chuva como estudo inicial. Ainda faltam seus dimensionamentos. A [rede e segurança R01](05_Seguranca/Rede_R01/) já propõe posições, topologia e interfaces, com alarmes virtuais testados por software; cobertura, dispositivos, rede e atuação física continuam pendentes.
 
 O controle proposto utiliza Arduino Mega para os comandos locais e reserva ESP32 para comunicação/supervisão. Os módulos e interfaces ainda precisam de identificação e compatibilização. O experimento solar deve ser validado separadamente antes de qualquer integração de alimentação. Os parâmetros de controle dependem dos ensaios, sem presumir autonomia, economia ou precisão não medidas.
 
