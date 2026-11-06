@@ -19,6 +19,7 @@ A extensão com **garagem em papelão Paraná** faz parte do escopo atual. O con
 | Plantas, implantação, cobertura, fachadas e cortes | [PDF de 23 pranchas](01_Arquitetura/R02/PDF/NEXUS_Casa_Inteligente_ExpoTech_Plantas.pdf) | Anteprojeto R02 |
 | Desenhos editáveis | [26 arquivos DXF](01_Arquitetura/R02/DXF/) | Arquitetura, maquete e sistemas propostos |
 | Dimensões dos ambientes, aberturas e adjacências | [Dados CSV e JSON](01_Arquitetura/R02/DADOS/) | Cotas de trabalho em milímetros |
+| Elétrica residencial | [Pontos, cargas e circuitos R01](02_Eletrica/Residencial_R01/) | Estudo inicial publicado; dimensionamento final pendente |
 | Elétrica DC da maquete | [Elétrica](02_Eletrica/) | Proposta R02, a compatibilizar com os módulos reais |
 | Hidráulica residencial | [Hidráulica](03_Hidraulica/) | Detalhamento e dimensionamento pendentes |
 | Regras de automação, incluindo garagem | [Especificação R01 em PDF](04_Automacao/NEXUS_Especificacao_Automacoes_R01.pdf) · [texto editável](04_Automacao/NEXUS_Especificacao_Automacoes_R01.txt) | Especificação funcional, sem firmware validado |
@@ -43,7 +44,7 @@ A base de exposição de **1.200 × 900 × 18 mm** é uma proposta, a compatibil
 
 ## Instalações e implementação
 
-As pranchas E01 a E10 representam a **elétrica DC da maquete**. O projeto elétrico residencial, com previsão de cargas, tomadas, circuitos, quadro, entrada de energia e dimensionamento de condutores/proteções, ainda precisa ser desenvolvido. Também faltam o detalhamento hidráulico predial e a consolidação da rede e da segurança exigidos pelo BLUEPRINT.
+As pranchas E01 a E10 representam a **elétrica DC da maquete**. A [elétrica residencial R01](02_Eletrica/Residencial_R01/) já apresenta iluminação, comandos, tomadas, previsão de cargas e sete circuitos propostos. Ainda faltam equipamentos e fornecimento definidos, dimensionamento de condutores/proteções, quadro/unifilar, entrada de energia e integração renovável. Também faltam o detalhamento hidráulico predial e a consolidação da rede e da segurança exigidos pelo BLUEPRINT.
 
 O controle proposto utiliza Arduino Mega para os comandos locais e reserva ESP32 para comunicação/supervisão. Os módulos e interfaces ainda precisam de identificação e compatibilização. O experimento solar deve ser validado separadamente antes de qualquer integração de alimentação. Os parâmetros de controle dependem dos ensaios, sem presumir autonomia, economia ou precisão não medidas.
 
