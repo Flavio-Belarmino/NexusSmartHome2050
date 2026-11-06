@@ -1,0 +1,2183 @@
+{
+  "projeto": "Casa Inteligente | NEXUS | ExpoTech",
+  "revisao": "Dimensionamento esquematico R02 - cenario academico",
+  "data": "2026-11-06",
+  "base": "Arquitetura R02 e distribuicoes R01; programa de equipamentos aprovado pelo grupo",
+  "eletrica": {
+    "circuitos": [
+      {
+        "id": "C1",
+        "uso": "Iluminacao social",
+        "p_w_hipotese": 620,
+        "fp_hipotese": 1,
+        "s_va": 620.0,
+        "u_v": 127,
+        "ib_a": 4.8819,
+        "L_ida_m": 24,
+        "fase": "B",
+        "s_fase_mm2": 1.5,
+        "s_neutro_mm2": 1.5,
+        "s_pe_mm2": 1.5,
+        "iz_corrigida_a": 17.5,
+        "disjuntor_a": 10,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 2.7677,
+        "icc_min_modelo_a": 154.03,
+        "limite_i2t_a2s": 29756,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 3.122
+      },
+      {
+        "id": "C2",
+        "uso": "Iluminacao intima",
+        "p_w_hipotese": 620,
+        "fp_hipotese": 1,
+        "s_va": 620.0,
+        "u_v": 127,
+        "ib_a": 4.8819,
+        "L_ida_m": 26,
+        "fase": "A",
+        "s_fase_mm2": 1.5,
+        "s_neutro_mm2": 1.5,
+        "s_pe_mm2": 1.5,
+        "iz_corrigida_a": 17.5,
+        "disjuntor_a": 10,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 2.9983,
+        "icc_min_modelo_a": 143.58,
+        "limite_i2t_a2s": 29756,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 3.3526
+      },
+      {
+        "id": "C3",
+        "uso": "TUG social/circulacao/apoio",
+        "p_w_hipotese": 1000,
+        "fp_hipotese": 1,
+        "s_va": 1000.0,
+        "u_v": 127,
+        "ib_a": 7.874,
+        "L_ida_m": 28,
+        "fase": "A",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 2.5,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 16,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 3.1248,
+        "icc_min_modelo_a": 208.71,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 3.4791
+      },
+      {
+        "id": "C4",
+        "uso": "TUG quartos",
+        "p_w_hipotese": 800,
+        "fp_hipotese": 1,
+        "s_va": 800.0,
+        "u_v": 127,
+        "ib_a": 6.2992,
+        "L_ida_m": 30,
+        "fase": "C",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 2.5,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 16,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 2.6784,
+        "icc_min_modelo_a": 197.05,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 3.0327
+      },
+      {
+        "id": "C5",
+        "uso": "TUG cozinha",
+        "p_w_hipotese": 1900,
+        "fp_hipotese": 1,
+        "s_va": 1900.0,
+        "u_v": 127,
+        "ib_a": 14.9606,
+        "L_ida_m": 14,
+        "fase": "A",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 2.5,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 16,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 2.9686,
+        "icc_min_modelo_a": 356.24,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 3.3229
+      },
+      {
+        "id": "C6",
+        "uso": "TUG servico",
+        "p_w_hipotese": 1900,
+        "fp_hipotese": 1,
+        "s_va": 1900.0,
+        "u_v": 127,
+        "ib_a": 14.9606,
+        "L_ida_m": 22,
+        "fase": "A",
+        "s_fase_mm2": 4,
+        "s_neutro_mm2": 4,
+        "s_pe_mm2": 4,
+        "iz_corrigida_a": 32,
+        "disjuntor_a": 16,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 2.9156,
+        "icc_min_modelo_a": 360.8,
+        "limite_i2t_a2s": 211600,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 3.2699
+      },
+      {
+        "id": "C7",
+        "uso": "TUG banhos",
+        "p_w_hipotese": 1200,
+        "fp_hipotese": 1,
+        "s_va": 1200.0,
+        "u_v": 127,
+        "ib_a": 9.4488,
+        "L_ida_m": 25,
+        "fase": "C",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 2.5,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 16,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 3.348,
+        "icc_min_modelo_a": 229.04,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 3.7023
+      },
+      {
+        "id": "C8",
+        "uso": "Cooktop inducao",
+        "p_w_hipotese": 7400,
+        "fp_hipotese": 1,
+        "s_va": 7400.0,
+        "u_v": 220,
+        "ib_a": 33.6364,
+        "L_ida_m": 14,
+        "fase": "BC",
+        "s_fase_mm2": 6,
+        "s_neutro_mm2": 0,
+        "s_pe_mm2": 6,
+        "iz_corrigida_a": 41,
+        "disjuntor_a": 40,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 1.6054,
+        "icc_min_modelo_a": 710.82,
+        "limite_i2t_a2s": 476100,
+        "eletroduto": "DE25, DI>=19mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 1.9597
+      },
+      {
+        "id": "C9",
+        "uso": "Forno eletrico",
+        "p_w_hipotese": 3000,
+        "fp_hipotese": 1,
+        "s_va": 3000.0,
+        "u_v": 220,
+        "ib_a": 13.6364,
+        "L_ida_m": 15,
+        "fase": "AB",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 0,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 16,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 1.6736,
+        "icc_min_modelo_a": 463.65,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 2.0279
+      },
+      {
+        "id": "C10",
+        "uso": "Micro-ondas",
+        "p_w_hipotese": 1500,
+        "fp_hipotese": 0.95,
+        "s_va": 1578.947,
+        "u_v": 127,
+        "ib_a": 12.4327,
+        "L_ida_m": 14,
+        "fase": "B",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 2.5,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 16,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 2.467,
+        "icc_min_modelo_a": 356.24,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 2.8213
+      },
+      {
+        "id": "C11",
+        "uso": "Geladeira",
+        "p_w_hipotese": 350,
+        "fp_hipotese": 0.85,
+        "s_va": 411.765,
+        "u_v": 127,
+        "ib_a": 3.2422,
+        "L_ida_m": 14,
+        "fase": "B",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 2.5,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 10,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 0.6433,
+        "icc_min_modelo_a": 356.24,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 0.9976
+      },
+      {
+        "id": "C12",
+        "uso": "Lavadora",
+        "p_w_hipotese": 1000,
+        "fp_hipotese": 0.9,
+        "s_va": 1111.111,
+        "u_v": 127,
+        "ib_a": 8.7489,
+        "L_ida_m": 22,
+        "fase": "B",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 2.5,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 16,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 2.728,
+        "icc_min_modelo_a": 253.75,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 3.0823
+      },
+      {
+        "id": "C13",
+        "uso": "Aquecedor central 200 L",
+        "p_w_hipotese": 3000,
+        "fp_hipotese": 1,
+        "s_va": 3000.0,
+        "u_v": 220,
+        "ib_a": 13.6364,
+        "L_ida_m": 20,
+        "fase": "CA",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 0,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 16,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 2.2314,
+        "icc_min_modelo_a": 389.73,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 2.5857
+      },
+      {
+        "id": "C14",
+        "uso": "Ar-condicionado quarto 1",
+        "p_w_hipotese": 900,
+        "fp_hipotese": 0.95,
+        "s_va": 947.368,
+        "u_v": 220,
+        "ib_a": 4.3062,
+        "L_ida_m": 25,
+        "fase": "BC",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 0,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 10,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 0.8808,
+        "icc_min_modelo_a": 336.13,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 1.2351
+      },
+      {
+        "id": "C15",
+        "uso": "Ar-condicionado quarto 2",
+        "p_w_hipotese": 900,
+        "fp_hipotese": 0.95,
+        "s_va": 947.368,
+        "u_v": 220,
+        "ib_a": 4.3062,
+        "L_ida_m": 30,
+        "fase": "CA",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 0,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 10,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 1.057,
+        "icc_min_modelo_a": 295.5,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 1.4113
+      },
+      {
+        "id": "C16",
+        "uso": "Depurador",
+        "p_w_hipotese": 200,
+        "fp_hipotese": 0.8,
+        "s_va": 250.0,
+        "u_v": 127,
+        "ib_a": 1.9685,
+        "L_ida_m": 15,
+        "fase": "A",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 2.5,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 10,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 0.4185,
+        "icc_min_modelo_a": 339.12,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 0.7728
+      },
+      {
+        "id": "C17",
+        "uso": "Central rede/automacao",
+        "p_w_hipotese": 400,
+        "fp_hipotese": 0.9,
+        "s_va": 444.444,
+        "u_v": 127,
+        "ib_a": 3.4996,
+        "L_ida_m": 27,
+        "fase": "C",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 2.5,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 10,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 1.3392,
+        "icc_min_modelo_a": 215.07,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 1.6935
+      },
+      {
+        "id": "C18",
+        "uso": "Portao - reserva",
+        "p_w_hipotese": 500,
+        "fp_hipotese": 0.8,
+        "s_va": 625.0,
+        "u_v": 220,
+        "ib_a": 2.8409,
+        "L_ida_m": 35,
+        "fase": "AB",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 0,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 10,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 0.8135,
+        "icc_min_modelo_a": 263.63,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 1.1678
+      },
+      {
+        "id": "C19",
+        "uso": "Pressurizacao NP (1 ativa)",
+        "p_w_hipotese": 370,
+        "fp_hipotese": 0.75,
+        "s_va": 493.333,
+        "u_v": 220,
+        "ib_a": 2.2424,
+        "L_ida_m": 28,
+        "fase": "BC",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 0,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 10,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 0.5137,
+        "icc_min_modelo_a": 310.52,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 0.868
+      },
+      {
+        "id": "C20",
+        "uso": "Pressurizacao AF (1 ativa)",
+        "p_w_hipotese": 1100,
+        "fp_hipotese": 0.8,
+        "s_va": 1375.0,
+        "u_v": 220,
+        "ib_a": 6.25,
+        "L_ida_m": 25,
+        "fase": "CA",
+        "s_fase_mm2": 2.5,
+        "s_neutro_mm2": 0,
+        "s_pe_mm2": 2.5,
+        "iz_corrigida_a": 24,
+        "disjuntor_a": 10,
+        "curva": "C",
+        "DR": "A, 30 mA",
+        "icn_ka": 10,
+        "queda_terminal_pct": 1.2784,
+        "icc_min_modelo_a": 336.13,
+        "limite_i2t_a2s": 82656,
+        "eletroduto": "DE20, DI>=15,5mm",
+        "estado": "DIMENSIONADO NO CENARIO",
+        "queda_total_modelo_pct": 1.6327
+      }
+    ],
+    "potencia_ativa_w": 28660,
+    "potencia_aparente_va": 29624.336,
+    "correntes_fasoriais_a": {
+      "A": 76.74019610079186,
+      "B": 75.8143619567959,
+      "C": 75.72124743964301
+    },
+    "alimentador": {
+      "L_m": 5,
+      "fase_neutro_mm2": 50,
+      "PE_mm2": 25,
+      "In_a": 100,
+      "Iz_base_a": 134,
+      "margem_adotada": 0.8,
+      "Iz_a": 107.2,
+      "Id_max_a": 76.74019610079186,
+      "neutro_fundamental_a": 14.632588331587606,
+      "queda_conservadora_pct": 0.3543307086614173,
+      "eletroduto": "DE63 DI>=50mm",
+      "ocupacao_pct": 34.88040000000001,
+      "Icc_max_QD_hipotese_ka": 6.35,
+      "Z_fonte_max_ohm": 0.1,
+      "neutro_limite_hipotese_h3_a": 48.87395915617222
+    },
+    "premissas": {
+      "carga": "TUG previstas e circuitos exclusivos somados integralmente; nenhum fator de demanda. Nao somar de novo TV/pequenos aparelhos nas TUG.",
+      "metodo": "B1, cobre/PVC70, ar30C; um circuito por eletroduto, sem agrupamento/isolacao termica; se mudar, recalcular.",
+      "alimentacao": "Cenario trifasico127/220V60Hz, TT, entrada100A. Nao e fornecimento aprovado pela concessionaria.",
+      "comprimentos": "Comprimentos de ida adotados como envelope de projeto; conferir se rotas/instalacao permanecem dentro deles.",
+      "protecao": "RCBO por circuito, polos conforme quadro,10kA,30mA tipoA; curvaC. Motopartida/inverter e I2t exigem fabricante compativel.",
+      "neutro": "N separado de PE, sem neutros compartilhados apos RCBO; PE continuo.",
+      "TT": "BEP, equipotencializacao principal/suplementar. RA objetivo<=20ohm: RA*0,03<=0,6V; RA nao foi medida.",
+      "DPS": "TipoII 3+1 proprio paraTT127/220, Uc175V F-N, In>=20kA Imax>=40kA Up<=1,5kV. N-PE por centelhador; coordenar respaldo100A/distancias conforme fabricante.",
+      "harmonicas": "Modelo senoidal com FP de deslocamento; hipotese adicional de3a harmonica<=15% da fundamental por fase. Neutro verificado por soma limite, sem reduzir secao.",
+      "curto": "Zfonte max0,1ohm e Iccmax6,35kA hipoteses. Exigir Icn10kA e energia passante<=k2S2 por circuito; a verificacao I2t de produto nao esta feita.",
+      "quadros": "Prever quadro com capacidade fisica >=72 modulos DIN, recalcular pelo dispositivo selecionado; esta escolha nao fecha dissipacao termica.",
+      "solar": "6modulos550Wp,2MPPT independentes,3modulos/MPPT; on-grid3kW220V. Correntes/Voc sao hipoteses de compatibilidade a conferir por ficha.",
+      "maquete": "Nenhuma destas tensoes/cargas e instrucao de ligacao da maquete DC."
+    },
+    "solar": {
+      "n_modulos": 6,
+      "p_modulo_wp": 550,
+      "p_dc_wp": 3300,
+      "p_ac_w": 3000,
+      "serie_por_mppt": 3,
+      "mppt": 2,
+      "vmp_mod_v": 42,
+      "voc_mod_v": 50,
+      "isc_mod_a": 14.2,
+      "imp_mod_a": 13.095238095238095,
+      "temperatura_min_hipotese_c": 10,
+      "coef_voc_por_c": -0.003,
+      "voc_string_corrigida_v": 156.75,
+      "vmp_string_v": 126,
+      "corrente_projeto_a": 17.75,
+      "cabo_dc_mm2": 6,
+      "iz_dc_min_corrigida_a": 25,
+      "L_dc_ida_m": 15,
+      "fuse_gPV_a": 20,
+      "isolador_dc": "2P32A600Vcc por MPPT",
+      "DPS_dc": "TipoII PV600V, conforme inversor",
+      "inversor_requisito": "2MPPT independentes; MPPT90-450V; Vccmax>=600V; Ientrada>=15A e Isc_admissivel>=18A porMPPT; certificacao/anti-ilhamento e protecao residual compativeis",
+      "circuito_ac": "C21: 2P C20A, DRtipoB30mA bidirecional conforme inversor; 2F+PE4mm2,20m,Iz32A; Icn10kA",
+      "queda_dc_pct": 1.1692176870748299,
+      "queda_ac_pct": 1.3946280991735538,
+      "limite_geracao": "Sem subtrair PV da demanda; nao pressupor geracao durante falta de rede.",
+      "area_modulos_m2": 15.869999999999997,
+      "coef_vmp_por_c": -0.0035,
+      "temperatura_max_celula_hipotese_c": 70,
+      "vmp_string_quente_v": 106.155,
+      "fusivel_admissivel_modulo_min_a": 20
+    }
+  },
+  "hidraulica": {
+    "aparelhos": [
+      {
+        "id": "H01",
+        "uso": "Pia da cozinha",
+        "x_maquete_mm": 194,
+        "y_maquete_mm": 186,
+        "AF_ls": 0.1,
+        "AQ_ls": 0.1,
+        "NP_ls": 0,
+        "z_conexao_m": 0.6,
+        "ES_DN_mm": 50,
+        "UHC": 3
+      },
+      {
+        "id": "H02",
+        "uso": "Lavatorio 1",
+        "x_maquete_mm": 229,
+        "y_maquete_mm": 76,
+        "AF_ls": 0.05,
+        "AQ_ls": 0.05,
+        "NP_ls": 0,
+        "z_conexao_m": 0.6,
+        "ES_DN_mm": 40,
+        "UHC": 1
+      },
+      {
+        "id": "H03",
+        "uso": "Bacia sanitaria 1",
+        "x_maquete_mm": 235,
+        "y_maquete_mm": 27,
+        "AF_ls": 0,
+        "AQ_ls": 0,
+        "NP_ls": 0.15,
+        "z_conexao_m": 0.2,
+        "ES_DN_mm": 100,
+        "UHC": 6
+      },
+      {
+        "id": "H04",
+        "uso": "Chuveiro 1",
+        "x_maquete_mm": 275,
+        "y_maquete_mm": 22,
+        "AF_ls": 0.075,
+        "AQ_ls": 0.075,
+        "NP_ls": 0,
+        "z_conexao_m": 2.2,
+        "ES_DN_mm": 40,
+        "UHC": 2
+      },
+      {
+        "id": "H05",
+        "uso": "Lavatorio 2",
+        "x_maquete_mm": 503,
+        "y_maquete_mm": 77,
+        "AF_ls": 0.05,
+        "AQ_ls": 0.05,
+        "NP_ls": 0,
+        "z_conexao_m": 0.6,
+        "ES_DN_mm": 40,
+        "UHC": 1
+      },
+      {
+        "id": "H06",
+        "uso": "Bacia sanitaria 2",
+        "x_maquete_mm": 516,
+        "y_maquete_mm": 27,
+        "AF_ls": 0,
+        "AQ_ls": 0,
+        "NP_ls": 0.15,
+        "z_conexao_m": 0.2,
+        "ES_DN_mm": 100,
+        "UHC": 6
+      },
+      {
+        "id": "H07",
+        "uso": "Chuveiro 2",
+        "x_maquete_mm": 562,
+        "y_maquete_mm": 23,
+        "AF_ls": 0.075,
+        "AQ_ls": 0.075,
+        "NP_ls": 0,
+        "z_conexao_m": 2.2,
+        "ES_DN_mm": 40,
+        "UHC": 2
+      },
+      {
+        "id": "H08",
+        "uso": "Tanque",
+        "x_maquete_mm": 330,
+        "y_maquete_mm": 19,
+        "AF_ls": 0.25,
+        "AQ_ls": 0,
+        "NP_ls": 0,
+        "z_conexao_m": 1.0,
+        "ES_DN_mm": 50,
+        "UHC": 3
+      },
+      {
+        "id": "H09",
+        "uso": "Lavadora",
+        "x_maquete_mm": 464,
+        "y_maquete_mm": 22,
+        "AF_ls": 0.2,
+        "AQ_ls": 0,
+        "NP_ls": 0,
+        "z_conexao_m": 1.0,
+        "ES_DN_mm": 50,
+        "UHC": 3
+      }
+    ],
+    "trechos": [
+      {
+        "id": "AF0",
+        "rede": "AF",
+        "origem": "PAF",
+        "destino": "CAF",
+        "Q_ls": 1.15,
+        "DE_mm": 40,
+        "DI_min_calculo_mm": 35.2,
+        "vertices_maquete_mm": [
+          [
+            330,
+            -50
+          ],
+          [
+            330,
+            110
+          ]
+        ],
+        "z1_m": 0.3,
+        "z2_m": 2.4,
+        "L_real_m": 5.3,
+        "Leq_m": 7.95,
+        "v_ms": 1.1817,
+        "f": 0.02181,
+        "hf_m": 0.35068
+      },
+      {
+        "id": "AFN",
+        "rede": "AF",
+        "origem": "PAF",
+        "destino": "ReposicaoNP",
+        "Q_ls": 0.3,
+        "DE_mm": 20,
+        "DI_min_calculo_mm": 17,
+        "vertices_maquete_mm": [
+          [
+            330,
+            -50
+          ],
+          [
+            700,
+            -50
+          ]
+        ],
+        "z1_m": 0.3,
+        "z2_m": 1.2,
+        "L_real_m": 8.3,
+        "Leq_m": 12.45,
+        "v_ms": 1.3217,
+        "f": 0.02531,
+        "hf_m": 1.6509
+      },
+      {
+        "id": "AFL",
+        "rede": "AF",
+        "origem": "CAF",
+        "destino": "Esquerda",
+        "Q_ls": 0.225,
+        "DE_mm": 25,
+        "DI_min_calculo_mm": 21.6,
+        "vertices_maquete_mm": [
+          [
+            330,
+            110
+          ],
+          [
+            202,
+            110
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 2.4,
+        "L_real_m": 2.56,
+        "Leq_m": 3.84,
+        "v_ms": 0.614,
+        "f": 0.02884,
+        "hf_m": 0.09856
+      },
+      {
+        "id": "AFR",
+        "rede": "AF",
+        "origem": "CAF",
+        "destino": "Direita",
+        "Q_ls": 0.675,
+        "DE_mm": 32,
+        "DI_min_calculo_mm": 27.8,
+        "vertices_maquete_mm": [
+          [
+            330,
+            110
+          ],
+          [
+            580,
+            110
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 2.4,
+        "L_real_m": 5.0,
+        "Leq_m": 7.5,
+        "v_ms": 1.112,
+        "f": 0.02338,
+        "hf_m": 0.39764
+      },
+      {
+        "id": "AFA",
+        "rede": "AF",
+        "origem": "Direita",
+        "destino": "AQ1",
+        "Q_ls": 0.35,
+        "DE_mm": 25,
+        "DI_min_calculo_mm": 21.6,
+        "vertices_maquete_mm": [
+          [
+            455,
+            110
+          ],
+          [
+            455,
+            60
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 1.0,
+        "L_real_m": 2.4,
+        "Leq_m": 3.6,
+        "v_ms": 0.9551,
+        "f": 0.02579,
+        "hf_m": 0.19994
+      },
+      {
+        "id": "AQT",
+        "rede": "AQ",
+        "origem": "AQ1",
+        "destino": "AQcentro",
+        "Q_ls": 0.35,
+        "DE_mm": 28,
+        "DI_min_calculo_mm": 22,
+        "vertices_maquete_mm": [
+          [
+            455,
+            60
+          ],
+          [
+            455,
+            101
+          ]
+        ],
+        "z1_m": 1.0,
+        "z2_m": 2.4,
+        "L_real_m": 2.22,
+        "Leq_m": 3.33,
+        "v_ms": 0.9207,
+        "f": 0.0259,
+        "hf_m": 0.16947
+      },
+      {
+        "id": "AQL",
+        "rede": "AQ",
+        "origem": "AQcentro",
+        "destino": "AQesquerda",
+        "Q_ls": 0.225,
+        "DE_mm": 28,
+        "DI_min_calculo_mm": 22,
+        "vertices_maquete_mm": [
+          [
+            455,
+            101
+          ],
+          [
+            202,
+            101
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 2.4,
+        "L_real_m": 5.06,
+        "Leq_m": 7.59,
+        "v_ms": 0.5919,
+        "f": 0.02898,
+        "hf_m": 0.17857
+      },
+      {
+        "id": "AQR",
+        "rede": "AQ",
+        "origem": "AQcentro",
+        "destino": "AQdireita",
+        "Q_ls": 0.125,
+        "DE_mm": 28,
+        "DI_min_calculo_mm": 22,
+        "vertices_maquete_mm": [
+          [
+            455,
+            101
+          ],
+          [
+            580,
+            101
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 2.4,
+        "L_real_m": 2.5,
+        "Leq_m": 3.75,
+        "v_ms": 0.3288,
+        "f": 0.03403,
+        "hf_m": 0.03198
+      },
+      {
+        "id": "NP0",
+        "rede": "NP",
+        "origem": "PNP",
+        "destino": "NPbarrilete",
+        "Q_ls": 0.3,
+        "DE_mm": 25,
+        "DI_min_calculo_mm": 21.6,
+        "vertices_maquete_mm": [
+          [
+            720,
+            -18
+          ],
+          [
+            235,
+            -18
+          ]
+        ],
+        "z1_m": 0.3,
+        "z2_m": 0.3,
+        "L_real_m": 9.7,
+        "Leq_m": 14.55,
+        "v_ms": 0.8187,
+        "f": 0.02679,
+        "hf_m": 0.6168
+      },
+      {
+        "id": "AF_H01",
+        "rede": "AF",
+        "origem": "Barrilete",
+        "destino": "H01",
+        "Q_ls": 0.1,
+        "DE_mm": 20,
+        "DI_min_calculo_mm": 17,
+        "vertices_maquete_mm": [
+          [
+            202,
+            110
+          ],
+          [
+            202,
+            186
+          ],
+          [
+            194,
+            186
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 0.6,
+        "L_real_m": 3.48,
+        "Leq_m": 5.22,
+        "v_ms": 0.4406,
+        "f": 0.03373,
+        "hf_m": 0.10249
+      },
+      {
+        "id": "AQ_H01",
+        "rede": "AQ",
+        "origem": "BarrileteAQ",
+        "destino": "H01",
+        "Q_ls": 0.1,
+        "DE_mm": 22,
+        "DI_min_calculo_mm": 17.5,
+        "vertices_maquete_mm": [
+          [
+            205,
+            101
+          ],
+          [
+            205,
+            186
+          ],
+          [
+            194,
+            186
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 0.6,
+        "L_real_m": 3.72,
+        "Leq_m": 5.58,
+        "v_ms": 0.4158,
+        "f": 0.034,
+        "hf_m": 0.09555
+      },
+      {
+        "id": "AF_H02",
+        "rede": "AF",
+        "origem": "Barrilete",
+        "destino": "H02",
+        "Q_ls": 0.05,
+        "DE_mm": 20,
+        "DI_min_calculo_mm": 17,
+        "vertices_maquete_mm": [
+          [
+            229,
+            110
+          ],
+          [
+            229,
+            76
+          ],
+          [
+            229,
+            76
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 0.6,
+        "L_real_m": 2.48,
+        "Leq_m": 3.72,
+        "v_ms": 0.2203,
+        "f": 0.04151,
+        "hf_m": 0.02247
+      },
+      {
+        "id": "AQ_H02",
+        "rede": "AQ",
+        "origem": "BarrileteAQ",
+        "destino": "H02",
+        "Q_ls": 0.05,
+        "DE_mm": 22,
+        "DI_min_calculo_mm": 17.5,
+        "vertices_maquete_mm": [
+          [
+            232,
+            101
+          ],
+          [
+            232,
+            76
+          ],
+          [
+            229,
+            76
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 0.6,
+        "L_real_m": 2.36,
+        "Leq_m": 3.54,
+        "v_ms": 0.2079,
+        "f": 0.04189,
+        "hf_m": 0.01867
+      },
+      {
+        "id": "NP_H03",
+        "rede": "NP",
+        "origem": "NPbarrilete",
+        "destino": "H03",
+        "Q_ls": 0.15,
+        "DE_mm": 20,
+        "DI_min_calculo_mm": 17,
+        "vertices_maquete_mm": [
+          [
+            235,
+            -18
+          ],
+          [
+            235,
+            27
+          ]
+        ],
+        "z1_m": 0.3,
+        "z2_m": 0.2,
+        "L_real_m": 1.0,
+        "Leq_m": 1.5,
+        "v_ms": 0.6609,
+        "f": 0.03017,
+        "hf_m": 0.05927
+      },
+      {
+        "id": "AF_H04",
+        "rede": "AF",
+        "origem": "Barrilete",
+        "destino": "H04",
+        "Q_ls": 0.075,
+        "DE_mm": 20,
+        "DI_min_calculo_mm": 17,
+        "vertices_maquete_mm": [
+          [
+            275,
+            110
+          ],
+          [
+            275,
+            22
+          ],
+          [
+            275,
+            22
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 2.2,
+        "L_real_m": 1.96,
+        "Leq_m": 2.94,
+        "v_ms": 0.3304,
+        "f": 0.03666,
+        "hf_m": 0.03529
+      },
+      {
+        "id": "AQ_H04",
+        "rede": "AQ",
+        "origem": "BarrileteAQ",
+        "destino": "H04",
+        "Q_ls": 0.075,
+        "DE_mm": 22,
+        "DI_min_calculo_mm": 17.5,
+        "vertices_maquete_mm": [
+          [
+            278,
+            101
+          ],
+          [
+            278,
+            22
+          ],
+          [
+            275,
+            22
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 2.2,
+        "L_real_m": 1.84,
+        "Leq_m": 2.76,
+        "v_ms": 0.3118,
+        "f": 0.03697,
+        "hf_m": 0.02891
+      },
+      {
+        "id": "AF_H05",
+        "rede": "AF",
+        "origem": "Barrilete",
+        "destino": "H05",
+        "Q_ls": 0.05,
+        "DE_mm": 20,
+        "DI_min_calculo_mm": 17,
+        "vertices_maquete_mm": [
+          [
+            503,
+            110
+          ],
+          [
+            503,
+            77
+          ],
+          [
+            503,
+            77
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 0.6,
+        "L_real_m": 2.46,
+        "Leq_m": 3.69,
+        "v_ms": 0.2203,
+        "f": 0.04151,
+        "hf_m": 0.02229
+      },
+      {
+        "id": "AQ_H05",
+        "rede": "AQ",
+        "origem": "BarrileteAQ",
+        "destino": "H05",
+        "Q_ls": 0.05,
+        "DE_mm": 22,
+        "DI_min_calculo_mm": 17.5,
+        "vertices_maquete_mm": [
+          [
+            506,
+            101
+          ],
+          [
+            506,
+            77
+          ],
+          [
+            503,
+            77
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 0.6,
+        "L_real_m": 2.34,
+        "Leq_m": 3.51,
+        "v_ms": 0.2079,
+        "f": 0.04189,
+        "hf_m": 0.01851
+      },
+      {
+        "id": "NP_H06",
+        "rede": "NP",
+        "origem": "NPbarrilete",
+        "destino": "H06",
+        "Q_ls": 0.15,
+        "DE_mm": 20,
+        "DI_min_calculo_mm": 17,
+        "vertices_maquete_mm": [
+          [
+            516,
+            -18
+          ],
+          [
+            516,
+            27
+          ]
+        ],
+        "z1_m": 0.3,
+        "z2_m": 0.2,
+        "L_real_m": 1.0,
+        "Leq_m": 1.5,
+        "v_ms": 0.6609,
+        "f": 0.03017,
+        "hf_m": 0.05927
+      },
+      {
+        "id": "AF_H07",
+        "rede": "AF",
+        "origem": "Barrilete",
+        "destino": "H07",
+        "Q_ls": 0.075,
+        "DE_mm": 20,
+        "DI_min_calculo_mm": 17,
+        "vertices_maquete_mm": [
+          [
+            562,
+            110
+          ],
+          [
+            562,
+            23
+          ],
+          [
+            562,
+            23
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 2.2,
+        "L_real_m": 1.94,
+        "Leq_m": 2.91,
+        "v_ms": 0.3304,
+        "f": 0.03666,
+        "hf_m": 0.03493
+      },
+      {
+        "id": "AQ_H07",
+        "rede": "AQ",
+        "origem": "BarrileteAQ",
+        "destino": "H07",
+        "Q_ls": 0.075,
+        "DE_mm": 22,
+        "DI_min_calculo_mm": 17.5,
+        "vertices_maquete_mm": [
+          [
+            565,
+            101
+          ],
+          [
+            565,
+            23
+          ],
+          [
+            562,
+            23
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 2.2,
+        "L_real_m": 1.82,
+        "Leq_m": 2.73,
+        "v_ms": 0.3118,
+        "f": 0.03697,
+        "hf_m": 0.02859
+      },
+      {
+        "id": "AF_H08",
+        "rede": "AF",
+        "origem": "Barrilete",
+        "destino": "H08",
+        "Q_ls": 0.25,
+        "DE_mm": 20,
+        "DI_min_calculo_mm": 17,
+        "vertices_maquete_mm": [
+          [
+            330,
+            110
+          ],
+          [
+            330,
+            19
+          ],
+          [
+            330,
+            19
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 1.0,
+        "L_real_m": 3.22,
+        "Leq_m": 4.83,
+        "v_ms": 1.1014,
+        "f": 0.02646,
+        "hf_m": 0.46499
+      },
+      {
+        "id": "AF_H09",
+        "rede": "AF",
+        "origem": "Barrilete",
+        "destino": "H09",
+        "Q_ls": 0.2,
+        "DE_mm": 20,
+        "DI_min_calculo_mm": 17,
+        "vertices_maquete_mm": [
+          [
+            464,
+            110
+          ],
+          [
+            464,
+            22
+          ],
+          [
+            464,
+            22
+          ]
+        ],
+        "z1_m": 2.4,
+        "z2_m": 1.0,
+        "L_real_m": 3.16,
+        "Leq_m": 4.74,
+        "v_ms": 0.8811,
+        "f": 0.02799,
+        "hf_m": 0.30889
+      }
+    ],
+    "pressoes": [
+      {
+        "aparelho": "H01",
+        "rede": "AF",
+        "caminho": [
+          "AF0",
+          "AFL",
+          "AF_H01"
+        ],
+        "hf_total_m": 0.5517,
+        "perdas_equipamentos_kpa": 0,
+        "pressao_disponivel_kpa": 241.647,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H01",
+        "rede": "AQ",
+        "caminho": [
+          "AF0",
+          "AFR",
+          "AFA",
+          "AQT",
+          "AQL",
+          "AQ_H01"
+        ],
+        "hf_total_m": 1.3919,
+        "perdas_equipamentos_kpa": 70,
+        "pressao_disponivel_kpa": 163.409,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H02",
+        "rede": "AF",
+        "caminho": [
+          "AF0",
+          "AFL",
+          "AF_H02"
+        ],
+        "hf_total_m": 0.4717,
+        "perdas_equipamentos_kpa": 0,
+        "pressao_disponivel_kpa": 242.432,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H02",
+        "rede": "AQ",
+        "caminho": [
+          "AF0",
+          "AFR",
+          "AFA",
+          "AQT",
+          "AQL",
+          "AQ_H02"
+        ],
+        "hf_total_m": 1.315,
+        "perdas_equipamentos_kpa": 70,
+        "pressao_disponivel_kpa": 164.163,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H03",
+        "rede": "NP",
+        "caminho": [
+          "NP0",
+          "NP_H03"
+        ],
+        "hf_total_m": 0.6761,
+        "perdas_equipamentos_kpa": 25,
+        "pressao_disponivel_kpa": 119.351,
+        "pressao_min_especificar_kpa": 50,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H04",
+        "rede": "AF",
+        "caminho": [
+          "AF0",
+          "AFL",
+          "AF_H04"
+        ],
+        "hf_total_m": 0.4845,
+        "perdas_equipamentos_kpa": 0,
+        "pressao_disponivel_kpa": 226.616,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H04",
+        "rede": "AQ",
+        "caminho": [
+          "AF0",
+          "AFR",
+          "AFA",
+          "AQT",
+          "AQL",
+          "AQ_H04"
+        ],
+        "hf_total_m": 1.3252,
+        "perdas_equipamentos_kpa": 70,
+        "pressao_disponivel_kpa": 148.371,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H05",
+        "rede": "AF",
+        "caminho": [
+          "AF0",
+          "AFR",
+          "AF_H05"
+        ],
+        "hf_total_m": 0.7706,
+        "perdas_equipamentos_kpa": 0,
+        "pressao_disponivel_kpa": 239.501,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H05",
+        "rede": "AQ",
+        "caminho": [
+          "AF0",
+          "AFR",
+          "AFA",
+          "AQT",
+          "AQR",
+          "AQ_H05"
+        ],
+        "hf_total_m": 1.1682,
+        "perdas_equipamentos_kpa": 70,
+        "pressao_disponivel_kpa": 165.602,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H06",
+        "rede": "NP",
+        "caminho": [
+          "NP0",
+          "NP_H06"
+        ],
+        "hf_total_m": 0.6761,
+        "perdas_equipamentos_kpa": 25,
+        "pressao_disponivel_kpa": 119.351,
+        "pressao_min_especificar_kpa": 50,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H07",
+        "rede": "AF",
+        "caminho": [
+          "AF0",
+          "AFR",
+          "AF_H07"
+        ],
+        "hf_total_m": 0.7833,
+        "perdas_equipamentos_kpa": 0,
+        "pressao_disponivel_kpa": 223.686,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H07",
+        "rede": "AQ",
+        "caminho": [
+          "AF0",
+          "AFR",
+          "AFA",
+          "AQT",
+          "AQR",
+          "AQ_H07"
+        ],
+        "hf_total_m": 1.1783,
+        "perdas_equipamentos_kpa": 70,
+        "pressao_disponivel_kpa": 149.812,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H08",
+        "rede": "AF",
+        "caminho": [
+          "AF0",
+          "AF_H08"
+        ],
+        "hf_total_m": 0.8157,
+        "perdas_equipamentos_kpa": 0,
+        "pressao_disponivel_kpa": 235.136,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      },
+      {
+        "aparelho": "H09",
+        "rede": "AF",
+        "caminho": [
+          "AF0",
+          "AFR",
+          "AF_H09"
+        ],
+        "hf_total_m": 1.0572,
+        "perdas_equipamentos_kpa": 0,
+        "pressao_disponivel_kpa": 232.768,
+        "pressao_min_especificar_kpa": 100,
+        "resultado": "ATENDE_CENARIO"
+      }
+    ],
+    "esgoto": [
+      {
+        "id": "ES_H01",
+        "origem": "H01",
+        "destino": "CG1",
+        "DN_mm": 50,
+        "declividade_pct": 2.0,
+        "UHC": 3,
+        "vertices_maquete_mm": [
+          [
+            194,
+            186
+          ],
+          [
+            105,
+            186
+          ],
+          [
+            105,
+            310
+          ]
+        ],
+        "L_m": 4.26,
+        "cota_inicio_m": -0.1,
+        "cota_chegada_m": -0.1852
+      },
+      {
+        "id": "ES_CG",
+        "origem": "CG1",
+        "destino": "CI3",
+        "DN_mm": 100,
+        "declividade_pct": 1.0,
+        "UHC": 3,
+        "vertices_maquete_mm": [
+          [
+            105,
+            310
+          ],
+          [
+            730,
+            310
+          ]
+        ],
+        "L_m": 12.5,
+        "cota_inicio_m": -0.25,
+        "cota_chegada_m": -0.375
+      },
+      {
+        "id": "ES_CI3",
+        "origem": "CI3",
+        "destino": "CIE",
+        "DN_mm": 100,
+        "declividade_pct": 1.0,
+        "UHC": 3,
+        "vertices_maquete_mm": [
+          [
+            730,
+            310
+          ],
+          [
+            730,
+            -60
+          ]
+        ],
+        "L_m": 7.4,
+        "cota_inicio_m": -0.375,
+        "cota_chegada_m": -0.449
+      },
+      {
+        "id": "ES_H02",
+        "origem": "H02",
+        "destino": "CS1",
+        "DN_mm": 40,
+        "declividade_pct": 2.0,
+        "UHC": 1,
+        "vertices_maquete_mm": [
+          [
+            229,
+            76
+          ],
+          [
+            229,
+            50
+          ],
+          [
+            252,
+            50
+          ]
+        ],
+        "L_m": 0.98,
+        "cota_inicio_m": -0.03,
+        "cota_chegada_m": -0.0496
+      },
+      {
+        "id": "ES_H04",
+        "origem": "H04",
+        "destino": "CS1",
+        "DN_mm": 40,
+        "declividade_pct": 2.0,
+        "UHC": 2,
+        "vertices_maquete_mm": [
+          [
+            275,
+            22
+          ],
+          [
+            275,
+            50
+          ],
+          [
+            252,
+            50
+          ]
+        ],
+        "L_m": 1.02,
+        "cota_inicio_m": -0.03,
+        "cota_chegada_m": -0.0504
+      },
+      {
+        "id": "ES_H05",
+        "origem": "H05",
+        "destino": "CS2",
+        "DN_mm": 40,
+        "declividade_pct": 2.0,
+        "UHC": 1,
+        "vertices_maquete_mm": [
+          [
+            503,
+            77
+          ],
+          [
+            503,
+            59
+          ],
+          [
+            544,
+            59
+          ]
+        ],
+        "L_m": 1.18,
+        "cota_inicio_m": -0.03,
+        "cota_chegada_m": -0.0536
+      },
+      {
+        "id": "ES_H07",
+        "origem": "H07",
+        "destino": "CS2",
+        "DN_mm": 40,
+        "declividade_pct": 2.0,
+        "UHC": 2,
+        "vertices_maquete_mm": [
+          [
+            562,
+            23
+          ],
+          [
+            562,
+            59
+          ],
+          [
+            544,
+            59
+          ]
+        ],
+        "L_m": 1.08,
+        "cota_inicio_m": -0.03,
+        "cota_chegada_m": -0.0516
+      },
+      {
+        "id": "ES_H10",
+        "origem": "H10",
+        "destino": "CS1",
+        "DN_mm": 40,
+        "declividade_pct": 2.0,
+        "UHC": 0,
+        "vertices_maquete_mm": [
+          [
+            249,
+            58
+          ],
+          [
+            252,
+            58
+          ],
+          [
+            252,
+            50
+          ]
+        ],
+        "L_m": 0.22,
+        "cota_inicio_m": -0.03,
+        "cota_chegada_m": -0.0344
+      },
+      {
+        "id": "ES_H11",
+        "origem": "H11",
+        "destino": "CS2",
+        "DN_mm": 40,
+        "declividade_pct": 2.0,
+        "UHC": 0,
+        "vertices_maquete_mm": [
+          [
+            530,
+            65
+          ],
+          [
+            544,
+            65
+          ],
+          [
+            544,
+            59
+          ]
+        ],
+        "L_m": 0.4,
+        "cota_inicio_m": -0.03,
+        "cota_chegada_m": -0.038
+      },
+      {
+        "id": "ES_CS1",
+        "origem": "CS1",
+        "destino": "CI1",
+        "DN_mm": 75,
+        "declividade_pct": 2.0,
+        "UHC": 3,
+        "vertices_maquete_mm": [
+          [
+            252,
+            50
+          ],
+          [
+            252,
+            -60
+          ],
+          [
+            285,
+            -60
+          ]
+        ],
+        "L_m": 2.86,
+        "cota_inicio_m": -0.12,
+        "cota_chegada_m": -0.1772
+      },
+      {
+        "id": "ES_CS2",
+        "origem": "CS2",
+        "destino": "CI2",
+        "DN_mm": 75,
+        "declividade_pct": 2.0,
+        "UHC": 3,
+        "vertices_maquete_mm": [
+          [
+            544,
+            59
+          ],
+          [
+            544,
+            -60
+          ],
+          [
+            520,
+            -60
+          ]
+        ],
+        "L_m": 2.86,
+        "cota_inicio_m": -0.12,
+        "cota_chegada_m": -0.1772
+      },
+      {
+        "id": "ES_H03",
+        "origem": "H03",
+        "destino": "CI1",
+        "DN_mm": 100,
+        "declividade_pct": 1.0,
+        "UHC": 6,
+        "vertices_maquete_mm": [
+          [
+            235,
+            27
+          ],
+          [
+            235,
+            -60
+          ],
+          [
+            285,
+            -60
+          ]
+        ],
+        "L_m": 2.74,
+        "cota_inicio_m": -0.12,
+        "cota_chegada_m": -0.1474
+      },
+      {
+        "id": "ES_H06",
+        "origem": "H06",
+        "destino": "CI2",
+        "DN_mm": 100,
+        "declividade_pct": 1.0,
+        "UHC": 6,
+        "vertices_maquete_mm": [
+          [
+            516,
+            27
+          ],
+          [
+            516,
+            -60
+          ],
+          [
+            520,
+            -60
+          ]
+        ],
+        "L_m": 1.82,
+        "cota_inicio_m": -0.12,
+        "cota_chegada_m": -0.1382
+      },
+      {
+        "id": "ES_H08",
+        "origem": "H08",
+        "destino": "CI2",
+        "DN_mm": 50,
+        "declividade_pct": 2.0,
+        "UHC": 3,
+        "vertices_maquete_mm": [
+          [
+            330,
+            19
+          ],
+          [
+            330,
+            -60
+          ],
+          [
+            520,
+            -60
+          ]
+        ],
+        "L_m": 5.38,
+        "cota_inicio_m": -0.12,
+        "cota_chegada_m": -0.2276
+      },
+      {
+        "id": "ES_H09",
+        "origem": "H09",
+        "destino": "CI2",
+        "DN_mm": 50,
+        "declividade_pct": 2.0,
+        "UHC": 3,
+        "vertices_maquete_mm": [
+          [
+            464,
+            22
+          ],
+          [
+            464,
+            -60
+          ],
+          [
+            520,
+            -60
+          ]
+        ],
+        "L_m": 2.76,
+        "cota_inicio_m": -0.12,
+        "cota_chegada_m": -0.1752
+      },
+      {
+        "id": "ES_CI1",
+        "origem": "CI1",
+        "destino": "CI2",
+        "DN_mm": 100,
+        "declividade_pct": 1.0,
+        "UHC": 9,
+        "vertices_maquete_mm": [
+          [
+            285,
+            -60
+          ],
+          [
+            520,
+            -60
+          ]
+        ],
+        "L_m": 4.7,
+        "cota_inicio_m": -0.3,
+        "cota_chegada_m": -0.347
+      },
+      {
+        "id": "ES_CI2",
+        "origem": "CI2",
+        "destino": "CIE",
+        "DN_mm": 100,
+        "declividade_pct": 1.0,
+        "UHC": 24,
+        "vertices_maquete_mm": [
+          [
+            520,
+            -60
+          ],
+          [
+            730,
+            -60
+          ]
+        ],
+        "L_m": 4.2,
+        "cota_inicio_m": -0.4,
+        "cota_chegada_m": -0.442
+      },
+      {
+        "id": "ES_OUT",
+        "origem": "CIE",
+        "destino": "DS1",
+        "DN_mm": 100,
+        "declividade_pct": 1.0,
+        "UHC": 27,
+        "vertices_maquete_mm": [
+          [
+            730,
+            -60
+          ],
+          [
+            760,
+            -60
+          ]
+        ],
+        "L_m": 0.6,
+        "cota_inicio_m": -0.5,
+        "cota_chegada_m": -0.506
+      }
+    ],
+    "nos_maquete_mm": {
+      "CG1": [
+        105,
+        310
+      ],
+      "CS1": [
+        252,
+        50
+      ],
+      "CS2": [
+        544,
+        59
+      ],
+      "CI1": [
+        285,
+        -60
+      ],
+      "CI2": [
+        520,
+        -60
+      ],
+      "CI3": [
+        730,
+        310
+      ],
+      "CIE": [
+        730,
+        -60
+      ],
+      "DS1": [
+        760,
+        -60
+      ],
+      "VT1": [
+        292,
+        72
+      ],
+      "VT2": [
+        578,
+        72
+      ],
+      "VK": [
+        202,
+        186
+      ],
+      "VS1": [
+        335,
+        25
+      ],
+      "VS2": [
+        470,
+        25
+      ]
+    },
+    "saidas_caixas_m": {
+      "CG1": -0.25,
+      "CS1": -0.12,
+      "CS2": -0.12,
+      "CI1": -0.3,
+      "CI2": -0.4,
+      "CI3": -0.375,
+      "CIE": -0.5,
+      "DS1": -0.6
+    },
+    "ventilacao": [
+      {
+        "id": "V1",
+        "origem": "CS1",
+        "DN_mm": 50,
+        "terminal": "VT1",
+        "L_limite_projeto_m": 10,
+        "topo_m": 5.3
+      },
+      {
+        "id": "V2",
+        "origem": "CS2",
+        "DN_mm": 50,
+        "terminal": "VT2",
+        "L_limite_projeto_m": 10,
+        "topo_m": 5.3
+      },
+      {
+        "id": "V3",
+        "origem": "H01",
+        "DN_mm": 50,
+        "terminal": "VK",
+        "L_limite_projeto_m": 10,
+        "topo_m": 5.3
+      },
+      {
+        "id": "V4",
+        "origem": "H08",
+        "DN_mm": 50,
+        "terminal": "VS1",
+        "L_limite_projeto_m": 10,
+        "topo_m": 5.3
+      },
+      {
+        "id": "V5",
+        "origem": "H09",
+        "DN_mm": 50,
+        "terminal": "VS2",
+        "L_limite_projeto_m": 10,
+        "topo_m": 5.3
+      },
+      {
+        "id": "V6",
+        "origem": "H03",
+        "DN_mm": 50,
+        "terminal": "VT1",
+        "L_limite_projeto_m": 10,
+        "topo_m": 5.3
+      },
+      {
+        "id": "V7",
+        "origem": "H06",
+        "DN_mm": 50,
+        "terminal": "VT2",
+        "L_limite_projeto_m": 10,
+        "topo_m": 5.3
+      }
+    ],
+    "reservacao": {
+      "pessoas": 4,
+      "q_total_lpd": 150,
+      "demanda_total_l_dia": 600,
+      "descargas_por_pessoa_dia": 5,
+      "volume_descarga_l": 6,
+      "demanda_NP_l_dia": 120,
+      "potavel_rotina_l_dia": 480,
+      "potavel_backup_l_dia": 600,
+      "reservatorio_AF_nominal_l": 1000,
+      "AF_util_l": 800,
+      "AF_reserva_dias_backup": 1.3333333333333333,
+      "cisterna_NP_nominal_l": 1000,
+      "NP_util_l": 800,
+      "NP_alvo_dias_sem_chuva": 6,
+      "NP_dias_com_cheio_sem_entrada": 6.666666666666667,
+      "boiler_l": 200,
+      "boiler_kw": 3,
+      "T_fria_C": 20,
+      "T_acum_C": 60,
+      "T_uso_C": 40,
+      "T_limite_seguranca_C": 45,
+      "agua_misturada_por_pessoa_dia_l": 50,
+      "agua_quente_necessaria_l_dia": 100,
+      "energia_boiler_kwh": 9.302222222222222,
+      "tempo_recuperacao_h": 3.100740740740741,
+      "pressurizacao_AF": "2 bombas alternadas (1 ativa), Q>=1,45L/s e H>=28mca; potencia eletrica de estudo1,1kW por bomba, intertravamento",
+      "pressurizacao_NP": "2 bombas alternadas (1 ativa), Q>=0,30L/s e H>=18mca; estudo370W por bomba",
+      "pressao_AF_kpa": 250,
+      "pressao_NP_kpa": 150,
+      "pressao_max_controle_kpa": 300,
+      "AQ_grupo_e_misturador_perda_kpa": 70,
+      "isolamento_AQ": "CPVC classe de servico compativel60C/600kPa; isolamento termico20mm como premissa; dimensionar suportes/dilatacao",
+      "seguranca_boiler": "Termostato60C, limitador termico independente, misturadores termostaticos40C com limite45C; alivio, expansao e ausencia de bloqueio conforme fabricante; conjunto certificado",
+      "reposicao_NP": "AF por valvula de boia/solenoide com separacao atmosferica minima de estudo50mm acima extravasor para bocal<=20mm, acesso e identificacao; ensaio contra retorno",
+      "tratamento_chuva": "Tela, desvio inicial, sedimentacao/filtracao e desinfeccao dimensionada por vazao/qualidade; qualidade nao comprovada; sem uso corporal/alimentos",
+      "aplicacao": "Reservatorios e bombas no nivel do solo, em area tecnica proposta; apoio estrutural e lote a conferir",
+      "tratamento_NP": "Tela/desvio com capacidade>=5,146L/s; filtracao/desinfeccao de saidaNP validadas para>=1,10m3/h, perda total<=25kPa, intertravamento por falha. Qualidade e manutencao conforme usoNP; sem comprovacao laboratorial."
+    },
+    "expansao_termica": {
+      "volume_boiler_l": 200,
+      "rho20_kgm3": 998.2,
+      "rho60_kgm3": 983.2,
+      "expansao_agua_l": 3.05126118795771,
+      "vaso_expansao_potavel_l": 18,
+      "pre_carga_manometrica_kpa": 250,
+      "pressao_operacao_limite_kpa": 350,
+      "capacidade_expansao_entre_250_350_l": 4.0,
+      "alivio_max_kpa": 400,
+      "nota": "Grupo de seguranca, alivio, vaso e PMTA dependem de conjunto homologado pelo fabricante; sem bloqueio entre boiler e seguranca."
+    },
+    "chuva": {
+      "area_m2": 85.756,
+      "intensidade_hipotese_mm_h": 180,
+      "Q_ls": 4.2878,
+      "Q_com_margem20_ls": 5.14536,
+      "calha_semi_DE_mm": 200,
+      "lamina_max_mm": 80,
+      "declividade_pct": 0.5,
+      "capacidade_Manning_ls": 9.236405561735609,
+      "comprimento_calha_total_m": 14.35,
+      "duas_aguas_calha": "Do ponto alto central para duas saidas; comprimento de cada meia-calha7,175m, queda35,875mm",
+      "n_descidas": 2,
+      "DN_descidas_mm": 100,
+      "Q_por_descida_ls": 2.1439,
+      "area_por_descida_m2": 42.878,
+      "area_condutor_cm2": 78.53981633974483,
+      "criterio_descida": "Preselecao pela regra simplificada do Manual Tigre1cm2/m2:78,54cm2>42,878m2/descida; confirmar abaco NBR10844 e bocais no projeto executivo",
+      "coletor_pluvial_DN_mm": 150,
+      "coletor_declividade_pct": 1,
+      "coletor_capacidade_ls": 8.999199862636207,
+      "desvio_inicial_hipotese_mm": 2,
+      "desvio_l": 171.512,
+      "reservatorio_desvio_adotado_l": 200,
+      "exemplo_evento_10mm_l_apos_desvio": 445.93120000000005,
+      "clima": "180mm/h e premissa, nao IDF medida/validada. Series locais/recorrencia, extravasor de seguranca e destino pluvial exigem verificacao antes da execucao."
+    }
+  }
+}

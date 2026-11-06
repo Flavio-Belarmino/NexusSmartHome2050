@@ -1,0 +1,15 @@
+﻿aparelho;rede;caminho;hf_total_m;perdas_equipamentos_kpa;pressao_disponivel_kpa;pressao_min_especificar_kpa;resultado
+H01;AF;"[""AF0"", ""AFL"", ""AF_H01""]";0.5517;0;241.647;100;ATENDE_CENARIO
+H01;AQ;"[""AF0"", ""AFR"", ""AFA"", ""AQT"", ""AQL"", ""AQ_H01""]";1.3919;70;163.409;100;ATENDE_CENARIO
+H02;AF;"[""AF0"", ""AFL"", ""AF_H02""]";0.4717;0;242.432;100;ATENDE_CENARIO
+H02;AQ;"[""AF0"", ""AFR"", ""AFA"", ""AQT"", ""AQL"", ""AQ_H02""]";1.315;70;164.163;100;ATENDE_CENARIO
+H03;NP;"[""NP0"", ""NP_H03""]";0.6761;25;119.351;50;ATENDE_CENARIO
+H04;AF;"[""AF0"", ""AFL"", ""AF_H04""]";0.4845;0;226.616;100;ATENDE_CENARIO
+H04;AQ;"[""AF0"", ""AFR"", ""AFA"", ""AQT"", ""AQL"", ""AQ_H04""]";1.3252;70;148.371;100;ATENDE_CENARIO
+H05;AF;"[""AF0"", ""AFR"", ""AF_H05""]";0.7706;0;239.501;100;ATENDE_CENARIO
+H05;AQ;"[""AF0"", ""AFR"", ""AFA"", ""AQT"", ""AQR"", ""AQ_H05""]";1.1682;70;165.602;100;ATENDE_CENARIO
+H06;NP;"[""NP0"", ""NP_H06""]";0.6761;25;119.351;50;ATENDE_CENARIO
+H07;AF;"[""AF0"", ""AFR"", ""AF_H07""]";0.7833;0;223.686;100;ATENDE_CENARIO
+H07;AQ;"[""AF0"", ""AFR"", ""AFA"", ""AQT"", ""AQR"", ""AQ_H07""]";1.1783;70;149.812;100;ATENDE_CENARIO
+H08;AF;"[""AF0"", ""AF_H08""]";0.8157;0;235.136;100;ATENDE_CENARIO
+H09;AF;"[""AF0"", ""AFR"", ""AF_H09""]";1.0572;0;232.768;100;ATENDE_CENARIO

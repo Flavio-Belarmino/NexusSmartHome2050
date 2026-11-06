@@ -1,0 +1,10 @@
+﻿id;uso;x_maquete_mm;y_maquete_mm;AF_ls;AQ_ls;NP_ls;z_conexao_m;ES_DN_mm;UHC
+H01;Pia da cozinha;194;186;0.1;0.1;0;0.6;50;3
+H02;Lavatorio 1;229;76;0.05;0.05;0;0.6;40;1
+H03;Bacia sanitaria 1;235;27;0;0;0.15;0.2;100;6
+H04;Chuveiro 1;275;22;0.075;0.075;0;2.2;40;2
+H05;Lavatorio 2;503;77;0.05;0.05;0;0.6;40;1
+H06;Bacia sanitaria 2;516;27;0;0;0.15;0.2;100;6
+H07;Chuveiro 2;562;23;0.075;0.075;0;2.2;40;2
+H08;Tanque;330;19;0.25;0;0;1.0;50;3
+H09;Lavadora;464;22;0.2;0;0;1.0;50;3

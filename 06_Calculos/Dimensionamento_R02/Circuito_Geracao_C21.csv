@@ -1,0 +1,2 @@
+﻿id;tipo;potencia_w;u_v;fase;Ib_a;condutores;Iz_a;In_a;DR;Icn_ka;L_ida_m;queda_ac_pct
+C21;GERACAO - nao somar a carga;3000;220;AB;13.636363636363637;2F+PE4mm2;32;20;B30mA bidirecional conforme inversor;10;20;1.3946280991735538
