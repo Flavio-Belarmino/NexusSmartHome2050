@@ -19,12 +19,12 @@ A extensão com **garagem em papelão Paraná** faz parte do escopo atual. O con
 | Plantas, implantação, cobertura, fachadas e cortes | [PDF de 23 pranchas](01_Arquitetura/R02/PDF/NEXUS_Casa_Inteligente_ExpoTech_Plantas.pdf) | Anteprojeto R02 |
 | Desenhos editáveis | [26 arquivos DXF](01_Arquitetura/R02/DXF/) | Arquitetura, maquete e sistemas propostos |
 | Dimensões dos ambientes, aberturas e adjacências | [Dados CSV e JSON](01_Arquitetura/R02/DADOS/) | Cotas de trabalho em milímetros |
-| Elétrica residencial | [Pontos, cargas e circuitos R01](02_Eletrica/Residencial_R01/) | Estudo inicial publicado; dimensionamento final pendente |
+| Elétrica residencial | [Dimensionamento R02](06_Calculos/Dimensionamento_R02/) | 20 circuitos de carga, geração C21, cabos/proteções e unifilar; cenário acadêmico calculado |
 | Elétrica DC da maquete | [Elétrica](02_Eletrica/) | Proposta R02, a compatibilizar com os módulos reais |
-| Hidráulica residencial | [Pontos e redes R01](03_Hidraulica/Residencial_R01/) | Distribuição inicial de água/esgoto/ventilação e chuva; dimensionamento pendente |
+| Hidráulica residencial | [Dimensionamento R02](06_Calculos/Dimensionamento_R02/) | Água, pressões, reservação, aquecimento, esgoto/ventilação e chuva calculados nas hipóteses declaradas |
 | Regras de automação, incluindo garagem | [Especificação R01 em PDF](04_Automacao/NEXUS_Especificacao_Automacoes_R01.pdf) · [texto editável](04_Automacao/NEXUS_Especificacao_Automacoes_R01.txt) | Especificação funcional, sem firmware validado |
 | Segurança e rede | [Plantas e topologia R01](05_Seguranca/Rede_R01/) | Posições/interfaces propostas e simulador de alarmes; hardware/rede ainda pendentes |
-| Quantitativos e premissas | [Cálculos](06_Calculos/) | Dados preliminares, sem memória predial concluída |
+| Quantitativos e premissas | [Cálculos](06_Calculos/) | Memórias prediais R02 disponíveis; custos, base de exposição e ensaios a complementar |
 | Gerador dos desenhos | [Código Python](07_Codigo/Gerador_Documentacao/) | Código de documentação; não controla a maquete |
 | Primeiro módulo de controle | [A01: iluminação na bancada](07_Codigo/NEXUS_A01_Bancada/) | Firmware inicial e testes de lógica; ensaio físico pendente |
 | Demais módulos de bancada | [Índice de código](07_Codigo/README.md) | Brise, RFID, ambiente, água, botões e entradas; compilados, com ensaio físico pendente |
@@ -45,14 +45,16 @@ A base de exposição de **1.200 × 900 × 18 mm** é uma proposta, a compatibil
 
 ## Instalações e implementação
 
-As pranchas E01 a E10 representam a **elétrica DC da maquete**. A [elétrica residencial R01](02_Eletrica/Residencial_R01/) já apresenta iluminação, comandos, tomadas, previsão de cargas e sete circuitos propostos. Ainda faltam equipamentos e fornecimento definidos, dimensionamento de condutores/proteções, quadro/unifilar, entrada de energia e integração renovável. A [hidráulica residencial R01](03_Hidraulica/Residencial_R01/) apresenta distribuição de água fria/quente/não potável, rotas de esgoto/ventilação e aproveitamento de chuva como estudo inicial. Ainda faltam seus dimensionamentos. A [rede e segurança R01](05_Seguranca/Rede_R01/) já propõe posições, topologia e interfaces, com alarmes virtuais testados por software; cobertura, dispositivos, rede e atuação física continuam pendentes.
+As pranchas E01 a E10 representam a **elétrica DC da maquete**. A [revisão predial dimensionada R02](06_Calculos/Dimensionamento_R02/) acrescenta dois cadernos de seis pranchas, quatro DXFs, tabelas e cálculos reproduzíveis. A elétrica define cargas, fases, seções, proteções, unifilar e entrada fotovoltaica para o cenário trifásico adotado. A hidráulica calcula vazões, perdas, pressões, reservação, aquecimento, cotas de esgoto, ventilação e chuva. Os pontos elétricos R01 permanecem como referência; as novas rotas hidráulicas substituem as divergentes da R01, principalmente a pia/CG1.
+
+Os cálculos fecham nas hipóteses declaradas. Fornecimento e conexões reais, fichas dos equipamentos, coordenação das proteções, curvas das bombas, chuva/local e condições do lote ainda exigem conferência antes de execução. A [rede e segurança R01](05_Seguranca/Rede_R01/) propõe posições, topologia e interfaces, com alarmes virtuais testados por software; cobertura, dispositivos, rede e atuação física continuam pendentes.
 
 O controle proposto utiliza Arduino Mega para os comandos locais e reserva ESP32 para comunicação/supervisão. Os módulos e interfaces ainda precisam de identificação e compatibilização. O experimento solar deve ser validado separadamente antes de qualquer integração de alimentação. Os parâmetros de controle dependem dos ensaios, sem presumir autonomia, economia ou precisão não medidas.
 
 ## Como evoluir esta entrega
 
 1. Compatibilizar o projeto com as medidas conferidas, a garagem e os componentes identificados.
-2. Completar os projetos prediais e as respectivas memórias de cálculo.
+2. Conferir o cenário predial R02 com as informações do local e dos equipamentos e detalhar as interfaces executivas.
 3. Incorporar firmware comentado, bibliotecas, versão das placas e instruções de reprodução.
 4. Executar os testes, guardar evidências e registrar falhas e limites.
 5. Gravar o pitch e conferir os links públicos antes da entrega.
