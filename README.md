@@ -21,7 +21,7 @@ A extensão com **garagem em papelão Paraná** faz parte do escopo atual. O con
 | Dimensões dos ambientes, aberturas e adjacências | [Dados CSV e JSON](01_Arquitetura/R02/DADOS/) | Cotas de trabalho em milímetros |
 | Elétrica residencial | [Pontos, cargas e circuitos R01](02_Eletrica/Residencial_R01/) | Estudo inicial publicado; dimensionamento final pendente |
 | Elétrica DC da maquete | [Elétrica](02_Eletrica/) | Proposta R02, a compatibilizar com os módulos reais |
-| Hidráulica residencial | [Hidráulica](03_Hidraulica/) | Detalhamento e dimensionamento pendentes |
+| Hidráulica residencial | [Pontos e redes R01](03_Hidraulica/Residencial_R01/) | Distribuição inicial de água/esgoto/ventilação e chuva; dimensionamento pendente |
 | Regras de automação, incluindo garagem | [Especificação R01 em PDF](04_Automacao/NEXUS_Especificacao_Automacoes_R01.pdf) · [texto editável](04_Automacao/NEXUS_Especificacao_Automacoes_R01.txt) | Especificação funcional, sem firmware validado |
 | Segurança e rede | [Segurança](05_Seguranca/) | Proposta a detalhar e validar |
 | Quantitativos e premissas | [Cálculos](06_Calculos/) | Dados preliminares, sem memória predial concluída |
@@ -44,7 +44,7 @@ A base de exposição de **1.200 × 900 × 18 mm** é uma proposta, a compatibil
 
 ## Instalações e implementação
 
-As pranchas E01 a E10 representam a **elétrica DC da maquete**. A [elétrica residencial R01](02_Eletrica/Residencial_R01/) já apresenta iluminação, comandos, tomadas, previsão de cargas e sete circuitos propostos. Ainda faltam equipamentos e fornecimento definidos, dimensionamento de condutores/proteções, quadro/unifilar, entrada de energia e integração renovável. Também faltam o detalhamento hidráulico predial e a consolidação da rede e da segurança exigidos pelo BLUEPRINT.
+As pranchas E01 a E10 representam a **elétrica DC da maquete**. A [elétrica residencial R01](02_Eletrica/Residencial_R01/) já apresenta iluminação, comandos, tomadas, previsão de cargas e sete circuitos propostos. Ainda faltam equipamentos e fornecimento definidos, dimensionamento de condutores/proteções, quadro/unifilar, entrada de energia e integração renovável. A [hidráulica residencial R01](03_Hidraulica/Residencial_R01/) apresenta distribuição de água fria/quente/não potável, rotas de esgoto/ventilação e aproveitamento de chuva como estudo inicial. Ainda faltam seus dimensionamentos e a consolidação da rede e da segurança exigidos pelo BLUEPRINT.
 
 O controle proposto utiliza Arduino Mega para os comandos locais e reserva ESP32 para comunicação/supervisão. Os módulos e interfaces ainda precisam de identificação e compatibilização. O experimento solar deve ser validado separadamente antes de qualquer integração de alimentação. Os parâmetros de controle dependem dos ensaios, sem presumir autonomia, economia ou precisão não medidas.
 
