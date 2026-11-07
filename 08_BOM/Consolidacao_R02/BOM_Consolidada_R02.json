@@ -1,0 +1,788 @@
+{
+  "projeto": "NEXUS",
+  "revisao": "Consolidacao R02",
+  "data": "2026-11-06",
+  "escopo": "Planejamento acadêmico, sem conferência de estoque físico ou pedido de compra",
+  "inventario": [
+    {
+      "id": "I01",
+      "descricao_original": "ARDUINO MEGA 2560 C/ CABO",
+      "quantidade_declarada": 1,
+      "funcao": "Controle local",
+      "observacao": "1 placa compartilhada por todas as funções; ensaios atuais separados",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I02",
+      "descricao_original": "ESP32 DUAL CORE WIFI/BLOETOOTH",
+      "quantidade_declarada": 1,
+      "funcao": "Supervisão/rede",
+      "observacao": "1 placa reservada; interface e firmware de comunicação pendentes",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I03",
+      "descricao_original": "CONTROLADOR DE CARGA",
+      "quantidade_declarada": 1,
+      "funcao": "Solar",
+      "observacao": "Ensaio separado; identificar modelo e compatibilidade",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I04",
+      "descricao_original": "COMPONENTES ELETRONICOS KG",
+      "quantidade_declarada": 1,
+      "funcao": "Avulsos",
+      "observacao": "Lote descrito em kg; conteúdo não discriminado, não abater complementos por suposição",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I05",
+      "descricao_original": "BATERIA 12V 7A",
+      "quantidade_declarada": 1,
+      "funcao": "Solar",
+      "observacao": "Manter descrição original 12V 7A; confirmar química, capacidade e etiqueta",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I06",
+      "descricao_original": "FONTE 12V 5A",
+      "quantidade_declarada": 2,
+      "funcao": "Alimentação",
+      "observacao": "2 fontes declaradas; destinação após conferir cargas e conectores",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I07",
+      "descricao_original": "FONTE 5V 3A",
+      "quantidade_declarada": 2,
+      "funcao": "Alimentação",
+      "observacao": "2 fontes declaradas; destinação após conferir cargas e conectores",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I08",
+      "descricao_original": "FITA DE LED PC 10M",
+      "quantidade_declarada": 1,
+      "funcao": "Iluminação",
+      "observacao": "1 peça declarada como 10 m; tipo/tensão/comprimento útil a conferir",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I09",
+      "descricao_original": "MODULO SENSOR TOQUE CAPACITIVO 4 CANAIS TTP32",
+      "quantidade_declarada": 1,
+      "funcao": "Comandos locais",
+      "observacao": "1 módulo; identificação TTP32/4 canais a confirmar",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I10",
+      "descricao_original": "MODULO SENSOR SONAR HC-SR04",
+      "quantidade_declarada": 1,
+      "funcao": "Água A05",
+      "observacao": "1 reservado ao nível do reservatório; não alocar ao portão",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I11",
+      "descricao_original": "MODULO SENSNOR DE LUMINOSIDADE LDR 5MM 3 PINOS KY-018",
+      "quantidade_declarada": 1,
+      "funcao": "Luz A01 e brise A02",
+      "observacao": "1 sensor compartilhado no projeto integrado; bancada em momentos separados",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I12",
+      "descricao_original": "SENSOR DE UMIDADE E TEMPERATURA DHT22- AM2302 TEMPERATUARA -40ºC A +80ºC TENSÃO 3a 5V",
+      "quantidade_declarada": 1,
+      "funcao": "Ambiente A04",
+      "observacao": "1 para leituras; não existe climatização acionada neste módulo",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I13",
+      "descricao_original": "SENSOR DE MOVIMENTO E PRESENÇA SR-501",
+      "quantidade_declarada": 1,
+      "funcao": "Luz A01 e intrusão",
+      "observacao": "1 PIR compartilhado; não há um sensor disponível por ambiente",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I14",
+      "descricao_original": "SENSOR DE FLUXO OU VAZÃO TIPO HALL-75A 570ML/MIN",
+      "quantidade_declarada": 1,
+      "funcao": "Água A05",
+      "observacao": "1; modelo, saída e calibração pendentes",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I15",
+      "descricao_original": "MINI BOMBA D'AGUA RS-385 C DE TRABALHO 0,5-0,7A TENSÃO 12V",
+      "quantidade_declarada": 1,
+      "funcao": "Água A05",
+      "observacao": "1 bomba de bancada; acionamento não implementado no sketch atual",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I16",
+      "descricao_original": "LED AMARELO",
+      "quantidade_declarada": 5,
+      "funcao": "Sinalização",
+      "observacao": "5 amarelos; alocação final por canal pendente",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I17",
+      "descricao_original": "LED VERDE",
+      "quantidade_declarada": 5,
+      "funcao": "Sinalização",
+      "observacao": "5 verdes; alocação final por canal pendente",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I18",
+      "descricao_original": "LED VERMELHO",
+      "quantidade_declarada": 5,
+      "funcao": "Sinalização",
+      "observacao": "5 vermelhos; alocação final por canal pendente",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I19",
+      "descricao_original": "LED BRANCO",
+      "quantidade_declarada": 20,
+      "funcao": "Iluminação",
+      "observacao": "20 brancos; quantidade instalada e resistores a definir",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I20",
+      "descricao_original": "MICRO SERVO 9G 3,0-7,2V 180º",
+      "quantidade_declarada": 1,
+      "funcao": "Brise A02",
+      "observacao": "1 reservado ao brise; portão precisa de atuação própria",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I21",
+      "descricao_original": "MINI SOLENOIDE 6V FECHADURA ELETRONICA",
+      "quantidade_declarada": 1,
+      "funcao": "Acesso A03",
+      "observacao": "1; corrente/regime e conjunto de acionamento pendentes",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I22",
+      "descricao_original": "MINI PLACA SOLAR FOTOVOTAICO 12V 125mA 85X115MM 1,5W",
+      "quantidade_declarada": 1,
+      "funcao": "Solar",
+      "observacao": "1 painel de 1,5 W conforme inventário; ensaio independente do FV residencial",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I23",
+      "descricao_original": "MODULO RELÊ 5V 10A",
+      "quantidade_declarada": 1,
+      "funcao": "Interface de carga",
+      "observacao": "1 módulo; número de canais e aplicação ainda não confirmados",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I24",
+      "descricao_original": "BOTÕES",
+      "quantidade_declarada": 20,
+      "funcao": "Comandos",
+      "observacao": "20; repartir entre ensaios e comandos após mapa final",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I25",
+      "descricao_original": "BOTÃO DE EMERGÊNCIA",
+      "quantidade_declarada": 1,
+      "funcao": "Parada",
+      "observacao": "1; contatos e comportamento físico a identificar",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I26",
+      "descricao_original": "KIT LEITOR REFID RC522-13,56MHZ CARTÃO E CHAVEIRO",
+      "quantidade_declarada": 1,
+      "funcao": "Acesso A03",
+      "observacao": "1 kit; conteúdo cartão/chaveiro conforme descrição, conferir fisicamente",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I27",
+      "descricao_original": "PROTOBOARD 830 PONTOS",
+      "quantidade_declarada": 1,
+      "funcao": "Bancada",
+      "observacao": "1; reutilizável entre ensaios, não presumir uma por função",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I28",
+      "descricao_original": "KIT JUNPER MACHO X MACHO 40 PEÇAS",
+      "quantidade_declarada": 1,
+      "funcao": "Bancada",
+      "observacao": "1 kit anunciado com 40 peças; conferir saldo e qualidade",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I29",
+      "descricao_original": "KIT JUMPER FÊMEA X FÊMEA 40 PEÇAS",
+      "quantidade_declarada": 1,
+      "funcao": "Bancada",
+      "observacao": "1 kit anunciado com 40 peças; conferir saldo e qualidade",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I30",
+      "descricao_original": "KIT JUMPER MACHO X FÊMEA 40 PEÇAS",
+      "quantidade_declarada": 1,
+      "funcao": "Bancada",
+      "observacao": "1 kit anunciado com 40 peças; conferir saldo e qualidade",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I31",
+      "descricao_original": "CAMÊRA VGA OV7670",
+      "quantidade_declarada": 2,
+      "funcao": "Vídeo",
+      "observacao": "2; captura/interface ainda não implementadas",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I32",
+      "descricao_original": "RESISTOR 1R",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I33",
+      "descricao_original": "RESISTOR 10R",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I34",
+      "descricao_original": "RESISTOR 47R",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I35",
+      "descricao_original": "RESISTOR 56R",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I36",
+      "descricao_original": "RESISTOR 100R",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I37",
+      "descricao_original": "RESISTOR 220R",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I38",
+      "descricao_original": "RESISTOR 330R",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I39",
+      "descricao_original": "RESISTOR 470R",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I40",
+      "descricao_original": "RESISTOR 560R",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I41",
+      "descricao_original": "RESISTOR 1K",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I42",
+      "descricao_original": "RESISTOR 10K",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I43",
+      "descricao_original": "RESISTOR 47K",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I44",
+      "descricao_original": "RESISTOR 56K",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I45",
+      "descricao_original": "RESISTOR 100K",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I46",
+      "descricao_original": "RESISTOR 220K",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I47",
+      "descricao_original": "RESISTOR 330K",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I48",
+      "descricao_original": "RESISTOR 470K",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I49",
+      "descricao_original": "RESISTOR 560K",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I50",
+      "descricao_original": "RESISTOR 1M",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    },
+    {
+      "id": "I51",
+      "descricao_original": "RESISTOR 10M",
+      "quantidade_declarada": 5,
+      "funcao": "Resistores",
+      "observacao": "5 por valor no inventário; selecionar por circuito, não tratar valores como intercambiáveis",
+      "conferencia_fisica": "pendente"
+    }
+  ],
+  "complementos": [
+    {
+      "id": "M01",
+      "funcao": "RFID",
+      "item": "Interface de níveis e alimentação compatíveis com o RC522",
+      "quantidade_proposta": "1 conjunto",
+      "situacao": "Não identificado",
+      "proxima_acao": "Identificar placa/interface e conferir guia A03 antes de selecionar"
+    },
+    {
+      "id": "M02",
+      "funcao": "Mega/ESP32",
+      "item": "Interface de comunicação entre placas",
+      "quantidade_proposta": "1 enlace",
+      "situacao": "Não identificado",
+      "proxima_acao": "Definir protocolo, pinos e conversão apropriada à interface"
+    },
+    {
+      "id": "M03",
+      "funcao": "Bomba",
+      "item": "Driver, proteção e conexões da bomba",
+      "quantidade_proposta": "1 canal/conjunto",
+      "situacao": "Não identificado",
+      "proxima_acao": "Conferir corrente de partida/regime e carga antes da especificação"
+    },
+    {
+      "id": "M04",
+      "funcao": "Solenoide",
+      "item": "Driver, proteção e alimentação compatível com a peça de 6 V",
+      "quantidade_proposta": "1 canal/conjunto",
+      "situacao": "Não identificado",
+      "proxima_acao": "Fontes de 5/12 V do inventário não comprovam alimentação adequada"
+    },
+    {
+      "id": "M05",
+      "funcao": "Fita LED",
+      "item": "Acionamento e conexões da fita",
+      "quantidade_proposta": "A definir por trecho/canal",
+      "situacao": "Não identificado",
+      "proxima_acao": "Fotografar marcações e medir trechos antes de quantificar"
+    },
+    {
+      "id": "M06",
+      "funcao": "Brise",
+      "item": "Suporte, articulação e ligação mecânica",
+      "quantidade_proposta": "1 conjunto",
+      "situacao": "Não discriminado",
+      "proxima_acao": "Ensaiar curso livre do mecanismo antes da fixação"
+    },
+    {
+      "id": "M07",
+      "funcao": "Garagem",
+      "item": "Atuação própria do portão",
+      "quantidade_proposta": "1 conjunto",
+      "situacao": "Não identificado",
+      "proxima_acao": "Medir massa, vão e curso; não usar a reserva do brise"
+    },
+    {
+      "id": "M08",
+      "funcao": "Garagem",
+      "item": "Detecção externa, interna e presença no vão",
+      "quantidade_proposta": "3 funções",
+      "situacao": "Não identificado",
+      "proxima_acao": "Quantidade de dispositivos depende da solução; não assumir 3 HC-SR04"
+    },
+    {
+      "id": "M09",
+      "funcao": "Garagem",
+      "item": "Confirmação de aberto/fechado",
+      "quantidade_proposta": "2 estados",
+      "situacao": "Não identificado",
+      "proxima_acao": "Definir retorno próprio ou sensores; não somar automaticamente 2 sensores"
+    },
+    {
+      "id": "M10",
+      "funcao": "Acesso/intrusão",
+      "item": "Contatos de porta",
+      "quantidade_proposta": "2 propostos",
+      "situacao": "Não identificado",
+      "proxima_acao": "Proposta da rede R01; definir contatos, montagem e interface"
+    },
+    {
+      "id": "M11",
+      "funcao": "Vazamento",
+      "item": "Dispositivos de detecção de água",
+      "quantidade_proposta": "2 propostos",
+      "situacao": "Não identificado",
+      "proxima_acao": "VA01/VA02; escolher tecnologia e demonstrar evento físico"
+    },
+    {
+      "id": "M12",
+      "funcao": "Fumaça",
+      "item": "Dispositivo para demonstração de detecção",
+      "quantidade_proposta": "1 proposto",
+      "situacao": "Não identificado",
+      "proxima_acao": "Definir solução da maquete; não apresentar simulador como detecção real"
+    },
+    {
+      "id": "M13",
+      "funcao": "Alarmes",
+      "item": "Sinalizador e interface",
+      "quantidade_proposta": "1 conjunto proposto",
+      "situacao": "Não identificado",
+      "proxima_acao": "Tipo, potência, nível sonoro e acionamento a definir"
+    },
+    {
+      "id": "M14",
+      "funcao": "Vídeo",
+      "item": "Arquitetura de captura das OV7670",
+      "quantidade_proposta": "1 solução a definir",
+      "situacao": "Não identificado",
+      "proxima_acao": "Conferir FIFO, pinagem e interface antes de decidir complementos"
+    },
+    {
+      "id": "M15",
+      "funcao": "Água",
+      "item": "Reservatório, recipiente de retorno e bandeja",
+      "quantidade_proposta": "1 conjunto de bancada",
+      "situacao": "Não discriminado",
+      "proxima_acao": "Dimensões e volumes após teste; não confundir com reservatórios prediais"
+    },
+    {
+      "id": "M16",
+      "funcao": "Água",
+      "item": "Mangueiras, conexões e fixações",
+      "quantidade_proposta": "A medir",
+      "situacao": "Não discriminado",
+      "proxima_acao": "Diâmetro pelas peças reais; traçado acessível e estanqueidade em bancada"
+    },
+    {
+      "id": "M17",
+      "funcao": "Instalação",
+      "item": "Cabos, bornes e conectores identificados",
+      "quantidade_proposta": "A medir por percurso",
+      "situacao": "Não discriminado",
+      "proxima_acao": "Jumpers disponíveis não comprovam toda a instalação permanente"
+    },
+    {
+      "id": "M18",
+      "funcao": "Instalação",
+      "item": "Proteções, seccionamento, distribuição e caixas DC",
+      "quantidade_proposta": "A especificar por ramo",
+      "situacao": "Não discriminado",
+      "proxima_acao": "Conferir fontes/cargas; sem lista fechada de fusíveis por suposição"
+    },
+    {
+      "id": "M19",
+      "funcao": "Luz",
+      "item": "Resistores individuais e suportes de LEDs",
+      "quantidade_proposta": "1 resistor por LED instalado",
+      "situacao": "Estoque por valor na tabela",
+      "proxima_acao": "Quantificar LEDs por canal e selecionar valores segundo o guia; saldo ainda indefinido"
+    },
+    {
+      "id": "M20",
+      "funcao": "Montagem",
+      "item": "Fixadores, espaçadores e pontos de inspeção",
+      "quantidade_proposta": "A quantificar",
+      "situacao": "Não discriminado",
+      "proxima_acao": "Testar acesso a placas, fontes e conexões antes de fechar paredes"
+    },
+    {
+      "id": "M21",
+      "funcao": "Civil maquete",
+      "item": "MDF 3 mm e peças de fechamento",
+      "quantidade_proposta": "Pelo plano de corte e saldo",
+      "situacao": "Saldo não informado",
+      "proxima_acao": "Não repetir a compra das peças já adquiridas; conferir cortes"
+    },
+    {
+      "id": "M22",
+      "funcao": "Garagem",
+      "item": "Papelão Paraná, mecanismo e fixação",
+      "quantidade_proposta": "A medir",
+      "situacao": "Saldo não informado",
+      "proxima_acao": "Espessura e dimensão após carrinho e vão"
+    },
+    {
+      "id": "M23",
+      "funcao": "Exposição",
+      "item": "Base, apoios e fixação de transporte",
+      "quantidade_proposta": "1 conjunto proposto",
+      "situacao": "Saldo não informado",
+      "proxima_acao": "Base 1200 x 900 x 18 mm é proposta; confirmar peso/transporte antes de comprar"
+    },
+    {
+      "id": "M24",
+      "funcao": "Solar",
+      "item": "Interfaces/proteções e instrumentos do ensaio",
+      "quantidade_proposta": "A definir",
+      "situacao": "Compatibilidade não comprovada",
+      "proxima_acao": "Identificar controlador, bateria e painel antes de seleção"
+    },
+    {
+      "id": "M25",
+      "funcao": "Bancada",
+      "item": "Instrumentos e computador USB",
+      "quantidade_proposta": "Conjunto de apoio",
+      "situacao": "Disponibilidade não informada",
+      "proxima_acao": "Confirmar empréstimo/disponibilidade antes de comprar"
+    }
+  ],
+  "residencia": [
+    {
+      "id": "R01",
+      "grupo": "Pontos de luz e comandos",
+      "quantidade_referencia": "11 + 11 posições",
+      "fonte": "Elétrica R01",
+      "limite": "Contar luminárias, lâmpadas e mecanismos depois de selecionar produtos"
+    },
+    {
+      "id": "R02",
+      "grupo": "Tomadas de uso geral",
+      "quantidade_referencia": "28 pontos",
+      "fonte": "Elétrica R01",
+      "limite": "Não somar TUE como novas TUG nem confundir ponto com número de módulos"
+    },
+    {
+      "id": "R03",
+      "grupo": "Quadro",
+      "quantidade_referencia": "1, previsão de pelo menos 72 módulos",
+      "fonte": "Dimensionamento R02",
+      "limite": "Capacidade física/térmica final depende dos produtos"
+    },
+    {
+      "id": "R04",
+      "grupo": "Circuitos de carga",
+      "quantidade_referencia": "20 circuitos",
+      "fonte": "Dimensionamento R02",
+      "limite": "Proteções individuais C1-C20; C21 é geração"
+    },
+    {
+      "id": "R05",
+      "grupo": "Proteção geral / DPS / equipotencialização",
+      "quantidade_referencia": "Conjuntos do unifilar",
+      "fonte": "Dimensionamento R02",
+      "limite": "Modelos e acessórios pendentes; consultar unifilar"
+    },
+    {
+      "id": "R06",
+      "grupo": "Condutores e eletrodutos",
+      "quantidade_referencia": "Por circuito; metragem final pendente",
+      "fonte": "Circuitos_R02.csv",
+      "limite": "Comprimento de cálculo não é quantitativo de compra; depende de condutores/rotas/folgas"
+    },
+    {
+      "id": "R07",
+      "grupo": "Cooktop / forno / micro-ondas / geladeira / depurador",
+      "quantidade_referencia": "1 de cada",
+      "fonte": "C8/C9/C10/C11/C16",
+      "limite": "Potências de estudo; não são componentes a comprar para a maquete"
+    },
+    {
+      "id": "R08",
+      "grupo": "Lavadora",
+      "quantidade_referencia": "1",
+      "fonte": "C12 / H09",
+      "limite": "Equipamento residencial de referência"
+    },
+    {
+      "id": "R09",
+      "grupo": "Ar-condicionado",
+      "quantidade_referencia": "2",
+      "fonte": "C14/C15",
+      "limite": "Modelos/capacidades e instalação a selecionar"
+    },
+    {
+      "id": "R10",
+      "grupo": "Portão e central de rede/automação",
+      "quantidade_referencia": "1 conjunto de cada",
+      "fonte": "C18/C17",
+      "limite": "Não equivalem ao microservo e Mega da maquete"
+    },
+    {
+      "id": "R11",
+      "grupo": "Módulos fotovoltaicos / inversor",
+      "quantidade_referencia": "6 x 550 Wp / 1 de 3 kW",
+      "fonte": "Solar R02",
+      "limite": "Produtos e compatibilidade pendentes; painel de bancada é outro item"
+    },
+    {
+      "id": "R12",
+      "grupo": "Reservatório potável / cisterna não potável",
+      "quantidade_referencia": "1 de 1000 L nominal de cada",
+      "fonte": "Hidráulica R02",
+      "limite": "800 L úteis de estudo em cada; reservatórios no solo"
+    },
+    {
+      "id": "R13",
+      "grupo": "Pressurização AF / NP",
+      "quantidade_referencia": "2 bombas AF + 2 NP",
+      "fonte": "Hidráulica R02",
+      "limite": "Principal/reserva; uma ativa por conjunto, não quatro simultâneas"
+    },
+    {
+      "id": "R14",
+      "grupo": "Aquecedor central / vaso de expansão",
+      "quantidade_referencia": "1 de 200 L e 3 kW / 1 de 18 L",
+      "fonte": "Hidráulica R02",
+      "limite": "Conjunto de segurança, mistura e acessórios por fabricante"
+    },
+    {
+      "id": "R15",
+      "grupo": "Pia / lavatórios / bacias / chuveiros / tanque",
+      "quantidade_referencia": "1 / 2 / 2 / 2 / 1",
+      "fonte": "H01-H08",
+      "limite": "Lavadora em R08; não duplicar H09"
+    },
+    {
+      "id": "R16",
+      "grupo": "Ralos / caixas sifonadas",
+      "quantidade_referencia": "2 / 2",
+      "fonte": "H10/H11 / CS1/CS2",
+      "limite": "Contagem funcional; peças e acabamento a detalhar"
+    },
+    {
+      "id": "R17",
+      "grupo": "Caixa de gordura / inspeção",
+      "quantidade_referencia": "1 CG1 / 4 CI1-CI2-CI3-CIE",
+      "fonte": "Esgoto R02",
+      "limite": "DS1 é limite/conexão de estudo, não uma quinta caixa"
+    },
+    {
+      "id": "R18",
+      "grupo": "Ventilação",
+      "quantidade_referencia": "5 terminais DN50",
+      "fonte": "Ventilacao_R02.csv",
+      "limite": "Tubulação e conexões dependem dos percursos finais"
+    },
+    {
+      "id": "R19",
+      "grupo": "Água, esgoto e redes de chuva",
+      "quantidade_referencia": "Redes por diâmetro; metragem final pendente",
+      "fonte": "Trechos/CAD R02",
+      "limite": "Comprimentos de perda e comprimentos equivalentes não viram compra direta"
+    },
+    {
+      "id": "R20",
+      "grupo": "Calha / descidas / desvio inicial",
+      "quantidade_referencia": "14,35 m / 2 DN100 / 1 recipiente de 200 L",
+      "fonte": "Chuva R02",
+      "limite": "Quantitativo geométrico de estudo; acessórios, bocais e folgas pendentes"
+    },
+    {
+      "id": "R21",
+      "grupo": "Tratamento e reposição não potável",
+      "quantidade_referencia": "1 conjunto de cada",
+      "fonte": "Hidráulica R02",
+      "limite": "Requisitos de desempenho no memorial; não há produto final selecionado"
+    },
+    {
+      "id": "R22",
+      "grupo": "Rede: dados / AP / câmeras IP",
+      "quantidade_referencia": "4 pontos / 1 AP / 2 câmeras",
+      "fonte": "Rede R01",
+      "limite": "Não são as duas OV7670; 7 enlaces propostos"
+    },
+    {
+      "id": "R23",
+      "grupo": "Rede: ONT/roteador/switch e cabeamento",
+      "quantidade_referencia": "Conjunto a selecionar",
+      "fonte": "Rede R01",
+      "limite": "Capacidade proposta >=10 portas; comprimentos não incluem percurso final/folgas"
+    },
+    {
+      "id": "R24",
+      "grupo": "Materiais civis da residência",
+      "quantidade_referencia": "A definir",
+      "fonte": "Arquitetura R02",
+      "limite": "Sem sistema construtivo escolhido; MDF da maquete não é especificação da residência"
+    }
+  ]
+}
