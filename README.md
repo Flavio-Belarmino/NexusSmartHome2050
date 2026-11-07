@@ -32,9 +32,9 @@ A extensão com **garagem em papelão Paraná** faz parte do escopo atual. O con
 | Garagem computacional | [Simulador funcional](09_Simulacoes/Garagem/README.md) | Sequência testada por software, sem mecanismo real |
 | Telemetria local | [Supervisor USB](07_Codigo/Supervisor_USB/README.md) | Programa e API testados; porta USB real ainda não ensaiada |
 | Experimento solar | [Cálculo e balanço de potências](06_Calculos/Solar/README.md) | Estimativas explícitas, sem ensaio de carga/autonomia |
-| Componentes disponíveis | [Inventário](08_BOM/) | Inventário recebido; complementos e custo final pendentes |
+| Materiais e componentes | [BOM consolidada R02](08_BOM/Consolidacao_R02/) | 51 linhas de inventário, reservas, complementos e itens residenciais; conferência física/custos pendentes |
 | Ensaios | [Plano de validação](09_Simulacoes/Validacao/) | Fichas de ensaio físico; resultados de software registrados separadamente |
-| Memorial e requisitos | [Documentação](10_Documentacao/) | Memorial base e controle de pendências |
+| Memorial e requisitos | [Memorial R02](10_Documentacao/Memorial_Consolidado_R02.md) e [compatibilização](10_Documentacao/Compatibilizacao_R02.md) | Cenário atual consolidado; critérios ESG e pendências identificados |
 | Vídeo de até 3 minutos | [Roteiro de pitch](11_Pitch/) | Rascunho para preencher com demonstrações reais |
 
 ## Dimensões e leitura das plantas
@@ -66,3 +66,7 @@ O [controle de entregas](10_Documentacao/Controle_de_Entregas.md) distingue os a
 Os documentos oficiais consultados estão em [Regulamento](10_Documentacao/Regulamento/). As referências técnicas já utilizadas para as interfaces constam do LEIA-ME R02. Outras fontes técnicas devem ser acrescentadas às decisões que fundamentarem. Os arquivos de trabalho não constituem projeto liberado para execução de uma residência real.
 
 Identificar o commit apresentado na defesa. O item 9 do regulamento proíbe alterar projeto, código ou documentação após a avaliação individual; a equipe precisa confirmar com o professor responsável como tratar as melhorias mencionadas no item 4.
+
+## Preparar o encontro de montagem
+
+O [guia do grupo R02](10_Documentacao/Guia_Grupo_R02.md) organiza a conferência dos materiais, os testes iniciais e o estudo das funções. Antes de comprar ou fechar a maquete, consultar a [BOM consolidada](08_BOM/Consolidacao_R02/) e as [24 interfaces de compatibilização](10_Documentacao/Compatibilizacao_R02.md).
