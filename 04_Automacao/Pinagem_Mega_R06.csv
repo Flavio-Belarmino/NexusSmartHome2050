@@ -1,0 +1,49 @@
+componente,terminal_funcao,pino_destino,tipo,observacao
+TFT,LCD_RD,A0,sinal,
+TFT,LCD_WR,A1,sinal,
+TFT,LCD_RS,A2,sinal,
+TFT,LCD_CS,A3,sinal,
+TFT,LCD_RST,A4,sinal,
+TFT,LCD_D0,8,sinal,
+TFT,LCD_D1,9,sinal,
+TFT,LCD_D2,2,sinal,
+TFT,LCD_D3,3,sinal,
+TFT,LCD_D4,4,sinal,
+TFT,LCD_D5,5,sinal,
+TFT,LCD_D6,6,sinal,
+TFT,LCD_D7,7,sinal,
+TFT,5V,fonte exclusiva 5V,alimentacao,positivo separado do servo/Mega
+TFT,GND,GND comum,alimentacao,touch usa sinais compartilhados
+RFID,SDA/SS,53,sinal,divisor resistivo
+RFID,SCK,52,sinal,divisor resistivo
+RFID,MOSI,51,sinal,divisor resistivo
+RFID,MISO,50,sinal,direto
+RFID,RST,49,sinal,divisor resistivo
+RFID,VCC,3.3V Mega,alimentacao,nao alimentar em 5V
+RFID,GND,GND comum,alimentacao,IRQ sem ligacao
+Servo MG996R,sinal,30,saida,0 a 90 graus
+Servo MG996R,VCC,fonte exclusiva 5V,alimentacao,nao usar 5V do Mega
+Servo MG996R,GND,GND comum,alimentacao,
+Portao,botao,32,entrada,botao para GND INPUT_PULLUP
+Portao,LED movimento,33,saida,HIGH liga com resistor
+LDR,AO,A9,entrada analogica,<=400 escuro >=500 claro
+LDR,VCC/GND,5V/GND comum,alimentacao,
+Iluminacao,LED,34,saida,LOW liga; preservar circuito de acionamento
+DHT22,DATA,22,entrada,pull-up DATA para 5V quando necessario
+DHT22,VCC/GND,5V/GND comum,alimentacao,
+Alarme,LED vermelho,23,saida,HIGH liga com resistor
+Alarme,buzzer comando,44,saida,modelo/interface pendentes; reinicio em investigacao
+Alarme,silenciar fisico,24,entrada,botao para GND INPUT_PULLUP
+Navegacao,anterior,25,entrada,botao para GND INPUT_PULLUP
+Navegacao,proxima,26,entrada,botao para GND INPUT_PULLUP
+Vazamento C113,AO,A8,entrada analogica,<=800 molhado >=900 seco
+Vazamento C113,VCC/GND,5V/GND comum,alimentacao,placa e conectores secos
+Vazamento,LED amarelo,28,saida,HIGH liga com resistor
+Rele bomba,IN,42,saida,LOW liga; HIGH desliga
+Rele bomba,VCC,tensao nominal do modulo,alimentacao,confirmar 5V ou 12V
+Rele bomba,GND,GND comum,alimentacao,
+Sensor nivel NPN,sinal,43,entrada INPUT_PULLUP,HIGH desliga bomba LOW permite ligar
+Sensor nivel NPN,VCC/GND,5V/GND comum,alimentacao,
+Bomba,alimentacao,12V por COM/NO do rele,potencia,pino Mega nao alimenta bomba
+Iluminacao,botao opcional,35,entrada,para GND; alterna modos
+Bomba,botao opcional,36,entrada,para GND; protecao de nivel prevalece
