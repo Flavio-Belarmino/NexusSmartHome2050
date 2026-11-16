@@ -1,0 +1,19 @@
+componente,quantidade_referencia,funcao,situacao_limite
+Arduino Mega 2560,1,controlador,montagem atual
+TFT ILI9341 paralelo 2.4 + touch,1,interface,montagem atual
+Servo MG996R,1,portao,montagem atual
+RC522 + cartao + tag,1 kit,acesso,dois UIDs de demonstracao
+DHT22,1,temperatura/umidade,montagem atual
+LDR/circuito de leitura,1,luminosidade,modulo/avulso conforme montagem
+C113 + placa de leitura,1 kit,presenca de agua,sonda de solo usada em demonstracao
+Sensor de nivel NPN,1,limite de nivel,identificar modelo/estado apos remontagem
+Modulo rele,1 canal usado,bomba,identificar tensao nominal 5V/12V; numero total de canais nao confirmado
+Mini bomba 12V,1,circulacao demonstrativa,modelo/corrente final a conferir
+Buzzer,1,alarme,modelo de 2/3 terminais e interface pendentes; reinicio em investigacao
+LEDs portao/alarme/agua/iluminacao,4 funcoes,sinalizacao/luz,nao representa quantidade fisica de LEDs no conjunto de iluminacao
+Pushbuttons portao/silenciar/anterior/proxima,4 funcoes,comandos,interfaces programadas; quantidade instalada a conferir
+Pushbuttons luz/bomba,2 funcoes opcionais,comandos,nao obrigatorios para operar pelo TFT
+Fontes externas 5V,2,servo e TFT,uma por carga; corrente/modelo final a conferir
+Fonte 12V,1 ramo bomba,bomba,nao define numero total de fontes instaladas
+Resistores/divisores/cabos/conectores,a conferir,interface,quatro divisores RFID; resistores por LED; valores conforme guia
+"ESP32, brise, solenoide, cameras, fumaca, vazao, solar",fora do firmware R06,estudos/inventario,nao declarados como instalados/funcionais por esta relacao
