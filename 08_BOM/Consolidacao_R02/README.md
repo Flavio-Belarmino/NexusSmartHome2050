@@ -1,5 +1,8 @@
 # Materiais consolidados R02
 
+> Inventário e planejamento de origem. Complemento atual: [componentes da montagem R06](../Componentes_Montagem_R06.csv). A R06 usa TFT, MG996R e sensor de nível; não substituir esta lista histórica pela relação de peças instaladas.
+
+
 NEXUS | 06/11/2026 | Base: inventário declarado e documentos publicados até esta revisão.
 
 Esta lista reúne o estoque **declarado**, as reservas por função e os complementos previstos. Nenhum saldo foi conferido fisicamente. “Não identificado” significa que o documento não comprova a disponibilidade, e não que o grupo necessariamente precisa comprar. Quantidades propostas não são autorização nem pedido de compra. Valores e custos permanecem em aberto, sem preços inventados.
