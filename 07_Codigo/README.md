@@ -1,6 +1,13 @@
 # Código-fonte
 
-Disponíveis:
+## Firmware da montagem atual
+
+[**NEXUS TFT integrado R06**](NEXUS_TFT_Integrado_R06/README.md): Mega 2560, TFT/touch, servo do portão, RFID, LDR, DHT22/alarme, sensor de água e bomba/nível. Inclui código comentado, pinagem, dependências, teste de alarme na tela, relógio e testes de lógica em computador. A instabilidade com reinício ao tocar o buzzer ainda está em investigação.
+
+**Usar a pinagem R06 para esta montagem.** Não juntar os sketches de etapas diferentes na mesma pasta. A R06 é um único sketch e substitui o programa anterior ao ser carregada no Mega.
+
+## Módulos anteriores e estudos preservados
+
 
 - [Guia e ordem dos ensaios](../10_Documentacao/Guia_Bancada_Modulos.md) e [kit completo em ZIP](NEXUS_Kit_Modulos_R02.zip).
 
@@ -16,6 +23,5 @@ Disponíveis:
 - [Validação dos novos módulos](Testes_Modulos/Validacao_Modulos_R02.md), com compilação, memória e escopo dos testes.
 - [Gerador Python de documentação](Gerador_Documentacao/NEXUS_Gerador_Documentacao.py), que produz desenhos e tabelas.
 
-O gerador Python não controla o Arduino/ESP32. Os sketches publicados são módulos separados de bancada, não um firmware único. Na única placa Mega do inventário, carregar outro sketch substitui o anterior. A validação física e a integração continuam pendentes. Não juntar os arquivos `.ino` numa mesma pasta.
 
-As regras que orientarão essa implementação estão na [especificação funcional](../04_Automacao/NEXUS_Especificacao_Automacoes_R01.txt). Nenhum teste de automação física está declarado como concluído.
+O gerador Python não controla o Arduino. Os sketches A01-A09 e o kit R02 são ensaios separados anteriores à integração e possuem pinagens próprias. Registros de compilação/simulação antigos continuam identificados por revisão. O supervisor USB e o ESP32 não foram incorporados automaticamente ao firmware R06.
