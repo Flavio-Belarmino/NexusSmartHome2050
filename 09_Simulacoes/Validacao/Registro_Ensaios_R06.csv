@@ -1,0 +1,13 @@
+ensaio,situacao,origem_da_evidencia,proxima_acao,data_ensaio,arquivo_evidencia
+Servo e botao,funcionamento positivo relatado em bancada,relato da equipe,anexar evidencia e retestar com portao apos remontagem,,
+RFID cartao/tag + servo,funcionamento positivo relatado em bancada,relato da equipe,retorno automatico e fechamento de aberto; anexar evidencia,,
+TFT/touch,display e comandos testados em bancada; revisoes visuais programadas depois,relato da equipe + fonte R06,validar animacoes e comandos apos remontagem,,
+LDR/LED,funcionamento positivo relatado apos ajuste de polaridade,relato da equipe,retomar A9 e saida34; anexar evidencia,,
+DHT22 temperatura/umidade,leituras positivas relatadas em bancada,relato da equipe,anexar leitura real e verificar aviso de falha,,
+LED/buzzer/cancelamento,funcionamento anterior relatado; falha atual aberta,reinicio com retorno da abertura NEXUS relatado,diagnosticar buzzer/acionamentos e repetir teste final,,
+Vazamento/LED amarelo,funcionamento positivo relatado em bancada,relato da equipe,retomar A8/28 e registrar limiares na montagem,,
+Bomba e sensor nivel,funcionamento positivo relatado apos inversoes,relato da equipe,confirmar tensao do rele e HIGH desliga/LOW permite ligar,,
+Firmware integrado R06,compilacao e teste de logica executados em computador,Validacao_Software_R06.md,nao equivalem a ensaio fisico final,,
+Remontagem e conjunto completo,pendente,sem evidencia final fornecida,registrar configuracao/versao/estimulo/resultado/foto/video,,
+Medicoes de alimentacao,pendente,sem valores documentados,"registrar instrumentos, pontos e valores durante carga",,
+Video pitch,pendente,nenhum link final fornecido,todos devem aparecer; publicar e cadastrar,,
