@@ -1,5 +1,7 @@
 # Memorial consolidado R02
 
+> Histórico de 06/11. Para a montagem atual, consultar o [memorial R03](Memorial_Consolidado_R03.md) e a [entrega R06](Entrega_R06.md).
+
 NEXUS | Casa Inteligente | BLUEPRINT | 06/11/2026
 
 Esta revisão atualiza o memorial base R01 com as instalações calculadas e os módulos publicados. É um projeto acadêmico em desenvolvimento. Distingue o cenário residencial, a representação física e a evidência já disponível. Substitui o memorial base como referência do estado atual; a R01 permanece como histórico.
