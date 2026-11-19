@@ -1,0 +1,50 @@
+item,codigo_loja,descricao,categoria,quantidade,unidade_registro,situacao_documental,ensaio_fisico
+1,srvt000520,Protoboard 3260 Pontos com Base de Metal BB-4TD-01,Prototipagem,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+2,srvt004482,Cabos Jumper Premium Macho / Macho 40cm 40 vias,Cabos e conectores,2,pacote de 40 vias,compra registrada pela equipe,pendente nesta revisao
+3,srvt004481,Cabos Jumper Premium Macho / Fêmea 40cm 40 vias,Cabos e conectores,2,pacote de 40 vias,compra registrada pela equipe,pendente nesta revisao
+4,srvt004480,Cabos Jumper Premium Fêmea / Fêmea 40cm 40 vias,Cabos e conectores,2,pacote de 40 vias,compra registrada pela equipe,pendente nesta revisao
+5,srvt000706,Cabos Jumper Premium Fêmea / Fêmea 10cm 40 vias,Cabos e conectores,1,pacote de 40 vias,compra registrada pela equipe,pendente nesta revisao
+6,srvt000859,Cabos Jumper Premium Macho / Fêmea 10cm 40 vias,Cabos e conectores,1,pacote de 40 vias,compra registrada pela equipe,pendente nesta revisao
+7,srvt000707,Cabos Jumper Premium Macho / Macho 10cm 40 vias,Cabos e conectores,1,pacote de 40 vias,compra registrada pela equipe,pendente nesta revisao
+8,srvt001481,Fonte Bivolt 100-240V 6V 2A Plug P4,Alimentação,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+9,srvt004505,Fonte Bivolt 5V / 3A - Plug P4,Alimentação,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+10,srvt000728,Adaptador Plugue P4 Fêmea x Borne,Cabos e conectores,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+11,srvt003238,"Cabo Flexível 20 AWG (0,50 mm²) Vermelho - por metro",Fiação,5,metro,compra registrada pela equipe,pendente nesta revisao
+12,srvt003236,"Cabo Flexível 20 AWG (0,50 mm²) Preto - por metro",Fiação,5,metro,compra registrada pela equipe,pendente nesta revisao
+13,srvt000264,Resistor 220R 5% (1/4W),Resistores,20,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+14,srvt000265,Resistor 330R 5% (1/4W),Resistores,20,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+15,srvt000266,Resistor 470R 5% (1/4W),Resistores,20,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+16,srvt000263,Resistor 1K 5% (1/4W),Resistores,20,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+17,srvt002518,Resistor 3K3 5% (1/4W),Resistores,20,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+18,srvt000261,Resistor 10K 5% (1/4W),Resistores,20,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+19,srvt000045,Micro Servo Motor 9g SG90,Atuadores,2,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+20,srvt000896,Módulo IR Receptor Infravermelho VS1838B KY-022,Sensores e módulos,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+21,srvt000258,Módulo RTC DS3231 Real Time Clock 3.3V / 5V,Sensores e módulos,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+22,srvt000148,Módulo Sensor de Obstáculo Infravermelho IR LM393,Sensores e módulos,2,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+23,srvt003173,Sensor Temperatura e Umidade Digital Alta Precisão I2C AHT25,Sensores e módulos,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+24,srvt001402,Módulo Semáforo 3 LEDs RYG 8mm,Iluminação e sinalização,2,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+25,srvt000008,LED Alto Brilho 5mm [BRANCO],Iluminação e sinalização,10,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+26,srvt000007,LED Alto Brilho 5mm [AZUL],Iluminação e sinalização,10,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+27,srvt000006,LED Alto Brilho 5mm [AMARELO],Iluminação e sinalização,10,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+28,srvt000011,LED Alto Brilho 5mm [VERMELHO],Iluminação e sinalização,10,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+29,srvt001229,LED RGB Difuso Cátodo Comum,Iluminação e sinalização,5,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+30,srvt004188,Linha de LED RGB x8 WS2812 5050,Iluminação e sinalização,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+31,srvt000813,Fita de LED 5050 RGB 12V DC Silicone IP65 5 Metros,Iluminação e sinalização,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+32,srvt000498,Potenciômetro Rotativo WH148-1 L20 3T B Linear 1K,Potenciômetros,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+33,srvt000503,Potenciômetro Rotativo WH148-1 L20 3T B Linear 2K,Potenciômetros,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+34,srvt000499,Potenciômetro Rotativo WH148-1 L20 3T B Linear 1M,Potenciômetros,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+35,srvt000505,Potenciômetro Rotativo WH148-1 L20 3T B Linear 50K,Potenciômetros,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+36,srvt000501,Potenciômetro Rotativo WH148-1 L20 3T B Linear 20K,Potenciômetros,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+37,srvt000497,Potenciômetro Rotativo WH148-1 L20 3T B Linear 100K,Potenciômetros,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+38,srvt000504,Potenciômetro Rotativo WH148-1 L20 3T B Linear 500K,Potenciômetros,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+39,srvt000236,Potenciômetro Rotativo WH148-1 L20 3T B Linear 10K,Potenciômetros,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+40,srvt000506,Potenciômetro Rotativo WH148-1 L20 3T B Linear 5K,Potenciômetros,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+41,srvt000502,Potenciômetro Rotativo WH148-1 L20 3T B Linear 220K,Potenciômetros,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+42,srvt000888,"Kit Módulo RFID RC-522 + Cartão + Chaveiro 13,56 MHz",Acesso e identificação,2,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+43,srvt003068,Tag Chaveiro RFID 125kHz (Azul),Acesso e identificação,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+44,srvt003916,"Alicate Corte Diagonal Rente 5"" PCAFC",Ferramentas,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+45,srvt000328,Case Acrílico Transparente MAC01 Arduino Mega R3,Proteção e montagem,1,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+46,srvt001306,Chave R13-507 125VAC (6A) / 250VAC (3A) S/Trava (Verde),Chaves e comandos,2,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+47,srvt001305,Chave R13-507 125VAC (6A) / 250VAC (3A) S/Trava (Vermelho),Chaves e comandos,2,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+48,srvt001304,Chave R13-507 125VAC (6A) / 250VAC (3A) S/Trava (Preto),Chaves e comandos,2,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
+49,srvt000009,LED Alto Brilho 5mm [ROXO],Iluminação e sinalização,5,unidade ou kit conforme descricao,compra registrada pela equipe,pendente nesta revisao
