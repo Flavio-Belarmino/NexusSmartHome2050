@@ -4,7 +4,13 @@ Projeto acadêmico da categoria **BLUEPRINT**, Engineering 2026.2, UniFECAF. Int
 
 **Entrega atual:** [índice e pendências R06](10_Documentacao/Entrega_R06.md) · [caderno técnico R04](10_Documentacao/Caderno_Tecnico/NEXUS_Caderno_Tecnico_R04.pdf) · [firmware integrado R06](07_Codigo/NEXUS_TFT_Integrado_R06/) · [pinagem em PDF](10_Documentacao/Guias/NEXUS_Guia_Pratico_Pinagens_R06.pdf).
 
-## Estado atual - 16/11/2026
+## Nova montagem | 19/11/2026
+
+**Começar aqui:** [preparação da bancada de 20/11](10_Documentacao/Preparacao_Bancada_2026-11-20.md). A equipe recebeu um novo TFT de 3,5 polegadas com touch e registrou a terceira compra de componentes. [Inventário](08_BOM/Compra_3_Componentes_2026-11-19.csv) · [substituições previstas](08_BOM/Transicao_Componentes_2026-11-19.md) · [alimentação proposta](02_Eletrica/Distribuicao_DC_Proposta_2026-11-19.md) · [interfaces](04_Automacao/Interfaces_Nova_Montagem_2026-11-19.md) · [roteiro de testes](09_Simulacoes/Validacao/Roteiro_Bancada_2026-11-20.md) · [ensaio do display](07_Codigo/NEXUS_Display_Demo/README.md).
+
+O firmware R06 abaixo permanece como referência da montagem anterior. A nova pinagem e as integrações ainda dependem de teste físico; o programa de demonstração do display apresenta dados simulados. Não misturar as ligações da R06 com a nova montagem sem compatibilização.
+
+## Histórico da montagem R06 | 16/11/2026
 
 A publicação reúne o projeto residencial R02 e a configuração de automação que está sendo transferida da bancada para a maquete. O Arduino Mega possui firmware integrado para TFT/touch, portão com MG996R e RFID, iluminação por LDR, DHT22 com alarme, detecção de água e bomba comandada por sensor de nível.
 
@@ -16,7 +22,7 @@ ESP32/Wi-Fi, brise, CFTV, detecção de fumaça, vazão e microgeração continu
 
 ## Consultar os arquivos
 
-**Montagem atual:** [regras R06](04_Automacao/Automacao_Integrada_R06.md), [pinagem CSV](04_Automacao/Pinagem_Mega_R06.csv) e [componentes da montagem](08_BOM/Componentes_Montagem_R06.csv). Os módulos antigos abaixo possuem pinagens próprias e não devem ser usados como guia de ligação da R06.
+**Montagem anterior R06:** [regras R06](04_Automacao/Automacao_Integrada_R06.md), [pinagem CSV](04_Automacao/Pinagem_Mega_R06.csv) e [componentes da montagem](08_BOM/Componentes_Montagem_R06.csv). Os módulos antigos abaixo possuem pinagens próprias e não devem ser usados como guia de ligação da R06.
 
 | Conteúdo | Arquivo ou pasta | Situação |
 | --- | --- | --- |
@@ -72,4 +78,4 @@ Identificar o commit apresentado na defesa. O aviso recente do portal prorroga c
 
 ## Guias anteriores de desenvolvimento
 
-O [guia do grupo R02](10_Documentacao/Guia_Grupo_R02.md) registra a etapa anterior de preparação dos materiais e ensaios. Para a remontagem atual, usar a pinagem R06. Antes de comprar ou fechar a maquete, consultar a [BOM consolidada](08_BOM/Consolidacao_R02/) e as [24 interfaces de compatibilização](10_Documentacao/Compatibilizacao_R02.md).
+O [guia do grupo R02](10_Documentacao/Guia_Grupo_R02.md) registra a etapa anterior de preparação dos materiais e ensaios. Para a nova remontagem, consultar primeiro a preparação de 20/11; a pinagem R06 documenta a montagem anterior. Antes de comprar ou fechar a maquete, consultar a [BOM consolidada](08_BOM/Consolidacao_R02/) e as [24 interfaces de compatibilização](10_Documentacao/Compatibilizacao_R02.md).
